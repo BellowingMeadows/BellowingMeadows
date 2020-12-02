@@ -1,45 +1,35 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Little Paradise - Band Website
 
-Welcome USER_NAME,
+## Code Institute's Milestone Project 1 - User Centric Front-End
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Little Paradise are a musical duo who write and record songs from a home studio in Bristol. Having spent the best part of a year on creating new music, the band (of which I am one of the two members) has decided to build an online presence now that musical content is ready to be released to the world. My aim with this project is to design and create a band website which can act as a convenient and memorable hub of music and informative content for users to consume. As owners of the site, the band’s goals are to promote their music, convince users to sign-up to email updates, and encourage engagement with the band’s fledgling brand via a biography page and a photo gallery. Users of the website on the other hand will likely be arriving to learn more about a band that they have recently discovered elsewhere online, including when they might be playing live in the future.
+ 
+This project is the first of four ‘milestone’ projects which are required to complete the Code Institute’s diploma in full stack web development. Assessment criteria for this milestone project centres on the ability to produce a static, front-end site using HTML and CSS learned during the first part of the course.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+My goals for the creation of this website are as follows:
 
-`python3 -m http.server`
+* Provide an area online that centralises all the most important and relevant information about Mike & Fran’s music project for interested users.
+* Encourage engagement with the band’s music and brand.
+* Encourage new users to sign-up for email updates.
+* Design the website to be aesthetically pleasing and based on newly learnt principles of UX design, accessibility and responsivity to various screen sizes.
 
-A blue button should appear to click: *Make Public*,
+The following user stories will be at the forefront of my thinking as I progress through the development process:
+ 
+Band member
 
-Another blue button should appear to click: *Open Browser*.
+* As a member of Little Paradise, I would like to start building an online presence that will engage new and existing fans of my music. While the various existing social media platforms that already exist will play an important part in cultivating our online presence, I have found that they are too generic to concisely lay out all of the information I deem relevant to music fans. I therefore need a custom website that can be used to promote my music and consolidate information that potential new fans will find useful and informative. This website also has the potential to convince new users to sign-up to email updates so that I can send notifications about new releases and shows more directly.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+New users
 
-A blue button should appear to click: *Make Public*,
+* I have been recommended the band by a friend and found a link to the website on google or through one of the band’s social media pages. I would like to listen to their music and find out a bit more general information about the band to decide whether this is a band I would like to keep tabs on.
 
-Another blue button should appear to click: *Open Browser*.
+* I have seen the band live, and this was my first exposure to their music. I google the band to see if they have a website as I would like to hear what music they have recorded.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* I am a booking agent for small music venues around Bristol. Having heard the band’s music, I would like to contact the band about potential opportunities for live shows in the future. I would like to find out how I can contact the band directly to discuss these shows so go to the website in search of contact information.
 
-## Updates Since The Instructional Video
+Existing users
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+*  
+I am an existing fan of Little Paradise’s music and have been on their website already as part of the band discovery process. I would like to return intermittently to the website to see if there are any upcoming tour dates available.
