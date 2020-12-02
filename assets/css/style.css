@@ -1,2 +1,21 @@
+/* nav bar */
 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #fafafa;
+}
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-social {
+    margin-left: 35%;
+}
+
+ul.navbar-nav.mr-auto {
+    text-align: center;
+    padding: 20px;
+}
