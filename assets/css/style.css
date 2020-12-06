@@ -1,5 +1,31 @@
+body {
+    font-family: 'Syne Mono', monospace;
+}
+
 /* Navigation bar */
 
-#social-links {
-    
+/* Footer */
+
+footer {
+    height: 150px;
+    background-color: red;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(253, 253, 253);
+}
+
+#footer-header {
+    padding
+}
+
+#footer-social li {
+    display: inline;
+}
+
+#footer-social i {
+    font-size: 120%;
+    padding: 1%;
+    /* margin: 1%; */
 }
