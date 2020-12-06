@@ -1,14 +1,26 @@
+/* General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: 'Syne Mono', monospace;
 }
 
 /* Navigation bar */
 
+nav {
+    background-color: rgb(253, 253, 253);
+}
+
 /* Footer */
 
 footer {
     height: 150px;
-    background-color: red;
+    background-color: black;
     text-align: center;
 }
 
@@ -16,8 +28,17 @@ footer a {
     color: rgb(253, 253, 253);
 }
 
-#footer-header {
-    padding
+footer a:hover {
+    text-decoration: none;
+    color: rgba(247, 246, 245, 0.5);
+}
+
+#footer-heading {
+    padding: 1.5rem;
+}
+
+ul#footer-social {
+    padding-right: 1rem;
 }
 
 #footer-social li {
