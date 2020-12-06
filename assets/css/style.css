@@ -19,17 +19,22 @@ nav {
 /* Hero image */
 
 #hero-image {
-    height: 600px;
+    height: 750px;
     width: 100%;
     background: url(../images/hero-placeholder.jpg) no-repeat center center;
     background-size: 100%;
+    opacity: 0;
+
+    animation-name: hero-appear; 
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
-/* #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-} */
+@keyframes hero-appear {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 
 
 /* Footer */
