@@ -27,13 +27,19 @@ nav {
 
     animation-name: hero-appear; 
     animation-duration: 2s;
-    animation-delay: 1.5s;
+    animation-delay: 0.75s;
     animation-fill-mode: forwards;
 }
 
 @keyframes hero-appear {
     0% {opacity: 0}
     100% {opacity: 1}
+}
+
+@media screen and (max-width: 954px) {
+    #hero-image {
+        height: 430px;
+    }
 }
 
 
@@ -69,5 +75,4 @@ ul#footer-social {
 #footer-social i {
     font-size: 120%;
     padding: 1%;
-    /* margin: 1%; */
 }
