@@ -41,9 +41,16 @@ nav {
     100% {opacity: 1}
 }
 
-@media screen and (max-width: 954px) {
+@media screen and (max-width: 1024px) {
     #hero-image {
         height: 430px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    #hero-image {
+        height: 250px;
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -52,7 +59,6 @@ nav {
 .cta {
     border: solid;
     text-align: center;
-    /* padding: 15%; */
     height: 200px;
     margin-top: 1.5rem;
 }
