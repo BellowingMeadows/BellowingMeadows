@@ -1,4 +1,4 @@
-/* General styles */
+/* General styles -------*/
 
 * {
     margin: 0;
@@ -10,13 +10,13 @@ body {
     font-family: 'Syne Mono', monospace;
 }
 
-/* Navigation bar */
+/* Navigation bar -------*/
 
 nav {
     background-color: rgb(253, 253, 253);
 }
 
-/* Hero image */
+/* Hero image -------*/
 
 #hero-image {
     height: 750px;
@@ -31,6 +31,8 @@ nav {
     animation-fill-mode: forwards;
 }
 
+
+/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
 @keyframes hero-appear {
     0% {opacity: 0}
     100% {opacity: 1}
