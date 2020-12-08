@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Syne Mono', monospace;
+    background-color: #fafafa;
 }
 
 /* Navigation bar -------*/
@@ -23,6 +24,8 @@ nav {
     width: 100%;
     background: url(../images/hero-placeholder.jpg) no-repeat center center;
     background-size: 100%;
+    margin-top: 57px;
+    margin-bottom: 45px;
     opacity: 0;
 
     animation-name: hero-appear; 
@@ -44,8 +47,23 @@ nav {
     }
 }
 
+/* Calls to action --------*/
 
-/* Footer */
+.cta {
+    border: solid;
+    text-align: center;
+    /* padding: 15%; */
+    height: 200px;
+    margin-top: 1.5rem;
+}
+
+.cta-content {
+    padding-top: 13%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+/* Footer -------*/
 
 footer {
     height: 150px;
