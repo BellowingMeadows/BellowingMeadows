@@ -60,12 +60,29 @@ nav {
     text-align: center;
     height: 200px;
     margin-top: 1.5rem;
+    border: solid;
 }
 
 .cta-content {
     padding-top: 13%;
     padding-right: 15%;
     padding-left: 15%;
+}
+
+a.btn.btn-primary.btn-lg {
+    background-color: #D85656;
+    border: none;
+}
+
+a.btn.btn-primary.btn-lg:hover {
+    background-color: black;
+    color: #fafafa;
+}
+
+a.btn.btn-primary.btn-lg:active {
+    background-color: #fafafa;
+    color: black;
+    border: 1px solid grey;
 }
 
 /* Footer -------*/
