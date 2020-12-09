@@ -34,13 +34,6 @@ nav {
     animation-fill-mode: forwards;
 }
 
-
-/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
-@keyframes hero-appear {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-
 @media screen and (max-width: 1024px) {
     #hero-image {
         height: 430px;
@@ -52,6 +45,12 @@ nav {
         height: 250px;
         margin-bottom: 0.5rem;
     }
+}
+
+/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
+@keyframes hero-appear {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 /* Calls to action --------*/
