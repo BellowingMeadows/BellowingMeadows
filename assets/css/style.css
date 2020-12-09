@@ -85,6 +85,10 @@ a.btn.btn-primary.btn-lg:active {
     border: 1px solid grey;
 }
 
+#cta-section {
+    margin-bottom: 2.5rem;
+}
+
 /* Footer -------*/
 
 footer {
