@@ -17,6 +17,40 @@ nav {
     background-color: rgb(253, 253, 253);
 }
 
+/* Footer -------*/
+
+footer {
+    height: 150px;
+    background-color: black;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(253, 253, 253);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgba(247, 246, 245, 0.5);
+}
+
+#footer-heading {
+    padding: 1.5rem;
+}
+
+ul#footer-social {
+    padding-right: 1rem;
+}
+
+#footer-social li {
+    display: inline;
+}
+
+#footer-social i {
+    font-size: 120%;
+    padding: 1%;
+}
+
 /* Hero image -------*/
 
 #hero-image {
@@ -88,36 +122,24 @@ a.btn.btn-primary.btn-lg:active {
     margin-bottom: 2.5rem;
 }
 
-/* Footer -------*/
+/* Music page --------*/
 
-footer {
-    height: 150px;
-    background-color: black;
-    text-align: center;
+iframe {
+    border: none;
 }
 
-footer a {
-    color: rgb(253, 253, 253);
+.music-content {
+
 }
 
-footer a:hover {
-    text-decoration: none;
-    color: rgba(247, 246, 245, 0.5);
+#youtube-iframe {
+    background-color: red;
 }
 
-#footer-heading {
-    padding: 1.5rem;
+#soundcloud-iframe {
+    background-color: orange;
 }
 
-ul#footer-social {
-    padding-right: 1rem;
-}
-
-#footer-social li {
-    display: inline;
-}
-
-#footer-social i {
-    font-size: 120%;
-    padding: 1%;
+.bandcamp-link {
+    background-color: grey;
 }
