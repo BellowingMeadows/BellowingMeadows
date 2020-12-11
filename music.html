@@ -14,7 +14,7 @@
     <header>
         <!-- Navbar -->
         
-            <nav class="navbar navbar-light navbar-expand-md">
+            <nav class="navbar navbar-light navbar-expand-md fixed-top">
                 <a href="index.html" class="navbar-brand">Little Paradise</a>
 
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,27 +59,43 @@
         <!-- End of navbar --> 
     </header>
 
-    <h2 class="display-4">Music</h2>
+    <h2 class="display-4 page-heading">Music</h2>
 
     <!-- Embedded YouTube video -->
     <section class="container music-content">
-            <div class="row" id="youtube-iframe">
-                <div class="col"><iframe width="560" height="315" src="https://www.youtube.com/embed/ryyKCIndge0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Your device does not support iframes</p></div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8"><iframe id="youtube-iframe" src="https://www.youtube.com/embed/ryyKCIndge0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Your device does not support iframes</p></iframe></div>
+                <div class="col-lg-2"></div>
             </div>
     </section>
         
     <section class="container music-content">
-            <div class="row" id="soundcloud-iframe">
-                <div class="col-12">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi suscipit perspiciatis, incidunt voluptatem itaque ducimus placeat impedit quisquam, dignissimos aliquid sint unde cupiditate! Repellat illum voluptatem minima ipsa maiores tempora.Tempora veritatis aliquam voluptates ipsa neque ducimus et explicabo rerum. Maxime dolorem ab omnis esse ut, in quisquam magni atque voluptate pariatur hic qui aspernatur laudantium consequuntur obcaecati non alias.</div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/329137263&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/odd_socks_official" title="oDD sOcks" target="_blank" style="color: #cccccc; text-decoration: none;">oDD sOcks</a> · <a href="https://soundcloud.com/odd_socks_official/sets/grin-learn-while-working" title="Grin/Learn While Working" target="_blank" style="color: #cccccc; text-decoration: none;">Grin/Learn While Working</a></div>
+                </div>
+                <div class="col-lg-2"></div>
             </div>
     </section>
 
     <section class="container music-content">
-            <div class="row bandcamp-link">
-                <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque alias quo? Alias fugit veritatis illo quasi, possimus veniam voluptatum sunt dolor. Earum quam sunt quisquam eaque tenetur, animi nam?Officia sint excepturi sed praesentium modi optio aperiam id similique maiores ducimus eos, delectus quam rerum, magnam fugiat velit, beatae eaque soluta voluptatem dolore. Ut quam minus alias magnam ducimus.</div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                    <h5 class="card-title">Happy Lane EP</h5>
+                    <p class="card-text">Release: 08/03/2021.</p>
+                        <a href="https://oddsocksband.bandcamp.com/" class="btn btn-primary">Buy now</a>
+                </div>
             </div>
-    </section>
+        </div>
+            <div class="col-lg-4"></div>
+        </div>
 
+    </section>
 
  
         <!-- Footer -->
