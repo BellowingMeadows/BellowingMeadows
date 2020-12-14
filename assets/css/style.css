@@ -163,3 +163,16 @@ a.btn.btn-primary.btn-lg:active {
     padding: 30px;
     height: 250px;
 }
+
+/* Gallery page */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img {
+    width: 100%;
+}
