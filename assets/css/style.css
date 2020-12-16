@@ -57,7 +57,9 @@ ul#footer-social {
     padding: 1%;
 }
 
-/* Hero image -------*/
+/* index.html --------*/
+
+/* Hero image*/
 
 #hero-image {
     height: 750px;
@@ -93,7 +95,7 @@ ul#footer-social {
     100% {opacity: 1}
 }
 
-/* Calls to action --------*/
+/* Calls to action */
 
 .cta {
     text-align: center;
@@ -128,7 +130,7 @@ a.btn.btn-primary.btn-lg:active {
     margin-bottom: 2.5rem;
 }
 
-/* Music page --------*/
+/* music.html --------*/
 
 .music-content {
     margin-top: 1rem;
@@ -145,7 +147,7 @@ a.btn.btn-primary.btn-lg:active {
     height: 300px;
 }
 
-/* Contact Page */
+/* contact.html -------*/
 
 #contact-info {
     border: solid;
@@ -164,7 +166,7 @@ a.btn.btn-primary.btn-lg:active {
     height: 250px;
 }
 
-/* Gallery page */
+/* gallery.html -------*/
 
 #photo {
     clear: both;
@@ -175,4 +177,11 @@ a.btn.btn-primary.btn-lg:active {
 
 #photo img {
     width: 100%;
+}
+
+/* about.html -------*/
+
+#about-image {
+    width: 70%;
+    height: 16rem;
 }
