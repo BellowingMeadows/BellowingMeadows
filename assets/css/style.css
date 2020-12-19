@@ -7,19 +7,24 @@
 }
 
 body {
-    font-family: 'Syne Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
     background-color: #fafafa;
 }
 
-.page-heading {
-    padding-left: 4rem;
-    margin-top: 4rem;
+h2 {
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
 }
+
 
 /* Navigation bar -------*/
 
 nav {
     background-color: rgb(253, 253, 253);
+    font-family: 'Syne Mono', monospace;
 }
 
 #navigation-links {
@@ -69,6 +74,7 @@ footer {
     height: 150px;
     background-color: black;
     text-align: center;
+    font-family: 'Syne Mono', monospace;
 }
 
 footer a {
@@ -81,7 +87,7 @@ footer a:hover {
 }
 
 #footer-heading {
-    padding: 1.5rem;
+    padding: 2rem 0 1rem 0;
 }
 
 ul#footer-social {
