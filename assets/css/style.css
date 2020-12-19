@@ -31,6 +31,14 @@ nav {
     color: #D85656;
 }
 
+.navbar-light .navbar-nav .nav-link:active {
+    color: black;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #D85656;
+}
+
 @media screen and (max-width: 953px) {
 
     #navigation-links {
