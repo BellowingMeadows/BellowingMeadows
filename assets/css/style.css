@@ -122,6 +122,7 @@ ul#footer-social {
     margin-top: 1.5rem;
     border: solid;
     border-radius: 30px;
+    box-shadow: 4px 2px 4px #ccc;
 }
 
 .cta-content {
@@ -257,9 +258,6 @@ a.btn.btn-primary.btn-lg:active {
         margin-bottom: 0.5rem;
     }
 
-    .cta {
-        border-radius: 70px;
-    }
 }
 
 @media screen and (max-width: 500px) {
