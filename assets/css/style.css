@@ -25,6 +25,7 @@ h2 {
 nav {
     background-color: rgb(253, 253, 253);
     font-family: 'Syne Mono', monospace;
+    font-size: 117%;
 }
 
 #navigation-links {
@@ -120,6 +121,7 @@ ul#footer-social {
     height: 200px;
     margin-top: 1.5rem;
     border: solid;
+    border-radius: 30px;
 }
 
 .cta-content {
@@ -254,4 +256,33 @@ a.btn.btn-primary.btn-lg:active {
         height: 250px;
         margin-bottom: 0.5rem;
     }
+
+    .cta {
+        border-radius: 70px;
+    }
 }
+
+@media screen and (max-width: 500px) {
+     #navigation-links {
+        position: relative;
+        left: 33%;
+    }
+
+    #social-links {
+        position: relative;
+        left: 28%;
+    }
+}
+
+@media screen and (max-width: 392px) {
+     #navigation-links {
+        position: relative;
+        left: 31%;
+    }
+
+    #social-links {
+        position: relative;
+        left: 22%;
+    }
+}
+
