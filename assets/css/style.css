@@ -13,8 +13,8 @@ body {
 
 h2 {
     margin-top: 5rem;
+    margin-left: 20%;
     padding-bottom: 1rem;
-    text-align: center;
     font-size: 3.5rem;
     text-decoration: underline;
 }
@@ -34,6 +34,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #D85656;
+    transition: 0.5s;
 }
 
 .navbar-light .navbar-nav .nav-link:active {
@@ -48,25 +49,6 @@ button.navbar-toggler.ml-auto, button.navbar-toggler.ml-auto.collapsed {
     border: none;
     outline: none;
 }
-
-@media screen and (max-width: 953px) {
-
-    #navigation-links {
-        position: relative;
-        left: 3%;
-    }
-
-}
-
-@media screen and (max-width: 825px) {
-
-    #navigation-links {
-        position: relative;
-        left: 1%;
-    }
-
-}
-
 
 /* Footer -------*/
 
@@ -84,10 +66,12 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: rgba(247, 246, 245, 0.5);
+    transition: 0.4s;
 }
 
 #footer-heading {
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0.75rem 1rem 0;
+    font-size: 175%;
 }
 
 ul#footer-social {
@@ -96,11 +80,12 @@ ul#footer-social {
 
 #footer-social li {
     display: inline;
+    font-size: 1.5rem;
 }
 
 #footer-social i {
     font-size: 120%;
-    padding: 1%;
+    padding: 0.5rem;
 }
 
 /* index.html --------*/
@@ -120,19 +105,6 @@ ul#footer-social {
     animation-duration: 2s;
     animation-delay: 0.75s;
     animation-fill-mode: forwards;
-}
-
-@media screen and (max-width: 1024px) {
-    #hero-image {
-        height: 430px;
-    }
-}
-
-@media screen and (max-width: 649px) {
-    #hero-image {
-        height: 250px;
-        margin-bottom: 0.5rem;
-    }
 }
 
 /* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
@@ -164,6 +136,7 @@ a.btn.btn-primary.btn-lg {
 a.btn.btn-primary.btn-lg:hover {
     background-color: black;
     color: #fafafa;
+    transition: 0.7s;
 }
 
 a.btn.btn-primary.btn-lg:active {
@@ -230,4 +203,37 @@ a.btn.btn-primary.btn-lg:active {
 #about-image {
     width: 70%;
     height: 16rem;
+}
+
+/* media queries ------- */
+
+@media screen and (max-width: 1024px) {
+    #hero-image {
+        height: 430px;
+    }
+}
+
+@media screen and (max-width: 953px) {
+
+    #navigation-links {
+        position: relative;
+        left: 3%;
+    }
+
+}
+
+@media screen and (max-width: 825px) {
+
+    #navigation-links {
+        position: relative;
+        left: 1%;
+    }
+
+}
+
+@media screen and (max-width: 649px) {
+    #hero-image {
+        height: 250px;
+        margin-bottom: 0.5rem;
+    }
 }
