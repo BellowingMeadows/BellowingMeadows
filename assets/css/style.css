@@ -231,6 +231,24 @@ a.btn.btn-primary.btn-lg:active {
 
 }
 
+@media screen and (max-width: 767px) {
+
+    #navigation-links {
+        position: relative;
+        left: 40%;
+    }
+
+    #social-links {
+        position: relative;
+        left: 38%;
+    }
+
+    #navigation-links, #social-links {
+        font-size: 200%;
+    }
+
+}
+
 @media screen and (max-width: 649px) {
     #hero-image {
         height: 250px;
