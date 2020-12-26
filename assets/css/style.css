@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Syne Mono', monospace;
     background-color: #fafafa;
 }
 
@@ -24,7 +24,6 @@ h2 {
 
 nav {
     background-color: rgb(253, 253, 253);
-    font-family: 'Syne Mono', monospace;
     font-size: 117%;
 }
 
@@ -57,7 +56,6 @@ footer {
     height: 150px;
     background-color: black;
     text-align: center;
-    font-family: 'Syne Mono', monospace;
 }
 
 footer a {
@@ -154,6 +152,24 @@ a.btn.btn-primary.btn-lg:active {
 
 #cta-section {
     margin-bottom: 2.5rem;
+}
+
+/* Tour dates */
+
+h3#tour-header {
+    margin-bottom: 1.5rem;
+    font-size: 250%;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+/* #tour-dates {
+    position: relative;
+    left: 14%;
+} */
+
+.venue {
+    color: #D85656;
 }
 
 /* music.html --------*/
