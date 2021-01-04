@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <!-- Navbar -->
+    <!-- Navbar -->
         
             <nav class="navbar navbar-light navbar-expand-md fixed-top">
                 <a href="index.html" class="navbar-brand">Little Paradise</a>
@@ -56,14 +56,14 @@
                 </div>
             </nav>
 
-        <!-- End of navbar --> 
+    <!-- End of navbar --> 
     </header>
 
-    <h2>Music</h2>
+    <h2 class="appear-first">Music</h2>
+    
+    <!-- Embedded SoundCloud playlist section -->
 
-    <!-- Embedded YouTube video -->
-        
-    <section class="container music-content appear-first">
+    <section class="container music-content appear-second">
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
@@ -73,7 +73,11 @@
             </div>
     </section>
 
-    <section class="container music-content appear-first">
+    <!-- End of embedded SoundCloud playlist section -->
+
+    <!-- Embedded YouTube video section -->
+
+    <section class="container music-content appear-second">
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8"><iframe id="youtube-iframe" src="https://www.youtube.com/embed/ryyKCIndge0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><p>Your device does not support iframes</p></iframe></div>
@@ -81,26 +85,31 @@
             </div>
     </section>
 
+    <!-- End of embedded YouTube video section -->
+
+    <!-- Available releases section -->
+
     <section class="container music-content appear-first">
-        <h3>Releases</h3>
+        <h2>Releases</h2>
         <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body" id="new-ep">
-                        <h5 class="card-title">Happy Lane EP</h5>
-                        <p class="card-text">Release: 08/03/2021.</p>
-                        <a class="btn btn-primary btn-lg" href="https://oddsocksband.bandcamp.com/" role="button" target="_blank">Buy Now</a>
+                <div class="col-sm-4 d-none d-sm-block"></div>
+                <div class="col-12 col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <a href="https//www.bandcamp.com"><img src="assets/images/hero-placeholder.jpg" class="card-img-top" alt="Happy Lane EP purchase link"></a>
+                        <div class="card-body">
+                            <h3 class="card-text">Happy Lane EP (2021)</h3>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Buy Now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4"></div>
+                <div class="col-sm-4 d-none d-sm-block"></div>       
         </div>
 
     </section>
 
+    <!-- End of available releases section -->
  
-        <!-- Footer -->
+    <!-- Footer -->
     <footer class="page-footer">
         <div>
             <h4 id="footer-heading"><a href="index.html">Little Paradise</a></h4>
@@ -120,7 +129,7 @@
             </ul>
         </div>
     </footer>
-        <!-- End of footer + page -->
+    <!-- End of footer + page -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
