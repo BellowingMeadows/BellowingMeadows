@@ -136,6 +136,8 @@ ul#footer-social {
     background-color: #f2f0f0;
 }
 
+/* box shadow advice researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
 .cta-content {
     padding-top: 40px;
     padding-right: 15%;
@@ -207,6 +209,10 @@ h3#tour-header {
     height: 300px;
 }
 
+#new-ep {
+    background: url(../images/hero-placeholder.jpg) no-repeat center center;
+}
+
 /* contact.html -------*/
 
 #contact-info {
@@ -264,10 +270,11 @@ h3#tour-header {
 .appear-second {
     animation-name: appear-second; 
     animation-duration: 2s;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     animation-fill-mode: forwards; 
 }
 
+/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
 @keyframes appear-second {
     0% {opacity: 0}
     100% {opacity: 1}
