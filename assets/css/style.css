@@ -98,7 +98,6 @@ ul#footer-social {
     background-size: 100%;
     margin-top: 57px;
     margin-bottom: 45px;
-    opacity: 0;
 }
 
 #hero-outer {
@@ -164,7 +163,6 @@ a.btn.btn-primary.btn-lg:active {
 
 #cta-section {
     margin-bottom: 2.5rem;
-    opacity: 0;
 }
 
 /* Tour dates */
@@ -196,7 +194,6 @@ h3#tour-header {
 .music-content {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    opacity: 0;
 }
 
 #youtube-iframe {
@@ -255,6 +252,8 @@ h3#tour-header {
 /* animations -------- */
 
 .appear-first {
+    opacity: 0;
+
     animation-name: appear-first; 
     animation-duration: 2s;
     animation-delay: 0.75s;
@@ -268,6 +267,8 @@ h3#tour-header {
 }
 
 .appear-second {
+    opacity: 0;
+
     animation-name: appear-second; 
     animation-duration: 2s;
     animation-delay: 2s;
