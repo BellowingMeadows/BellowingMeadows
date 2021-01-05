@@ -328,6 +328,10 @@ h3 ~ p {
         font-size: 200%;
     }
 
+    h3 ~ p {
+        font-size: 125%;
+    }
+
 }
 
 @media screen and (max-width: 649px) {
@@ -348,6 +352,10 @@ h3 ~ p {
         position: relative;
         left: 28%;
     }
+
+    h3 ~ p {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 392px) {
@@ -359,6 +367,10 @@ h3 ~ p {
     #social-links {
         position: relative;
         left: 22%;
+    }
+
+    h3 ~ p {
+        font-size: 80%;
     }
 }
 
