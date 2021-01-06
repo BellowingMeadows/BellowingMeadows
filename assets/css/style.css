@@ -155,6 +155,12 @@ a.btn.btn-primary.btn-lg:active {
     margin-bottom: 2.5rem;
 }
 
+/* youtube vid on index.html */
+
+#index-music {
+    padding: 20px;
+}
+
 /* Tour dates */
 
 h3#tour-header {
