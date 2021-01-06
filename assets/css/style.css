@@ -314,6 +314,11 @@ h3 ~ p {
 
 @media screen and (max-width: 767px) {
 
+    .cta {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
     #navigation-links {
         position: relative;
         left: 40%;
@@ -328,9 +333,14 @@ h3 ~ p {
         font-size: 200%;
     }
 
+    #hero-image {
+        margin-bottom: 20px;
+    }
+
     h3 ~ p {
         font-size: 125%;
     }
+
 
 }
 
