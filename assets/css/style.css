@@ -218,7 +218,7 @@ h3 ~ p {
 }
 
 #contact-info-outer {
-    max-width: 800px;
+    width: 900px;
     height: 400px;
 }
 
@@ -229,7 +229,7 @@ h3 ~ p {
 #email-form {
     margin-top: 2rem;
     margin-bottom: 2.5rem;
-    max-width: 500px;
+    width: 500px;
     padding: 30px;
     height: 350px;
 }
@@ -319,7 +319,7 @@ h3 ~ p {
         margin-bottom: 1rem;
     }
 
-    #cta-section {
+    .max-width-reduce {
         max-width: 80%;
     }
 
