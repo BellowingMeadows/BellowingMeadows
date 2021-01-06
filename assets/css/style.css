@@ -319,6 +319,10 @@ h3 ~ p {
         margin-bottom: 1rem;
     }
 
+    #cta-section {
+        max-width: 80%;
+    }
+
     #navigation-links {
         position: relative;
         left: 40%;
