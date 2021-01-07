@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Syne Mono', monospace;
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
 }
 
 h1 {
@@ -100,17 +100,16 @@ ul#footer-social {
 /* Hero image*/
 
 #hero-image {
-    height: 670px;
+    background: url("/assets/images/hero-image-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 750px;
     width: 100%;
-    background: url(../images/hero-placeholder.jpg) no-repeat center center;
-    background-size: 100%;
-    margin-top: 57px;
-    margin-bottom: 45px;
+    margin-top: 50px;
 }
 
-#hero-outer {
-    position: relative;
-}
 
 /* Calls to action */
 
@@ -295,12 +294,6 @@ h3 ~ p {
 
 /* media queries ------- */
 
-@media screen and (max-width: 1024px) {
-    #hero-image {
-        height: 430px;
-    }
-}
-
 @media screen and (max-width: 953px) {
 
     #navigation-links {
@@ -344,22 +337,10 @@ h3 ~ p {
         font-size: 200%;
     }
 
-    #hero-image {
-        margin-bottom: 20px;
-    }
-
     h3 ~ p {
         font-size: 125%;
     }
 
-
-}
-
-@media screen and (max-width: 649px) {
-    #hero-image {
-        height: 250px;
-        margin-bottom: 0.5rem;
-    }
 
 }
 
