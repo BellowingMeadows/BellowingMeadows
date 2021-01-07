@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Syne Mono', monospace;
-    /* background-color: #fafafa; */
+    background-color: blue;
 }
 
 h1 {
@@ -37,7 +37,7 @@ nav {
 
 #navigation-links {
     position: relative;
-    left: 7%;
+    left: 11%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -105,11 +105,15 @@ ul#footer-social {
     background-repeat: no-repeat;
     background-size: contain;
 
-    height: 750px;
+    height: 700px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
+#hero-outer {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* Calls to action */
 
@@ -293,6 +297,24 @@ h3 ~ p {
 }
 
 /* media queries ------- */
+
+@media screen and (max-width: 1222px) {
+
+    #hero-image {
+        background-size: cover;
+        height: 580px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+     #hero-image {
+        background-size: cover;
+        height: 500px;
+    }
+
+}
 
 @media screen and (max-width: 953px) {
 
