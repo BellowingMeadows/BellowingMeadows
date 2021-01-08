@@ -348,12 +348,23 @@ h3 ~ p {
         font-size: 125%;
     }
 
+    img#hero-image {
+        max-width: 150%;
+        position: relative;
+        right: 24%;
+    }
+
+    div#hero-outer {
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
 
 }
 
 
 @media screen and (max-width: 500px) {
-     #navigation-links, #social-links {
+    #navigation-links, #social-links {
         position: relative;
         left: 33%;
     }
@@ -361,6 +372,7 @@ h3 ~ p {
     h3 ~ p {
         font-size: 1rem;
     }
+    
 }
 
 @media screen and (max-width: 392px) {
@@ -368,6 +380,7 @@ h3 ~ p {
         position: relative;
         left: 31%;
     }
+
 
     h3 ~ p {
         font-size: 80%;
