@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Syne Mono', monospace;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 h1 {
@@ -99,20 +99,9 @@ ul#footer-social {
 
 /* Hero image*/
 
-#hero-image {
-    background: url("/assets/images/hero-image-min.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    height: 700px;
-    width: 100%;
-    margin-top: 60px;
-}
-
 #hero-outer {
-    padding-left: 0;
-    padding-right: 0;
+    margin-top: 56px;
+    margin-bottom: 20px;
 }
 
 /* Calls to action */
@@ -275,12 +264,6 @@ h3 ~ p {
     animation-fill-mode: forwards;
 }
 
-/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
-@keyframes appear-first {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-
 .appear-second {
     opacity: 0;
 
@@ -290,33 +273,35 @@ h3 ~ p {
     animation-fill-mode: forwards; 
 }
 
+.appear-third {
+    opacity: 0;
+
+    animation-name: appear-second; 
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards; 
+}
+
 /* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
+@keyframes appear-first {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
 @keyframes appear-second {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes appear-third {
     0% {opacity: 0}
     100% {opacity: 1}
 }
 
 /* media queries ------- */
 
-@media screen and (max-width: 1222px) {
 
-    #hero-image {
-        background-size: cover;
-        height: 580px;
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-
-     #hero-image {
-        background-size: cover;
-        height: 500px;
-    }
-
-}
-
-@media screen and (max-width: 953px) {
+@media screen and (max-width: 1070px) {
 
     #navigation-links {
         position: relative;
@@ -345,18 +330,18 @@ h3 ~ p {
         max-width: 80%;
     }
 
-    #navigation-links {
-        position: relative;
-        left: 40%;
-    }
-
-    #social-links {
+    #navigation-links, #social-links {
         position: relative;
         left: 38%;
+        font-size: 200%;
     }
 
-    #navigation-links, #social-links {
-        font-size: 200%;
+    #social-links > li {
+        padding: 0 20px 10px 0;
+    }
+
+    #social-links ul {
+        margin-right: 20px;
     }
 
     h3 ~ p {
@@ -366,15 +351,11 @@ h3 ~ p {
 
 }
 
+
 @media screen and (max-width: 500px) {
-     #navigation-links {
+     #navigation-links, #social-links {
         position: relative;
         left: 33%;
-    }
-
-    #social-links {
-        position: relative;
-        left: 28%;
     }
 
     h3 ~ p {
@@ -383,14 +364,9 @@ h3 ~ p {
 }
 
 @media screen and (max-width: 392px) {
-     #navigation-links {
+     #navigation-links, #social-links {
         position: relative;
         left: 31%;
-    }
-
-    #social-links {
-        position: relative;
-        left: 22%;
     }
 
     h3 ~ p {
