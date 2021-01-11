@@ -124,7 +124,7 @@ ul#footer-social {
     padding-left: 15%;
 }
 
-a.btn.btn-primary.btn-lg {
+a.btn.btn-primary.btn-lg, #email-button {
     background-color: #D85656;
     border: none;
     margin-top: 10px;
@@ -205,23 +205,16 @@ label {
 }
 
 form > h3 {
-    font-size: 150%;
+    font-size: 125%;
     padding-bottom: 10px;
     font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
 }
 
-h3 ~ p {
-    font-size: 170%;
-}
-
-#contact-info-outer {
-    width: 900px;
-    height: 400px;
-}
-
-#contact-info-content {
-    padding-top: 20px;
-}
+.email-address {
+        overflow-wrap: break-word;
+        font-size: 90%;
+    }
 
 #email-form {
     margin-top: 2rem;
@@ -229,6 +222,10 @@ h3 ~ p {
     width: 500px;
     padding: 30px;
     height: 350px;
+}
+
+button#email-button {
+    margin: 0;
 }
 
 /* gallery.html -------*/
@@ -249,7 +246,6 @@ h3 ~ p {
 
 .about-image {
     max-height: 370px;
-    text-align: center;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -316,7 +312,6 @@ h3 ~ p {
 }
 
 @media screen and (max-width: 992px) {
-
     .dissapear {
         display: none;
     }
@@ -356,9 +351,6 @@ h3 ~ p {
         margin-right: 20px;
     }
 
-    h3 ~ p {
-        font-size: 125%;
-    }
 
     img#hero-image {
         max-width: 150%;
@@ -374,15 +366,10 @@ h3 ~ p {
 
 }
 
-
 @media screen and (max-width: 500px) {
     #navigation-links, #social-links {
         position: relative;
         left: 33%;
-    }
-
-    h3 ~ p {
-        font-size: 1rem;
     }
     
 }
@@ -393,10 +380,10 @@ h3 ~ p {
         left: 31%;
     }
 
-
-    h3 ~ p {
-        font-size: 80%;
+    .email-address {
+        font-size: 70%;
     }
+
 }
 
 @media (orientation: landscape) {
