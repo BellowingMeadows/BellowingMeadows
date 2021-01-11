@@ -257,9 +257,13 @@ h3 ~ p {
 
 /* about.html -------*/
 
-#about-image {
-    width: 70%;
-    height: 16rem;
+.about-image {
+    max-height: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 80%;
+    position: relative;
+    left: 10%;
 }
 
 /* animations -------- */
@@ -317,6 +321,13 @@ h3 ~ p {
         left: 3%;
     }
 
+}
+
+@media screen and (max-width: 992px) {
+
+    .dissapear {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 825px) {
