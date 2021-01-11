@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Syne Mono', monospace;
-    /* background-color: blue; */
 }
 
 h1 {
@@ -27,15 +26,6 @@ h2 {
 h3 {
     text-decoration: underline;
 }
-
-/* .hero-bg {
-    background-image: url(../images/hero-image-min.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
 
 /* Navigation bar -------*/
 
@@ -262,8 +252,10 @@ h3 ~ p {
     text-align: center;
     margin-bottom: 30px;
     width: 100%;
-    /* position: relative;
-    left: 10%; */
+}
+
+#about-section {
+    margin-bottom: 20px;
 }
 
 /* animations -------- */
