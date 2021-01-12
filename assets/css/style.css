@@ -181,9 +181,24 @@ h3#tour-header {
 
 /* music.html --------*/
 
+.music-heading {
+    text-align: center;
+    font-size: 210%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 .music-content {
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+
+#soundcloud-logo {
+    color: #ff7700;
+}
+
+#youtube-logo {
+    color: #c4302b;
 }
 
 #youtube-iframe {
