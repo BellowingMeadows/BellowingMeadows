@@ -25,11 +25,6 @@ h2 {
     
 }
 
-h3 {
-    text-decoration: underline;
-}
-
-
 /* Navigation bar -------*/
 
 nav {
@@ -213,6 +208,11 @@ h3#tour-header {
 
 #new-ep {
     background: url(../images/hero-placeholder.jpg) no-repeat center center;
+}
+
+#buy-now {
+    margin-left: 67px;
+    margin-top: 0px;
 }
 
 /* contact.html -------*/
