@@ -369,12 +369,9 @@ button#email-button {
         font-size: 200%;
     }
 
-    #social-links > li {
-        padding: 0 20px 10px 0;
-    }
-
-    #social-links ul {
-        margin-right: 20px;
+    #social-links {
+        left: 36%;
+        font-size: 175%;
     }
 
 
@@ -393,9 +390,13 @@ button#email-button {
 }
 
 @media screen and (max-width: 500px) {
-    #navigation-links, #social-links {
+    #navigation-links {
         position: relative;
         left: 33%;
+    }
+
+    #social-links {
+        left: 30%;
     }
 
     .contact-info h2 {
@@ -412,9 +413,12 @@ button#email-button {
 }
 
 @media screen and (max-width: 392px) {
-     #navigation-links, #social-links {
-        position: relative;
+     #navigation-links {
         left: 31%;
+    }
+
+    #social-links {
+        left: 27%;
     }
 
     .email-address {
