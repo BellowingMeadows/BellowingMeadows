@@ -29,6 +29,7 @@ h3 {
     text-decoration: underline;
 }
 
+
 /* Navigation bar -------*/
 
 nav {
@@ -112,7 +113,7 @@ ul#footer-social {
     height: 200px;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    border: solid #545454;
+    border: solid #686868;
     border-radius: 45px;
     box-shadow: 4px 2px 4px #ccc;
     background-color: #f2f0f0;
@@ -201,6 +202,14 @@ h3#tour-header {
 
 /* contact.html -------*/
 
+h2 + p {
+    padding-top: 5px;
+}
+
+h2 > i {
+    font-size: 75%;
+}
+
 label {
     font-size: 125%;
     padding-top: 5px;
@@ -213,10 +222,25 @@ form > h3 {
     text-decoration: none;
 }
 
-.email-address {
-        overflow-wrap: break-word;
-        font-size: 90%;
-    }
+.contact-info {
+    height: 38vh
+}
+
+.contact-content {
+    margin-top: 10px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 35px;
+    font-style: italic;
+}
+
+#enquiries {
+    margin-bottom: 40px;
+}
+
+#bookings {
+    margin-top: 40px;
+}
 
 #email-form {
     margin-top: 2rem;
@@ -373,7 +397,18 @@ button#email-button {
         position: relative;
         left: 33%;
     }
+
+    .contact-info h2 {
+        font-size: 165%;
+    }
     
+}
+
+@media screen and (min-width: 500px) {
+    h2 + p {
+    font-size: 130%;
+}
+
 }
 
 @media screen and (max-width: 392px) {
