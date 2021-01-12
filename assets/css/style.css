@@ -21,6 +21,8 @@ h1 {
 
 h2 {
     font-size: 175%;
+    /* overflow-wrap: break-word; */
+    
 }
 
 h3 {
