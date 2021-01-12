@@ -16,7 +16,7 @@ h1 {
     padding-bottom: 1rem;
     font-size: 3.5rem;
     text-decoration: underline;
-    color: #D85656
+    /* color: #D85656 */
 }
 
 h2 {
@@ -53,6 +53,10 @@ nav {
 button.navbar-toggler.ml-auto, button.navbar-toggler.ml-auto.collapsed {
     border: none;
     outline: none;
+}
+
+#social-links a {
+    padding-right: 5px;
 }
 
 /* Footer -------*/
