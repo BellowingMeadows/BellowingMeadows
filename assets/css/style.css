@@ -276,14 +276,8 @@ button#email-button {
 /* gallery.html -------*/
 
 .photo > img {
-    /* width: 100%; */
     padding: 15px 0 15px 0;
-    /* height: 350px; */
 }
-
-/* .photo {
-   height: 300px; 
-}   */
 
 /* about.html -------*/
 
@@ -357,6 +351,16 @@ button#email-button {
 @media screen and (max-width: 992px) {
     .dissapear {
         display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .background-image {
+        background-image: url("../images/littleparadisesign.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
