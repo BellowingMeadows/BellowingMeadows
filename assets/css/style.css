@@ -276,16 +276,14 @@ button#email-button {
 /* gallery.html -------*/
 
 .photo > img {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 16px;
+    /* width: 100%; */
+    padding: 15px 0 15px 0;
+    /* height: 350px; */
 }
 
-.photo {
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-} 
+/* .photo {
+   height: 300px; 
+}   */
 
 /* about.html -------*/
 
