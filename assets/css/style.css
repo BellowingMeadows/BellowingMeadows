@@ -275,7 +275,7 @@ button#email-button {
 
 /* gallery.html -------*/
 
-img {
+.photo > img {
     box-shadow: 4px 2px 4px #ccc;
     border-radius: 16px;
 }
