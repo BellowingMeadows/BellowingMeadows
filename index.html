@@ -58,7 +58,8 @@
                         <a href="#" target="_blank" class="nav-link" rel="external"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li class="nav-item mr-2">
-                        <a href="#" target="_blank" class="nav-link" rel="external"><i class="fab fa-soundcloud"></i></a>
+                        <a href="#" target="_blank" class="nav-link" rel="external"><i
+                                class="fab fa-soundcloud"></i></a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +75,8 @@
             <div class="col-md-1 d-none d-md-block col-xl-2"></div>
 
             <div class="col-12 col-md-10 col-xl-8" id="hero-outer">
-                <img src="assets/images/hero-image-min.jpg" alt="Drawing of band standing next to Little Paradise road sign" class="img-fluid" id="hero-image">
+                <img src="assets/images/hero-image-min.jpg"
+                    alt="Drawing of band standing next to Little Paradise road sign" class="img-fluid" id="hero-image">
             </div>
 
             <div class="col-md-1 d-none d-md-block col-xl-2"></div>
@@ -113,24 +115,38 @@
 
     <hr>
 
-    <div class="background-image container-fluid">
+    <!-- <div class="background-image container-fluid"> -->
     <section class="container appear-third" id="index-music">
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8 youtube-iframe"><iframe id="youtube-iframe"
-                    src="https://www.youtube.com/embed/ryyKCIndge0" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                    <p>Your device does not support iframes</p>
-                </iframe></div>
-            <div class="col-lg-2"></div>
+        <div class="alt-font">
+            <h3 class="index-header">Latest Video</h3>
+            <div class="row">
+                <div class="col-lg-2 d-none d-lg-block">
+                </div>
+                <div class="col-lg-8 youtube-iframe"><iframe class="youtube-iframe"
+                        src="https://www.youtube.com/embed/ryyKCIndge0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                        <p>Your device does not support iframes</p>
+                    </iframe></div>
+                <div class="col-lg-2 d-none d-lg-block"></div>
+            </div>
         </div>
+        <div class="row music-alert">
+            <div class="col-md-4 d-none d-md-block"></div>
+            <div class="col-md-4">
+                    <h5>Listen to more tunes on our dedicated Music Page <i class="fas fa-volume-up"></i></h5>
+                    <a class="btn btn-primary btn-lg" href="music.html" role="button">Listen</a>
+            </div>
+            <div class="col-md-4 d-none d-md-block"></div>
+        </div>
+
     </section>
-    </div>
+    <!-- </div> -->
+
     <hr>
     <!-- Tour dates -->
-    <section class="container" id="tour-dates">
-        <h3 id="tour-header">Tour Dates</h3>
+    <section class="container alt-font" id="tour-dates">
+        <h3 class="index-header">Tour Dates</h3>
         <div class="row">
             <div class="col-md-1 d-none d-md-block"></div>
             <div class="col-12 col-md-4">
@@ -184,7 +200,7 @@
         <br>
     </section>
     <!-- End of tour dates -->
-    
+
     <!-- Footer -->
     <footer class="page-footer">
         <div>
