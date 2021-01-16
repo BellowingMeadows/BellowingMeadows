@@ -154,16 +154,33 @@ a.btn.btn-primary.btn-lg:active {
 
 /* youtube vid on index.html */
 
-h5 > a {
-    color: rgba(0, 0, 0, 0.5);
-}
-
 #index-music {
     padding: 0 20px 20px 20px;
 }
 
+.cta#music-cta {
+    height: 80px;
+    margin-top: 0;
+}
+
+#music-cta a {
+    font-size: 70%;
+}
+
+#music-cta h5 {
+    font-size: 90%;
+    margin-top: 10px;
+    display: inline;
+}
+
+#listen {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 10px;
+}
+
 .music-alert {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 /* .music-alert {
@@ -473,6 +490,13 @@ button#email-button {
         font-size: 70%;
     }
 
+}
+
+@media screen and (max-width: 362px) {
+
+    #music-cta {
+        font-size: 80%;
+    }
 }
 
 @media (orientation: landscape) {
