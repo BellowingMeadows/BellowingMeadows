@@ -372,13 +372,23 @@ button#email-button {
 
 @media screen and (min-width: 992px) {
     
-    .background-image {
-        background-image: url("../images/littleparadise-fran.jpg");
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    #soundcloud-section {
+    height: 450px;
+    background-image: url("../images/mike2.jpg"), url("..images/fran2.jpg");
+    background-size: contain;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#youtube-section {
+    height: 400px;
+    background-image: url("../images/fran2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+}
 }
 
 @media screen and (max-width: 825px) {
