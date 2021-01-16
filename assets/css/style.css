@@ -374,16 +374,16 @@ button#email-button {
     
     #soundcloud-section {
     height: 450px;
-    background-image: url("../images/mike2.jpg"), url("..images/fran2.jpg");
+    background-image: url("../images/mike2.jpg");
     background-size: contain;
-    background-position: left, right;
+    background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #youtube-section {
     height: 400px;
-    background-image: url("../images/fran2.jpg");
+    background-image: url("../images/fran4.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
