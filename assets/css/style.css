@@ -326,6 +326,24 @@ button#email-button {
 	border-radius: 20px;
 }
 
+.about-cta {
+    margin-bottom: 25px;
+}
+
+.about-button {
+    margin-top: 0;
+}
+
+.about-cta p {
+    margin-bottom: 0;
+    font-size: 125%;
+    font-weight: 400;
+}
+
+.about-cta h5 {
+    display: inline;
+}
+
 #about-section {
 	margin-bottom: 20px;
 }
