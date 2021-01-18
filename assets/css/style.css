@@ -167,7 +167,7 @@ a.btn.btn-primary.btn-lg:active {
 /* youtube vid on index.html */
 
 #index-music {
-	padding: 0 20px 20px 20px;
+	padding-bottom: 20px;
 }
 
 .cta#music-cta {
