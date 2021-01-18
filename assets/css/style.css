@@ -1,477 +1,485 @@
 /* General styles -------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 body {
-    font-family: 'Syne Mono', monospace;
+	font-family: 'Syne Mono', monospace;
 }
 
 h1 {
-    margin-top: 5rem;
-    margin-left: 20%;
-    padding-bottom: 1rem;
-    font-size: 3.5rem;
-    text-decoration: underline;
+	margin-top: 5rem;
+	margin-left: 20%;
+	padding-bottom: 1rem;
+	font-size: 3.5rem;
+	text-decoration: underline;
 }
 
 h2 {
-    font-size: 175%;
-    /* overflow-wrap: break-word; */
-    
+	font-size: 175%;
+	/* overflow-wrap: break-word; */
 }
 
 .alt-font {
-    font-family: 'JetBrains Mono', monospace;
+	font-family: 'JetBrains Mono', monospace;
 }
+
 
 /* Navigation bar -------*/
 
 nav {
-    background-color: rgba(253, 253, 253, 0.9);
-    font-size: 117%;
+	background-color: rgba(253, 253, 253, 0.9);
+	font-size: 117%;
 }
 
 #navigation-links {
-    position: relative;
-    left: 11%;
+	position: relative;
+	left: 11%;
 }
 
-.navbar-light .navbar-nav .nav-link:hover, a:hover {
-    color: #D85656;
-    transition: 0.5s;
-    text-decoration: none;
+.navbar-light .navbar-nav .nav-link:hover,
+a:hover {
+	color: #D85656;
+	transition: 0.5s;
+	text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link:active {
-    color: black;
+	color: black;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #D85656;
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #D85656;
 }
 
-button.navbar-toggler.ml-auto, button.navbar-toggler.ml-auto.collapsed {
-    border: none;
-    outline: none;
+button.navbar-toggler.ml-auto,
+button.navbar-toggler.ml-auto.collapsed {
+	border: none;
+	outline: none;
 }
 
 #social-links a {
-    padding-right: 5px;
+	padding-right: 5px;
 }
+
 
 /* Footer -------*/
 
 footer {
-    height: 150px;
-    background-color: black;
-    text-align: center;
+	height: 150px;
+	background-color: black;
+	text-align: center;
 }
 
 footer a {
-    color: rgb(253, 253, 253);
+	color: rgb(253, 253, 253);
 }
 
 footer a:hover {
-    text-decoration: none;
-    color: rgba(247, 246, 245, 0.5);
-    transition: 0.4s;
+	text-decoration: none;
+	color: rgba(247, 246, 245, 0.5);
+	transition: 0.4s;
 }
 
 #footer-heading {
-    padding: 2rem 0.75rem 1rem 0;
-    font-size: 175%;
+	padding: 2rem 0.75rem 1rem 0;
+	font-size: 175%;
 }
 
 ul#footer-social {
-    padding-right: 1rem;
+	padding-right: 1rem;
 }
 
 #footer-social li {
-    display: inline;
-    font-size: 1.5rem;
+	display: inline;
+	font-size: 1.5rem;
 }
 
 #footer-social i {
-    font-size: 120%;
-    padding: 0.5rem;
+	font-size: 120%;
+	padding: 0.5rem;
 }
 
+
 /* index.html --------*/
+
 
 /* Hero image*/
 
 #hero-outer {
-    margin-top: 56px;
-    margin-bottom: 20px;
+	margin-top: 56px;
+	margin-bottom: 20px;
 }
+
 
 /* Calls to action */
 
 .cta {
-    text-align: center;
-    height: 200px;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    border: solid #686868;
-    border-radius: 20px;
-    box-shadow: 4px 2px 4px #ccc;
-    background-color: #f2f0f0;
+	text-align: center;
+	height: 200px;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border: solid #686868;
+	border-radius: 20px;
+	box-shadow: 4px 2px 4px #ccc;
+	background-color: #f2f0f0;
 }
+
 
 /* box shadow advice researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
-    padding-top: 40px;
-    padding-right: 15%;
-    padding-left: 15%;
+	padding-top: 40px;
+	padding-right: 15%;
+	padding-left: 15%;
 }
 
-a.btn.btn-primary.btn-lg, #email-button {
-    background-color: #D85656;
-    border: none;
-    margin-top: 10px;
+a.btn.btn-primary.btn-lg,
+#email-button {
+	background-color: #D85656;
+	border: none;
+	margin-top: 10px;
 }
 
 a.btn.btn-primary.btn-lg:hover {
-    background-color: black;
-    color: #fafafa;
-    transition: 0.7s;
+	background-color: black;
+	color: #fafafa;
+	transition: 0.7s;
 }
 
 a.btn.btn-primary.btn-lg:active {
-    background-color: #fafafa;
-    color: black;
-    border: 1px solid grey;
+	background-color: #fafafa;
+	color: black;
+	border: 1px solid grey;
 }
 
 #cta-section {
-    margin-bottom: 2.5rem;
+	margin-bottom: 2.5rem;
 }
+
 
 /* youtube vid on index.html */
 
 #index-music {
-    padding: 0 20px 20px 20px;
+	padding: 0 20px 20px 20px;
 }
 
 .cta#music-cta {
-    height: 80px;
-    margin-top: 0;
+	height: 80px;
+	margin-top: 0;
 }
 
 #music-cta a {
-    font-size: 70%;
+	font-size: 70%;
 }
 
 #music-cta h5 {
-    font-size: 90%;
-    margin-top: 10px;
-    display: inline;
+	font-size: 90%;
+	margin-top: 10px;
+	display: inline;
 }
 
 #listen {
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-top: 10px;
 }
 
 .music-alert {
-    margin-top: 20px;
+	margin-top: 20px;
 }
+
 
 /* Tour dates */
 
 h3.index-header {
-    margin-bottom: 2rem;
-    padding-top: 2rem;
-    font-size: 250%;
-    text-decoration: underline;
-    font-weight: 800;
-    position: relative;
-    left: 9%;
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+	font-size: 250%;
+	text-decoration: underline;
+	font-weight: 800;
+	position: relative;
+	left: 9%;
 }
 
 #tour-dates p {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .venue {
-    color: #D85656;
+	color: #D85656;
 }
+
 
 /* music.html --------*/
 
 .music-heading {
-    text-align: center;
-    font-size: 210%;
-    padding-bottom: 15px;
-    padding-top: 15px;
+	text-align: center;
+	font-size: 210%;
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 
 .music-content {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 
 .youtube-iframe {
-    height: 400px;
-    width: 100%;
+	height: 400px;
+	width: 100%;
 }
 
 #soundcloud-logo {
-    color: #ff7700;
+	color: #ff7700;
 }
 
 #youtube-logo {
-    color: #c4302b;
+	color: #c4302b;
 }
 
 #buy-now {
-    margin-left: 67px;
-    margin-top: 0px;
+	margin-left: 67px;
+	margin-top: 0px;
 }
+
 
 /* contact.html -------*/
 
-h2 + p {
-    padding-top: 5px;
+h2+p {
+	padding-top: 5px;
 }
 
-h2 > i {
-    font-size: 75%;
+h2>i {
+	font-size: 75%;
 }
 
 label {
-    font-size: 125%;
-    padding-top: 5px;
+	font-size: 125%;
+	padding-top: 5px;
 }
 
-form > h3 {
-    font-size: 125%;
-    padding-bottom: 10px;
-    text-decoration: none;
+form>h3 {
+	font-size: 125%;
+	padding-bottom: 10px;
+	text-decoration: none;
 }
 
 .contact-info {
-    height: 325px;
+	height: 325px;
 }
 
 .contact-content {
-    margin-top: 10px;
-    padding-right: 0;
-    padding-left: 0;
-    padding-top: 35px;
-    font-style: italic;
+	margin-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-top: 35px;
+	font-style: italic;
 }
 
 #enquiries {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 #bookings {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 #email-form {
-    margin-top: 2rem;
-    margin-bottom: 2.5rem;
-    width: 500px;
-    padding: 30px;
-    height: 350px;
+	margin-top: 2rem;
+	margin-bottom: 2.5rem;
+	width: 500px;
+	padding: 30px;
+	height: 350px;
 }
 
 button#email-button {
-    margin: 0;
+	margin: 0;
 }
+
 
 /* gallery.html -------*/
 
-.photo > img {
-    box-shadow: 4px 2px 4px #ccc;
-    border-radius: 16px;
+.photo>img {
+	box-shadow: 4px 2px 4px #ccc;
+	border-radius: 16px;
 }
 
 .photo {
-    padding: 15px;
+	padding: 15px;
 }
+
 
 /* about.html -------*/
 
 .about-image {
-    max-height: 370px;
-    margin-bottom: 30px;
-    width: 100%;
-    box-shadow: 4px 2px 4px #ccc;
-    border-radius: 20px;
+	max-height: 370px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-shadow: 4px 2px 4px #ccc;
+	border-radius: 20px;
 }
 
 #about-section {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
+
 
 /* animations -------- */
 
 .appear-first {
-    opacity: 0;
-
-    animation-name: appear-first; 
-    animation-duration: 2s;
-    animation-delay: 0.75s;
-    animation-fill-mode: forwards;
+	opacity: 0;
+	animation-name: appear-first;
+	animation-duration: 2s;
+	animation-delay: 0.75s;
+	animation-fill-mode: forwards;
 }
 
 .appear-second {
-    opacity: 0;
-
-    animation-name: appear-second; 
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards; 
+	opacity: 0;
+	animation-name: appear-second;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
 }
 
 .appear-third {
-    opacity: 0;
-
-    animation-name: appear-second; 
-    animation-duration: 2s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards; 
+	opacity: 0;
+	animation-name: appear-second;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
 }
 
+
 /* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
+
 @keyframes appear-first {
-    0% {opacity: 0}
-    100% {opacity: 1}
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
 }
 
 @keyframes appear-second {
-    0% {opacity: 0}
-    100% {opacity: 1}
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
 }
 
 @keyframes appear-third {
-    0% {opacity: 0}
-    100% {opacity: 1}
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
 }
+
 
 /* media queries ------- */
 
-
 @media screen and (max-width: 1070px) {
-
-    #navigation-links {
-        position: relative;
-        left: 3%;
-    }
-
+	#navigation-links {
+		position: relative;
+		left: 3%;
+	}
 }
 
 @media screen and (max-width: 992px) {
-    .disappear {
-        display: none;
-    }
+	.disappear {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 825px) {
-
-    #navigation-links {
-        position: relative;
-        left: 1%;
-    }
-
+	#navigation-links {
+		position: relative;
+		left: 1%;
+	}
 }
 
 @media screen and (max-width: 767px) {
-
-    .cta {
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .max-width-reduce {
-        max-width: 80%;
-    }
-
-    #navigation-links, #social-links {
-        position: relative;
-        left: 38%;
-        font-size: 200%;
-    }
-
-    #social-links {
-        left: 36%;
-        font-size: 175%;
-    }
-
-
-    img#hero-image {
-        max-width: 150%;
-        position: relative;
-        right: 24%;
-    }
-
-    div#hero-outer {
-        overflow: hidden;
-        margin-bottom: 0;
-    }
-
-
+	.cta {
+		margin-top: 1.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.max-width-reduce {
+		max-width: 80%;
+	}
+	#navigation-links,
+	#social-links {
+		position: relative;
+		left: 38%;
+		font-size: 200%;
+	}
+	#social-links {
+		left: 36%;
+		font-size: 175%;
+	}
+	img#hero-image {
+		max-width: 150%;
+		position: relative;
+		right: 24%;
+	}
+	div#hero-outer {
+		overflow: hidden;
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 500px) {
-    #navigation-links {
-        position: relative;
-        left: 33%;
-    }
-
-    #social-links {
-        left: 30%;
-    }
-
-    .contact-info h2 {
-        font-size: 165%;
-    }
-    
+	#navigation-links {
+		position: relative;
+		left: 33%;
+	}
+	#social-links {
+		left: 30%;
+	}
+	.contact-info h2 {
+		font-size: 165%;
+	}
 }
 
 @media screen and (min-width: 500px) {
-    h2 + p {
-    font-size: 130%;
-}
-
+	h2+p {
+		font-size: 130%;
+	}
 }
 
 @media screen and (max-width: 392px) {
-     #navigation-links {
-        left: 31%;
-    }
-
-    #social-links {
-        left: 27%;
-    }
-
-    .email-address {
-        font-size: 70%;
-    }
-
+	#navigation-links {
+		left: 31%;
+	}
+	#social-links {
+		left: 27%;
+	}
+	.email-address {
+		font-size: 70%;
+	}
 }
 
 @media screen and (max-width: 362px) {
-
-    #music-cta {
-        font-size: 80%;
-    }
+	#music-cta {
+		font-size: 80%;
+	}
 }
 
 @media (orientation: landscape) {
-  img#hero-image {
-        width: 100%;
-        position: relative;
-        left: 1%;
-    }
-
+	img#hero-image {
+		width: 100%;
+		position: relative;
+		left: 1%;
+	}
 }
