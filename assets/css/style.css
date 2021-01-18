@@ -305,6 +305,8 @@ button#email-button {
     max-height: 370px;
     margin-bottom: 30px;
     width: 100%;
+    box-shadow: 4px 2px 4px #ccc;
+    border-radius: 20px;
 }
 
 #about-section {
