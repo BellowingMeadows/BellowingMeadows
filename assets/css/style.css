@@ -176,7 +176,7 @@ a.btn.btn-primary.btn-lg:active {
 }
 
 .cta#music-cta {
-	height: 80px;
+	height: 65px;
 	margin-top: 0;
 }
 
@@ -193,7 +193,10 @@ a.btn.btn-primary.btn-lg:active {
 #listen {
 	padding-left: 8px;
 	padding-right: 8px;
-	margin-top: 10px;
+}
+
+a#listen {
+    margin-top: 0;
 }
 
 .music-alert {
@@ -498,7 +501,7 @@ button#email-button {
 
 @media screen and (max-width: 362px) {
 	#music-cta {
-		font-size: 80%;
+        font-size: 85%;
 	}
 }
 
