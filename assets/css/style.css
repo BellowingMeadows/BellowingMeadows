@@ -170,6 +170,11 @@ a.btn.btn-primary.btn-lg:active {
 	padding-bottom: 20px;
 }
 
+#index-youtube {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .cta#music-cta {
 	height: 80px;
 	margin-top: 0;
@@ -454,7 +459,11 @@ button#email-button {
 	div#hero-outer {
 		overflow: hidden;
 		margin-bottom: 0;
-	}
+    }
+    
+    #music-cta h5 {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 500px) {
