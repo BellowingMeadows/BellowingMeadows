@@ -13,14 +13,12 @@ body {
 h1 {
 	margin-top: 5rem;
 	margin-left: 20%;
-	padding-bottom: 1rem;
 	font-size: 3.5rem;
 	text-decoration: underline;
 }
 
 h2 {
 	font-size: 175%;
-	/* overflow-wrap: break-word; */
 }
 
 .alt-font {
@@ -131,13 +129,13 @@ ul#footer-social {
 	background-color: #f2f0f0;
 }
 
-
-/* box shadow advice researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+/* box shadow taken from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
 	padding-top: 40px;
 	padding-right: 15%;
-	padding-left: 15%;
+    padding-left: 15%;
+    margin-top: 2%;
 }
 
 a.btn.btn-primary.btn-lg,
@@ -176,8 +174,12 @@ a.btn.btn-primary.btn-lg:active {
 }
 
 .cta#music-cta {
-	height: 65px;
+	height: 70px;
 	margin-top: 0;
+}
+
+div#music-cta {
+    margin-bottom: 0;
 }
 
 #music-cta a {
@@ -229,18 +231,22 @@ h3.index-header {
 .music-heading {
 	text-align: center;
 	font-size: 210%;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	padding-top: 15px;
 }
 
 .music-content {
 	margin-top: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .youtube-iframe {
 	height: 400px;
 	width: 100%;
+}
+
+.releases {
+    margin-bottom: 15px;
 }
 
 #soundcloud-logo {
@@ -320,6 +326,10 @@ button#email-button {
 
 .photo {
 	padding: 15px;
+}
+
+#gallery {
+    margin-bottom: 15px;
 }
 
 
@@ -425,7 +435,11 @@ button#email-button {
 @media screen and (max-width: 992px) {
 	.disappear {
 		display: none;
-	}
+    }
+    
+    .cta-content {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 825px) {
@@ -439,7 +453,11 @@ button#email-button {
 	.cta {
 		margin-top: 1.5rem;
 		margin-bottom: 0.5rem;
-	}
+    }
+    
+    .cta-content {
+        margin-top: 1%;
+    }
 	.max-width-reduce {
 		max-width: 80%;
 	}
