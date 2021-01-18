@@ -253,6 +253,10 @@ h3.index-header {
 	color: #ff7700;
 }
 
+#soundcloud-iframe {
+    width: 100%;
+}
+
 #youtube-logo {
 	color: #c4302b;
 }
