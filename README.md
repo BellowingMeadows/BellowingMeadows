@@ -12,8 +12,6 @@ You can view the live website [here](https://franciskershaw.github.io/little-par
 
 ## UX
 
-***
-
 My main goals for the creation of this website were as follows:
 
 * Create a centralised platform that includes all of the features needed to start and nurture online engagement with a new music band.
@@ -41,8 +39,6 @@ As a member of Little Paradise:
 4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.
 
 ## Planning & Design
-
-***
 
 ### **Strategy Plane**
 
@@ -73,8 +69,7 @@ The following sites proved to be very useful when considering the features that 
   * [Flagship Romance](https://flagshipromance.com/)
 
 
-Using the below importance vs viability metric, I could what available opportunities to fulfil my user stories were achievable, relevant and appropriate. 
-
+Using the below importance vs viability metric, I was able to list out the opportunities on offer when creating the website and decide which ones were achievable, relevant and appropriate with regard to my user stories. 
 
 Opportunity | Importance | Viability
 ------------ | ------------- | ------------- 
@@ -96,14 +91,14 @@ I quickly concluded that the following common features of band websites would th
 
 Based on information I uncovered in the strategy plane, and considering any limitations of my current coding abilities, the features I decided were critical to include are as follows:
 
-**Required Functional Specifications**
+**Required functional specifications**
 1. Somewhere to listen to the band's music.
 2. A section for upcoming tour dates.
 3. An area to find out more about the band's history.
 4. A photo gallery.
 5. A dedicated area to find out contact information or sign up to email updates.
 
-**Content Requirements of these features**
+**Content requirements of these features**
 
 1. Music content must be easy to find and come from a variety of available and familiar music platforms.
 2. Tour dates must provide concise, relevant information as well as links to buy tickets.
@@ -111,7 +106,7 @@ Based on information I uncovered in the strategy plane, and considering any limi
 4. Any photos must be of good quality and engaging.
 5. Contact information must be easy to find.
 
-### **Structure**
+### **Structure Plane**
 
 Bearing in mind the functional and content specifications outlined in the scope plane, I decided to create five unique pages for the site that could share responsibility for hosting the necessary features that would allow users to the end of their journeys. 
 
@@ -142,7 +137,7 @@ As the user stories varied a lot in terms of intended use for the website, the i
 
 ### **Skeleton Plane**
 
-In order to properly visualise how my pages would be organised and linked together, I created some low fidelity mockups using InVision - focussing on the design layout for small, medium and large screen sizes. The purpose of this process was to double check that the ideas I had begun formulating internally during the structure plane would be faithful to the user stories they were designed to fulfil. This way, if any obvious issues did arise it could be fixed well before coding of the pages started in earnest. 
+In order to properly visualise how my pages would be organised and linked together, I created some low fidelity mockups using [InVision](https://www.invisionapp.com/) - focussing on the design layout for small, medium and large screen sizes. The purpose of this process was to double check that the ideas I had begun formulating internally during the structure plane would be faithful to the user stories they were designed to fulfil. Any clear issues flagged up at this stage could then be fixed well before coding of the site started in earnest. 
 
 When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable features per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had very different intentions for the site.
 
@@ -156,13 +151,13 @@ For the most part, I felt satisfied at this stage that all my user stories would
 
 ![Index screenshot](assets/images/skeleton-fix.png)
 
-### **Surface plane** - *What will the finished product look like? Colors, typography and design elements*
+### **Surface plane**
 
 Little Paradise has never had an online presence or brand before the creation of this website, so deciding what kind of aesthetic to employ was not dictated by any pre-existing brand requirements or colour schemes. This provided a challenge, but also a great level of creative freedom to work with.
 
 #### Typography
 
-The starting point for what the eventual look and feel came from an accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique, retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
+The starting point for the look and feel of the site came from and accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique and retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
 
 ![Logo screenshot](assets/images/logo.png)
 
@@ -174,6 +169,8 @@ An alternative monospace font, 'JetBrains Mono' was employed at various points (
 
 I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 can be found assigned to important features - such as the call to action buttons or when hovering over navigation links. 
 
+![CTA screenshot](assets/images/cta.png)
+
 The use of this colour scheme is best exemplified by the hero image I comissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
 
 ![Venue screenshot](assets/images/hero-image-min.jpg)
@@ -184,6 +181,9 @@ Consistent 'appear' animations are included across all 5 pages to introduce cont
 
 ## Features
 
-***
 
+### Existing features
 
+#### Consistent features
+
+### Features left to implement
