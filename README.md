@@ -177,13 +177,53 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 #### Animations, transitions and effects
 
-Consistent 'appear' animations are included across all 5 pages to introduce content in a graceful and impactful way. This doubles up as ensuring that any load time present for the hero image is masked by the transition
+* 'Appear' animations are included across all 5 pages to introduce content in a consistent and impactful way.
+* All links and buttons respond when being hovered over or clicked on to produce user feedback 
+* Bootsrap transitions on the navigation links were tweaked slighly to produce a slightly more graceful transition when hovered over.
 
 ## Features
-
 
 ### Existing features
 
 #### Consistent features
+
+* Each page contains a fixed navigation bar which has the currently viewed page highlighted. At the mobile view the nav bar shrinks down into a conventional burger icon and the links grow to 200% of their original font size.
+* The footer also remains consistent across the website, located at the bottom of each page and containing social links.
+* Every clickable link or button contains a hover effect to indicate that they can click and travel to another section of the site.
+* All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
+* An appear animation (lifted from YouTube, please see acknowledgements) appears consistently across all pages to gracefully present content at each stage of the user journey. 
+* All images (apart from the hero image) and *call to action* boxes contain box-shadows which were lifted from css-tricks (please see acknowledgements).
+
+#### index.html
+
+* A hero image of the two band members holding guitars on either side of the Little Paradise road sign appears before anything else and is arguably the centerpiece of the website.
+* Just below, two *call to action* boxes appear which direct users to the main music page and sign-up option for email updates. These contain icons from font awesome to add to the visual language of the site.
+* If the user decides to continue scrolling, they will find a solitary YouTube video which exists to give site visitors a flavour of the band's music. This is reinforced with another *call to action* button directing users to the main music page should they wish to hear more.
+* Below the video is a section dedicated to upcoming tour dates, venues and ticket links. This section is also accessible via the 'Tour' link on the main navigation menu across all pages.
+
+#### music.html
+
+* Below the main heading is an iframe to the band's SoundCloud playlist, containing all existing tracks available to listen to. The iframe has been tweaked ever so slightly so that the play icon and song progress bar are the same red (#d85656) as seen on the rest of the site.
+* The same YouTube video from index.html has its own dedicated section on the music page, below the SoundCloud playlist.
+* The relevant music icons that display in the *h2* tags of SoundCloud and YouTube double up as external links and are coloured to the exact hex codes of their real-life branding.
+* Finally a card which acts as a purchase link for previously released music appears at the bottom of the music page in the form of a 'Releases' (Discography) section.
+
+#### gallery.html
+
+* The page contains 12 landscape and 12 portrait photos with rounded edges and box shadows.
+* Images appear as 4 to a row on large screen sizes, 3 to a row on medium screen sizes, 2 to a row on small screen sizes and 1 to a row on extra small mobile devices. This signified a change from the wireframes created during mockups as in practice mobile devices needed 1 photo per row (original wireframes contained 2).
+* A sepia filter was applied to all photos before uploading to give a consistent look to the page.
+
+#### about.html
+
+* After the main heading, a short biography of the band appears. Users who reach the end of the article are prompted by two more *call to action* buttons to either send them to the final page of the site (contact) or back home via the 'tour' section.
+* The bio section is accompanied by two landscape photos. These appear on the left for larger screen sizes, but are split up into top and bottom of the article once the medium break point is reached.
+
+#### contact.html
+
+* Below the main heading, there is a box which contains the two primary contact email addresses needed to get in touch with the band - General Enquiries and Bookings.
+* Both contact addresses contain a relevant and appropriate font awesome icon, a question mark for general enquiries and a book for bookings.
+* The size of the content in the contact information box scales down at smaller screen sizes to ensure there is no overflow.
+* Below the contact section is the area where users can sign up to email updates. Users who arrive here via the *call to action* box from index.html will be end up directly on this section without having to scroll down.
 
 ### Features left to implement
