@@ -26,7 +26,7 @@ My main goals for the creation of this website were as follows:
 
 As a member of Little Paradise:
 
-1. I would like people to listen to and/or buy our music in order to gain new fans.
+1. I would like people to listen to our music in order to gain new fans.
 2. I would like fans to know about upcoming tour dates so that they can buy tickets to gigs.
 3. I would like to contact fans directly via email updates so that we can inform them about new releases, tour dates or general band news.
 4. I would like booking agents or record labels who end up on our site to find contact details if they want inform us of any opportunities. 
@@ -44,7 +44,7 @@ As a member of Little Paradise:
 
 ***
 
-### **Strategy Plane** - *What are you aiming to achieve in the first place and for whom?*
+### **Strategy Plane**
 
 The **user stories** as detailed in the previous section was the first part of the development process and was very helpful in deciding which features were critical to the success of the site. Features that I did not deem necessary to the band and users reaching the end of their journeys would not be considered.
 
@@ -73,7 +73,8 @@ The following sites proved to be very useful when considering the features that 
   * [Flagship Romance](https://flagshipromance.com/)
 
 
-Using the below importance vs viability metric, I could see that the available opportunities to fulfil my user stories were mostly achievable, relevant and appropriate. It did however help me quickly conclude that selling merchandise, while being a common feature across most band websites, was as unnecessary to have at this stage in the band's career as it was difficult to implement. Likewise, during research I found that several websites included sections for their song lyrics, which I felt would contribute to content overload in my case and not help achieve any of my user stories.
+Using the below importance vs viability metric, I could what available opportunities to fulfil my user stories were achievable, relevant and appropriate. 
+
 
 Opportunity | Importance | Viability
 ------------ | ------------- | ------------- 
@@ -86,12 +87,17 @@ Sell merchandise | 2 | 1
 Provide song lyrics | 1 | 5
 **Total** | **23** | **28**
 
-### **Scope Plane** - *Which features, based on information from the strategy plane, do you want to include in your design?*
+I quickly concluded that the following common features of band websites would therefore be surplus to requirements:
+
+* Selling merchandise - unecessary at this stage in the band's career and beyond my current skillset to implement.
+* Song lyrics section - would contribute to content overload and wouldn't help fulfil any of my user stories.
+
+### **Scope Plane**
 
 Based on information I uncovered in the strategy plane, and considering any limitations of my current coding abilities, the features I decided were critical to include are as follows:
 
 **Required Functional Specifications**
-1. At least one section on the site to listen to music.
+1. Somewhere to listen to the band's music.
 2. A section for upcoming tour dates.
 3. An area to find out more about the band's history.
 4. A photo gallery.
@@ -101,51 +107,83 @@ Based on information I uncovered in the strategy plane, and considering any limi
 
 1. Music content must be easy to find and come from a variety of available and familiar music platforms.
 2. Tour dates must provide concise, relevant information as well as links to buy tickets.
-3. Bio section should be entertaining and informative.
+3. A Bio section which is entertaining and informative.
 4. Any photos must be of good quality and engaging.
 5. Contact information must be easy to find.
 
-### **Structure** - *How is the information structured and how is it logically grouped?*
+### **Structure**
 
-Bearing in mind the functional and content specifications outlined in the scope plane, I decided to create five unique pages for the site that could share responsibility for hosting the necessary features. 
+Bearing in mind the functional and content specifications outlined in the scope plane, I decided to create five unique pages for the site that could share responsibility for hosting the necessary features that would allow users to the end of their journeys. 
 
 1. A home page which draws the user in with a striking hero image, contains two call to actions directing users to the most highly prioritised content (music and email updates), and includes upcoming tour dates.
-2. A music page that includes the currently available platforms through which a user could listen to the band’s music (SoundCloud and YouTube) and a section for available releases.
-3. A gallery containing various photos of the band members.
+2. A music page that includes the currently available platforms through which a user could listen to the band’s music (SoundCloud and YouTube) and a section for available releases to purchase.
+3. A gallery containing a variety band related photos.
 4. An about page which tells a brief history of the band up until present day.
 5. A contact page (including sign-up option) to find contact details and sign up to email updates
 
 #### Interaction Design
 
+As the user stories varied a lot in terms of intended use for the website, the interaction design needed to be intuitive enough to allow users to quickly learn how to navigate the site and find exactly what they are looking for.
+
 * A nonlinear structure (achieved via a fixed navigation bar on each page) was needed in order to allow users to pick and choose sections they wish to navigate at any point during their journey.
-* Navigation links, as well as any other buttons or links as part of a page’s content, needed to change colour when hovered over or clicked on to provide user feedback
-* The same colour scheme and design themes are applied across all pages to maintain consistency
-* Where possible, secondary content on the page needed to appear just beyond the fold on as many screen sizes as possible to highlight the fact that the page can be scrolled through
+* The active page would need to be highlighted to help the user understand where on the website they had arrived.
+* Navigation links, as well as any other buttons or links as part of a page’s content, needed to change colour when hovered over or clicked on to provide user feedback.
+* The same colour scheme and design themes have to be applied across all pages to maintain consistency.
+* Where possible, secondary content on the page needed to appear just beyond the fold on as many screen sizes as possible to highlight the fact that the page can be scrolled through.
 * A footer would provide social links and remain consistent across all pages
 
 #### Information Architecture
 
-* Tree structure with use of navigation’s burger icon when on mobile devices
-* Priority on the navigation bar will go from left to right 
-* Logo on the far left and features on the far right in the following order of perceived importance: Tour, Music, Gallery, About, Contact
-* The most important features will manifest in the CTAs: A link to buy new music + a link to sign up for email updates
+* Tree structure should be implemented with use of navigation’s burger icon when on mobile devices.
+* Priority on the navigation bar will go from left to right.
+* Logo on the far left and features on the far right in the following order of importance: Tour, Music, Gallery, About, Contact
+* The most important features will manifest in the CTAs: A link to the music page and a link to sign up for email updates.
+* No user should have to click more than three times in order to fulfil their user story.
 
-### **Skeleton Plane** - *How will our information be represented, and how will the user navigate to the information and the features?*
+### **Skeleton Plane**
 
 In order to properly visualise how my pages would be organised and linked together, I created some low fidelity mockups using InVision - focussing on the design layout for small, medium and large screen sizes. The purpose of this process was to double check that the ideas I had begun formulating internally during the structure plane would be faithful to the user stories they were designed to fulfil. This way, if any obvious issues did arise it could be fixed well before coding of the pages started in earnest. 
 
-For the most part, I felt satisfied at this stage that all my user stories would in theory be completed intuitively through the layout of my site. I did however spot during this process that users in my first user story (who would be arriving primarily to consume music) may be frustrated that no musical content appears on the home page at all. This was rectified in the final version of the site by including a small section below the primary call to actions which contained the same YouTube iframe present in the music page with a link to the music page for those who want to hear more.
+When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable features per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had very different intentions for the site.
 
-![Hero image of website across screen sizes](assets/images/index.png)
-![Hero image of website across screen sizes](assets/images/music.png)
-![Hero image of website across screen sizes](assets/images/gallery.png)
-![Hero image of website across screen sizes](assets/images/about.png)
-![Hero image of website across screen sizes](assets/images/contact.png)
+![Index wireframe](assets/images/index.png)
+![Music wireframe](assets/images/music.png)
+![Gallery wireframe](assets/images/gallery.png)
+![About wireframe](assets/images/about.png)
+![contact wireframe](assets/images/contact.png)
 
-### Surface plane - *What will the finished product look like? Colors, typography and design elements*
+For the most part, I felt satisfied at this stage that all my user stories would in theory be completed intuitively through the layout of my site. I did however spot during this process that users in my first user story (people who would be arriving primarily to consume music) may be frustrated that no interactable musical content appears on the home page at all. This was rectified in the final version of the site by including a small section below the primary call to actions which contained the same YouTube iframe present in the music page with a link to the music page for those who want to hear more.
+
+![Index screenshot](assets/images/skeleton-fix.png)
+
+### **Surface plane** - *What will the finished product look like? Colors, typography and design elements*
 
 Little Paradise has never had an online presence or brand before the creation of this website, so deciding what kind of aesthetic to employ was not dictated by any pre-existing brand requirements or colour schemes. This provided a challenge, but also a great level of creative freedom to work with.
 
-The starting point for what the look and feel I would end up pursuing came from an accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique, and in a way ended up informing many of the stylistic decisions that would be taken across the website. I decided to stick with a mostly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono, and a smattering of red can be found assigned to important features - such as the call to action buttons or when hovering over navigation links. The main idea behind this was to maintain a small amount of mystery around the band and its members, which was further personified by a bespoke hero image (kindly provided by Izi Thexton) portraying the band members as faceless black and white drawings.
+#### Typography
 
-Animations/transitions/effects
+The starting point for what the eventual look and feel came from an accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique, retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
+
+![Logo screenshot](assets/images/logo.png)
+
+An alternative monospace font, 'JetBrains Mono' was employed at various points (notably the tour dates section) to ensure the impact of the Syne Mono font wasn't diluted by overuse.
+
+![Venue screenshot](assets/images/alt-font.png)
+
+#### Colour Scheme
+
+I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 can be found assigned to important features - such as the call to action buttons or when hovering over navigation links. 
+
+The use of this colour scheme is best exemplified by the hero image I comissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
+
+![Venue screenshot](assets/images/hero-image-min.jpg)
+
+#### Animations, transitions and effects
+
+Consistent 'appear' animations are included across all 5 pages to introduce content in a graceful and impactful way. This doubles up as ensuring that any load time present for the hero image is masked by the transition
+
+## Features
+
+***
+
+
