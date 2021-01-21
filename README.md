@@ -189,7 +189,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 * Each page contains a fixed navigation bar which has the currently viewed page highlighted. At the mobile view the nav bar shrinks down into a conventional burger icon and the links grow to 200% of their original font size.
 * The footer also remains consistent across the website, located at the bottom of each page and containing social links.
-* Every clickable link or button contains a hover effect to indicate that they can click and travel to another section of the site.
+* Every link or button contains a hover effect to indicate that they are clickable.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
 * An appear animation (lifted from YouTube, please see acknowledgements) appears consistently across all pages to gracefully present content at each stage of the user journey. 
 * All images (apart from the hero image) and *call to action* boxes contain box-shadows which were lifted from css-tricks (please see acknowledgements).
@@ -227,3 +227,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 * Below the contact section is the area where users can sign up to email updates. Users who arrive here via the *call to action* box from index.html will be end up directly on this section without having to scroll down.
 
 ### Features left to implement
+
+* I originally envisioned a more advanced animation for the gallery page so that the images would appear one after the other, however would likely have been a very time consuming endeavour and not condusive to most of my user stories.
+* I would eventually like to have the burger icon on the mobile menu change into an X close button. From research I've concluded this is be something I can implement once I'm more familiar with Javascript.
+
