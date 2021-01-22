@@ -260,6 +260,20 @@ I attempted throughout this project to commit as regularly as possible and to st
 
 * Start comments where possible with a prefix that summarises what the commit is for, such as fix (for bugs), add, remove, amend, style, or docs (for anything added to README.md).
 * Always use the imperative tense so that readers would read as *the purpose of this commit is to* - etc.
-* Commit often, and where possible keep messages as short as possible
+* Commit often, and where possible keep messages as short as possible.
+
+At the time of writing, these are among my recent commit messages and illustrate the format I applied for this project:
+
+![Commit messages](assets/images/commits.png)
+
+## Testing
+
+### User Stories
+
+## Deployment
+
+## Cloning
+
+## Credits
 
 
