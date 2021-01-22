@@ -247,10 +247,12 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 * [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsivity of the pages.
 * [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
+* [Free Formatter:](https://www.freeformatter.com/html-formatter.html) Used to help ensure code was consistently formatted across all pages.
 * [Google Docs:](https://docs.google.com/) Used for note taking and was where most of my readme was initially written.
 * Google Desktop Developer Tools: Used for debugging and testing of responsiveness across several screen sizes.
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
+* [InVision:](https://www.invisionapp.com/) Used to create all of my wireframes at the beginning of the development process.
 * [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
 * [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
 * [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.

@@ -129,7 +129,7 @@ ul#footer-social {
 	background-color: #f2f0f0;
 }
 
-/* box shadow taken from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
 	padding-top: 40px;
@@ -327,6 +327,7 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 16px;
 }
+/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .photo {
 	padding: 15px;
@@ -346,6 +347,7 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 20px;
 }
+/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .about-cta {
     margin-bottom: 25px;
@@ -372,6 +374,8 @@ button#email-button {
 
 /* animations -------- */
 
+/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
+
 .appear-first {
 	opacity: 0;
 	animation-name: appear-first;
@@ -395,9 +399,6 @@ button#email-button {
 	animation-delay: 3s;
 	animation-fill-mode: forwards;
 }
-
-
-/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
 
 @keyframes appear-first {
 	0% {
