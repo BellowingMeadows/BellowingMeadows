@@ -223,35 +223,36 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 * Below the main heading, there is a box which contains the two primary contact email addresses needed to get in touch with the band - General Enquiries and Bookings.
 * Both contact addresses contain a relevant and appropriate font awesome icon, a question mark for general enquiries and a book for bookings.
-* The size of the content in the contact information box scales down at smaller screen sizes to ensure there is no overflow.
-* Below the contact section is the area where users can sign up to email updates. Users who arrive here via the *call to action* box from index.html will be end up directly on this section without having to scroll down.
+* The size of the content in the contact information box scales down at smaller screen sizes to ensure there is no overflow or text wrapping.
+* Below the contact section is the area where users can sign up to email updates. Users who arrive here via the *call to action* box from index.html end up directly on this section without having to scroll down.
 
 ### Features left to implement
 
-* I originally envisioned a more advanced animation for the gallery page so that the images would appear one after the other, however would likely have been a very time consuming endeavour and not condusive to most of my user stories.
 * I would eventually like to have the burger icon on the mobile menu change into an X close button. From research I've concluded this is be something I can implement once I'm more familiar with Javascript.
-* Once the band has music available to listen to on Spotify, this will replace SoundCloud on the music page as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
+* Once the band has music available to listen to on Spotify, a Spotify playlist will replace SoundCloud on the music.html as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
+* Once the band has released several music videos, I would like to turn the YouTube section on music.html into an interactive carousel - allowing the user to choose which video to watch.
 
 ## Technologies used
 
 ### Languages and frameworks
 
-* **HTML5:** Language used to structure each page and contains the main content.
+* **HTML5:** Language used for structure and content across all pages.
 * **CSS3:** Language used to style elements from the HTML pages.
 * **Bootstrap:** CSS and JavaScript framework which allowed for the simple implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
 * **JavaScript:** Language used to add some interactivity with the navigation bar: 
-  * Automatically applied through Bootstrap: nav bar changes into the convential burger icon at smaller screen sizes.
-  * Code snippet (please see acknowledgements): collapses the mobile nav bar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
+  * *Automatically applied through Bootstrap*: nav bar changes into the convential burger icon at smaller screen sizes.
+  * *Code snippet (please see acknowledgements)*: collapses the mobile nav bar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
 
 ### Aditional Tools
 
-* [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md.
+* [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsivity of the pages.
 * [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
 * [Google Docs:](https://docs.google.com/) Used for note taking and was where most of my readme was initially written.
-* Google Developer Tools: Used for debuggin and testing of responsiveness across several screen sizes.
-* [Google Fonts:](https://fonts.google.com/): Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
-* [The W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
-* [W3c CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
+* Google Desktop Developer Tools: Used for debugging and testing of responsiveness across several screen sizes.
+* Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
+* [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
+* [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
+* [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
 * [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.
 
 ## Git Commit Messages
@@ -312,20 +313,53 @@ More in depth information about GitHub Pages can be found [here.](https://pages.
 
 You are more than welcome to clone my project for whatever reason, just follow these steps:
 
-1. Scroll to the top of my repository and click on the Clone or download button.
-2. Decide whether you want to clone the project using HTTPS or an SSH key.
-3. For HTTPS: click on the checklist icon to the right of the URL.
-4. For SSH key: first click on 'Use SSH' then click on the checklist icon to the right of the URL.
-5. Open the Terminal.
-6. Change the current working directory to the destination of the cloned directory.
-7. Type "git clone" and then paste the URL you copied earlier.
-8. Press Enter to create your local clone.
+1. On GitHub, navigate to the main page of the repository.
+2. Click on the **Code** dropdown, located next to Add file.
+   * To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon to copy the link. 
+   * To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon to copy the link. 
+   * To clone the repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon to copy the link.
+3. Open the Terminal.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type *git clone*, and then paste the URL you copied earlier.
+6. Press **Enter** to create your local clone
+
+
+More in depth information about cloning repositories, including how to clone a repository using GitHub Desktop, can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Credits
 
 ### Content
+
+* The drawing of the band which appears as a hero image on the home page (and as album art on the music page) was kindly provided by Izi Thexton.
+
+* The band biography on about.html was written by Francis Kershaw.
+
 ### Media
-### Acknowledements
+
+* All photos on gallery.html and about.html were taken by Francis Kershaw and Mike Kilcooley.
+
+* All songs which appear on index.html and music.html were written, recorded and produced by Francis Kershaw and Mike Kilcooley.
+
+### Acknowledgements
+
+* JavaScript code snippet at the bottom of index.html which automatically closes the mobile nav bar (thus fixing a UX issue) was written by Marta Szymanska and can be found on this [MDB Page](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
+
+* Box shadow effects, applied to my *call to action* boxes and images, was researched from this [CSS-Tricks page](https://css-tricks.com/almanac/properties/b/box-shadow/).
+
+* I learnt how to apply, before then tweaking, the appear animation seen across all pages from this [YouTube video](https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia) by [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) at around the 33 minute mark.
+
+* I found out how to remotely debug the site on my mobile phone by following the instructions on [this blog post](https://blog.campvanilla.com/debug-website-on-mobile-device-5c27c8809d39) by [Abinav Seelan](https://medium.com/@abinavseelan).
+
+* Loading attribute (loading="eager") which fixed the bug on my hero image for a few Android devices was found on this [GitHub repository](https://github.com/scott-little/lazyload) by [Scott Little](https://github.com/scott-little).
+
+* Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overlow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
+
+A huge thank you to the following for their help and feedback during the development of this project:
+
+* The Slack community at the Code Institute for their invaluable user feedback.
+* My tutor Aaron Sinnott for helpful advice at several stages.
+* Mike Kilcooley for providing some extra photos for the gallery.
+* All of the mates of mine who took time to test the website once it was deployed. 
 
 
