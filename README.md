@@ -268,12 +268,64 @@ At the time of writing, these are among my recent commit messages and illustrate
 
 ## Testing
 
-### User Stories
+*In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.*
+
+*Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.*
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:*
+
+* *Contact form:*
+  1. *Go to the "Contact Us" page*
+  2. *Try to submit the empty form and verify that an error message about the required fields appears*
+  3. *Try to submit the form with an invalid email address and verify that a relevant error message appears*
+  4. *Try to submit the form with all inputs valid and verify that a success message appears.*
+
+*In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.*
+
+*You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.*
+
+*If this section grows too long, you may want to split it off into a separate file and link to it from here.*
 
 ## Deployment
 
+*This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).*
+
+*In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:*
+
+* *Different values for environment variables (Heroku Config Vars)?*
+* *Different configuration files?*
+* *Separate git branch?*
+* *In addition, if it is not obvious, you should also describe how to run your code locally.*
+
+I deployed the website to GitHub Pages, which was achieved as follows:
+
+1. View the Little Paradise repository by going to the 'Your repositories' section on Github's navigation.
+2. Go to settings, which is at the far right of the repository navigation next to insights.
+3. Scroll down to the GitHub Pages section.
+4. Select master branch in the Source section.
+5. Select a theme (I chose the Jekyll theme).
+
+More in depth information about GitHub Pages can be found [here.](https://pages.github.com/)
+
+
 ## Cloning
 
+You are more than welcome to clone my project for whatever reason, just follow these steps:
+
+1. Scroll to the top of my repository and click on the Clone or download button.
+2. Decide whether you want to clone the project using HTTPS or an SSH key.
+3. For HTTPS: click on the checklist icon to the right of the URL.
+4. For SSH key: first click on 'Use SSH' then click on the checklist icon to the right of the URL.
+5. Open the Terminal.
+6. Change the current working directory to the destination of the cloned directory.
+7. Type "git clone" and then paste the URL you copied earlier.
+8. Press Enter to create your local clone.
+
+
 ## Credits
+
+### Content
+### Media
+### Acknowledements
 
 
