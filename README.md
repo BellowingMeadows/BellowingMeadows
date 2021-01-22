@@ -256,6 +256,10 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 ## Git Commit Messages
 
+I attempted throughout this project to commit as regularly as possible and to stick to the same formula I applied from the beginning of the development process. I imagine in the future I will tweak the applied format, but for this project my rules were as follows:
 
+* Start comments where possible with a prefix that summarises what the commit is for, such as fix (for bugs), add, remove, amend, style, or docs (for anything added to README.md).
+* Always use the imperative tense so that readers would read as *the purpose of this commit is to* - etc.
+* Commit often, and where possible keep messages as short as possible
 
 
