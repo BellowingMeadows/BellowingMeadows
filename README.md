@@ -357,6 +357,7 @@ More in depth information about cloning repositories, including how to clone a r
 
 A huge thank you to the following for their help and feedback during the development of this project:
 
+* Izi Thexton for the incredible hero image.
 * The Slack community at the Code Institute for their invaluable user feedback.
 * My tutor Aaron Sinnott for helpful advice at several stages.
 * Mike Kilcooley for providing some extra photos for the gallery.
