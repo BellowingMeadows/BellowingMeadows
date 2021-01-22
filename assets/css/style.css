@@ -527,10 +527,10 @@ button#email-button {
 	}
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
 	img#hero-image {
 		width: 100%;
 		position: relative;
 		left: 1%;
 	}
-}
+} */
