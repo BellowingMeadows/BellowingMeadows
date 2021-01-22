@@ -108,11 +108,11 @@ Based on information I uncovered in the strategy plane, and considering any limi
 
 ### **Structure Plane**
 
-Bearing in mind the functional and content specifications outlined in the scope plane, I decided to create five unique pages for the site that could share responsibility for hosting the necessary features that would allow users to the end of their journeys. 
+Bearing in mind the functional and content specifications outlined in the scope plane, I decided to create five unique pages for the site that could share responsibility for presenting the necessary features to allow users to reach the end of their journeys. 
 
 1. A home page which draws the user in with a striking hero image, contains two call to actions directing users to the most highly prioritised content (music and email updates), and includes upcoming tour dates.
 2. A music page that includes the currently available platforms through which a user could listen to the band’s music (SoundCloud and YouTube) and a section for available releases to purchase.
-3. A gallery containing a variety band related photos.
+3. A gallery containing a variety of band related photos.
 4. An about page which tells a brief history of the band up until present day.
 5. A contact page (including sign-up option) to find contact details and sign up to email updates
 
@@ -120,7 +120,7 @@ Bearing in mind the functional and content specifications outlined in the scope 
 
 As the user stories varied a lot in terms of intended use for the website, the interaction design needed to be intuitive enough to allow users to quickly learn how to navigate the site and find exactly what they are looking for.
 
-* A nonlinear structure (achieved via a fixed navigation bar on each page) was needed in order to allow users to pick and choose sections they wish to navigate at any point during their journey.
+* A nonlinear structure (achieved via a fixed navigation bar on each page) would allow users to pick and choose sections they wish to navigate at any point during their journey.
 * The active page would need to be highlighted to help the user understand where on the website they had arrived.
 * Navigation links, as well as any other buttons or links as part of a page’s content, needed to change colour when hovered over or clicked on to provide user feedback.
 * The same colour scheme and design themes have to be applied across all pages to maintain consistency.
@@ -139,7 +139,7 @@ As the user stories varied a lot in terms of intended use for the website, the i
 
 In order to properly visualise how my pages would be organised and linked together, I created some low fidelity mockups using [InVision](https://www.invisionapp.com/) - focussing on the design layout for small, medium and large screen sizes. The purpose of this process was to double check that the ideas I had begun formulating internally during the structure plane would be faithful to the user stories they were designed to fulfil. Any clear issues flagged up at this stage could then be fixed well before coding of the site started in earnest. 
 
-When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable features per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had very different intentions for the site.
+When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable features per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had different intentions for the site.
 
 ![Index wireframe](assets/images/index.png)
 ![Music wireframe](assets/images/music.png)
@@ -192,7 +192,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 * Every link or button contains a hover effect to indicate that they are clickable.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
 * An appear animation (lifted from YouTube, please see acknowledgements) appears consistently across all pages to gracefully present content at each stage of the user journey. 
-* All images (apart from the hero image) and *call to action* boxes contain box-shadows which were lifted from css-tricks (please see acknowledgements).
+* All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see acknowledgements).
 
 #### index.html
 
@@ -211,12 +211,12 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 #### gallery.html
 
 * The page contains 12 landscape and 12 portrait photos with rounded edges and box shadows.
-* Images appear as 4 to a row on large screen sizes, 3 to a row on medium screen sizes, 2 to a row on small screen sizes and 1 to a row on extra small mobile devices. This signified a change from the wireframes created during mockups as in practice mobile devices needed 1 photo per row (original wireframes contained 2).
+* Images appear as 4 to a row on large screen sizes, 3 to a row on medium screen sizes, 2 to a row on small screen sizes and 1 to a row on extra small mobile devices. This signified a change from the wireframes created during mockups, as in practice mobile devices needed 1 photo per row to be viewed easily (original wireframes contained 2).
 * A sepia filter was applied to all photos before uploading to give a consistent look to the page.
 
 #### about.html
 
-* After the main heading, a short biography of the band appears. Users who reach the end of the article are prompted by two more *call to action* buttons to either send them to the final page of the site (contact) or back home via the 'tour' section.
+* After the main heading, a short biography of the band appears. Users who reach the end of the article are prompted by two more *call to action* buttons to either send them in the natural direction to the final page of the site (contact) or back home via the 'tour' section.
 * The bio section is accompanied by two landscape photos. These appear on the left for larger screen sizes, but are split up into top and bottom of the article once the medium break point is reached.
 
 #### contact.html
@@ -230,4 +230,32 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 * I originally envisioned a more advanced animation for the gallery page so that the images would appear one after the other, however would likely have been a very time consuming endeavour and not condusive to most of my user stories.
 * I would eventually like to have the burger icon on the mobile menu change into an X close button. From research I've concluded this is be something I can implement once I'm more familiar with Javascript.
+* Once the band has music available to listen to on Spotify, this will replace SoundCloud on the music page as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
+
+## Technologies used
+
+### Languages and frameworks
+
+* **HTML5:** Language used to structure each page and contains the main content.
+* **CSS3:** Language used to style elements from the HTML pages.
+* **Bootstrap:** CSS and JavaScript framework which allowed for the simple implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
+* **JavaScript:** Language used to add some interactivity with the navigation bar: 
+  * Automatically applied through Bootstrap: nav bar changes into the convential burger icon at smaller screen sizes.
+  * Code snippet (please see acknowledgements): collapses the mobile nav bar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
+
+### Aditional Tools
+
+* [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md.
+* [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
+* [Google Docs:](https://docs.google.com/) Used for note taking and was where most of my readme was initially written.
+* Google Developer Tools: Used for debuggin and testing of responsiveness across several screen sizes.
+* [Google Fonts:](https://fonts.google.com/): Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
+* [The W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
+* [W3c CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
+* [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.
+
+## Git Commit Messages
+
+
+
 
