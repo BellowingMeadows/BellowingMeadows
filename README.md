@@ -248,11 +248,14 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 * [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsivity of the pages.
 * [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
 * [Free Formatter:](https://www.freeformatter.com/html-formatter.html) Used to help ensure code was consistently formatted across all pages.
+* [Github:](https://github.com/) Version control and storage of my code.
+* [Gitpod:](https://gitpod.io/) Development environment where all the code was written.
 * [Google Docs:](https://docs.google.com/) Used for note taking and was where most of my readme was initially written.
 * Google Desktop Developer Tools: Used for debugging and testing of responsiveness across several screen sizes.
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
 * [InVision:](https://www.invisionapp.com/) Used to create all of my wireframes at the beginning of the development process.
+* [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced.
 * [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
 * [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
 * [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.
@@ -263,7 +266,7 @@ I attempted throughout this project to commit as regularly as possible and to st
 
 * Start comments where possible with a prefix that summarises what the commit is for, such as fix (for bugs), add, remove, amend, style, or docs (for anything added to README.md).
 * Always use the imperative tense so that readers would read as *the purpose of this commit is to* - etc.
-* Commit often, and where possible keep messages as short as possible.
+* Commit often, and keep messages as short as possible.
 
 At the time of writing, these are among my recent commit messages and illustrate the format I applied for this project:
 
@@ -271,34 +274,40 @@ At the time of writing, these are among my recent commit messages and illustrate
 
 ## Testing
 
-*In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.*
+### Testing During Development
 
-*Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.*
+* *Browser previewer when writing code*
+* *Chrome Developer tools*
+* *After deployment*
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:*
+#### Bugs 
 
-* *Contact form:*
-  1. *Go to the "Contact Us" page*
-  2. *Try to submit the empty form and verify that an error message about the required fields appears*
-  3. *Try to submit the form with an invalid email address and verify that a relevant error message appears*
-  4. *Try to submit the form with all inputs valid and verify that a success message appears.*
+* *Responsiveity issues - social icons at mobile, hero image, headers*
+* *Hero Image not loading after deployment*
+* *YouTube iframe loading as a rectangle on mobile*
+* *Navbar not collapsing when clicking on the tour button (mobile)*
+* *Contact info box was not sizing correctly when viewed on my laptop*
 
-*In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.*
+### Manual User Story Testing
+*Intro - mention how I'm aiming to achieve all user stories within 3 clicks*
 
-*You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.*
+*Go through each user story and use screenshots to illustrate how their journey has been fulfilled*
 
-*If this section grows too long, you may want to split it off into a separate file and link to it from here.*
+### HTML
+
+*iframe errors*
+
+### CSS
+
+*no errors found*
+
+### Accessibility
+
+*contrast of buttons*
+
+*skipping of header elements*
 
 ## Deployment
-
-*This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).*
-
-*In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:*
-
-* *Different values for environment variables (Heroku Config Vars)?*
-* *Different configuration files?*
-* *Separate git branch?*
-* *In addition, if it is not obvious, you should also describe how to run your code locally.*
 
 I deployed the website to GitHub Pages, which was achieved as follows:
 
