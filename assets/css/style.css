@@ -129,7 +129,7 @@ ul#footer-social {
 	background-color: #f2f0f0;
 }
 
-/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
 	padding-top: 40px;
@@ -162,7 +162,7 @@ a.btn.btn-primary.btn-lg:active {
 }
 
 
-/* youtube vid on index.html */
+/* youtube iframe on index.html */
 
 #index-music {
 	padding-bottom: 20px;
@@ -327,7 +327,7 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 16px;
 }
-/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .photo {
 	padding: 15px;
@@ -347,7 +347,7 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 20px;
 }
-/* box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .about-cta {
     margin-bottom: 25px;
@@ -374,7 +374,7 @@ button#email-button {
 
 /* animations -------- */
 
-/* animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
+/* credit: animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
 
 .appear-first {
 	opacity: 0;
@@ -528,10 +528,10 @@ button#email-button {
 	}
 }
 
-/* @media (orientation: landscape) {
+@media (orientation: landscape) {
 	img#hero-image {
 		width: 100%;
 		position: relative;
 		left: 1%;
 	}
-} */
+}
