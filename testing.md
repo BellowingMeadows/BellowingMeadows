@@ -4,7 +4,7 @@ Click [here](README.md) to return to the main report.
 
 Testing for this project was carried out through the following methods:
 
-* Constant review during development using Gitpod's browser previewers and chrome developer tools.
+* Constant review during development using Gitpod's browser previewers and Chrome developer tools.
 * Manual user story testing during and after the writing of the code.
 * Automated testing of the HTML and CSS pages using the WC3 validators.
 * Automated testing of site's accessibility using the WAVE accessibility tool.
@@ -13,20 +13,19 @@ Testing for this project was carried out through the following methods:
 
 ### Browser Preview and Chrome Developer Tools
 
-* Testing while writing the code was carried out primarily through the use of Gitpod's browser preview in order to make sure that written code was displaying as intended.
-* While on the temporary browser previews, Google Chrome's invaluable developer tools were in constant use to check for any console errors, make temporary changes when required, and crucially to check the responsiveness of my pages across a huge array of screen sizes. 
-* Every change made to sizing or styling of a given element was checked using the responsive device option to check for any unintended spacing or display bugs at particular screen sizes.
+* Testing while writing the code was carried out using Gitpod's browser preview in order to make sure that written code was displaying as intended.
+* While on the temporary browser previews, Google Chrome's developer tools were always in use to check for any console or performance errors, make temporary changes when required, and to check the responsiveness of my pages across a number of screen sizes. 
 
 ### Post Deployment
 
-The same methods of testing were applied after deployment of the site to Github Pages, to check that no unexpected bugs were showing on the live version of the site. The link to my site was also then sent at this stage to ten people with instructions to check test on all available devices at their disposal. 
+The same methods of testing were applied after deployment of the site to Github Pages to check that no unexpected bugs were showing on the live version of the site. The link to my site was also then sent to ten people with instructions to test on all available devices and browsers at their disposal. 
 
 I asked the user testers to focus on the following:
    * Whether all internal and external links were working properly.
    * Whether there were any elements such as iframes or images that were not functioning or displaying as intended.
    * General feedback on the layout of the site.
 
-**Note - one clear bug was spotted through this stage of user testing regarding the loading of the hero image on a small amount of android devices using Google Chrome, please see below section on **notable bugs.***
+*Note - one clear bug was spotted through this stage of user testing regarding the loading of the hero image on a small amount of android devices using Google Chrome, please see below section on **notable bugs.***
 
 I also sent my live site to the Code Institute's Slack community for peer review and general feedback, which returned the following notes:
 
@@ -65,20 +64,20 @@ I realised that my use of the *vh* unit was misguided in this instance as this w
 
 ## Manual User Story Testing
 
-Testing my own user stories was achieved by applying the following criteria:
+Testing my own user stories was carried out using the following criteria:
 * The user journey must be intuitive.
 * Each user must reach their end destination within three clicks.
 
 ### *1. As someone who has never heard of Little Paradise before, I would like to listen to the band's music to help me decided if I should keep tabs on them.*
 
-* On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music is available to listen to. **Two clicks, one on the navigation link and one for the soundcloud playlist or YouTube video depending on preference.**
+* On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music is available to listen to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
 * If someone misses or disregards the main navigation menu, the very first piece interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**
 * If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click.**
 
 ### *2. As an existing fan who has already heard the band’s music before, I would like to know about any upcoming tour dates so that I can consider watching them live.*
 
 * The main navigation bar's second link is for 'Tour', which directs to the relevant section on the home page. **One click.**
-* If a user simply scrolls through the content on the home page, they will reach the tour section once they scroll past the YouTube video. **No clicks.**
+* If a user decides to scroll through the content on the home page first before using the navigation links, they will reach the tour section quickly once they scroll past the YouTube video. **No clicks.**
 
 ### *3. As an avid fan who has a keen interest in the band's music, I would like to see photos and find out more about the band's history so that I can feel a slightly more personal connection to them away from music.*
 
@@ -87,7 +86,7 @@ Testing my own user stories was achieved by applying the following criteria:
 
 ### *4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.*
 
-* From the main navigation bar, the final link is one to the dedicated contact page. **One click.**
+* From the main navigation bar, the final link is one to the dedicated contact page. The very first thing that appears after the main heading are two separate email addresses to take note of depending on what you are intending on contacting the band for. **One click.**
 
 ## Manual Stakeholder Testing
 
@@ -99,7 +98,7 @@ Testing my own user stories was achieved by applying the following criteria:
 
 * A *call to action* box on the home page, placed right next to a link to the music page and above the taster YouTube video, directs interested users to the correct section of the contact page should they wish to receive email updates. **One click.**
 
-*Note - the placement of this sign-up option is designed to combine the main user story with the goals of the project stakeholder. The user is for the most part not on the website to sign up to updates, but this is something that the stakeholder would ideally like to happen. As such, the main directive to sign up to email updates is placed right in the middle of a section on the site where users will arrive intuitively to find links to the band's music.*
+*Note - the placement of this sign-up option is designed to combine the main user stories with the goals of the project stakeholder. The user is for the most part not on the website to sign up to updates, but this is something that the stakeholder would ideally like to happen. As such, the main directive to sign up to email updates is placed right in the middle of a section on the site where all kinds of users will arrive at intuitively on their journey, without applying unwanted pressure on the user.*
 
 ### *4. I would like booking agents or record labels who end up on our site to find contact details if they want inform us of any opportunities.*
 
@@ -111,8 +110,9 @@ Testing my own user stories was achieved by applying the following criteria:
 
 ### *6. I want anyone who visits the site to have a positive emotional response to the layout of the site and branding, in order to make a lasting impression that sets us apart from other new bands.*
 
-* I have designed the website with the core principals of user experience design at the forefront, and thus have created a minimalist and intuitive layout whereby users can easily navigate to reach their end destination.
-* The layout and colour scheme has been kept consistent and positive emotional triggers come in the form of the elegant animations on each page which should mask loading times on most devices.
+I am aware that what constitutes a positive emotional response is subjective depending on who is being asked. However, I have designed the website with the core principals of user experience design at the forefront, and thus have created a minimalist and intuitive layout whereby users can easily navigate to reach their end destination. 
+
+The layout and colour scheme has been kept consistent and positive emotional triggers come in the form of the elegant animations on each page which should mask loading times on most devices. General feedback on the whole has also been very positive about the user interface, which fills me with confidence that users of my site will want to come back.
 
 ## HTML Validator
 
