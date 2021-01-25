@@ -274,13 +274,41 @@ At the time of writing, these are among my recent commit messages and illustrate
 
 ## Testing
 
+Testing for this project was carried out through the following methods:
+
+* Constant review during development using Gitpod's browser previewers and chrome developer tools.
+* Manual user story testing during and after the writing of the code.
+* Automated testing of the HTML and CSS pages using the WC3 validators.
+* Automated testing of site's accessibility using the WAVE accessibility tool.
+
 ### Testing During Development
 
-* *Browser previewer when writing code*
-* *Chrome Developer tools*
-* *After deployment*
+#### Browser Preview and Chrome Developer Tools
 
-#### Bugs 
+* Testing while writing the code was carried out primarily through the use of Gitpod's browser preview in order to make sure that written code was displaying as intended.
+* While on the temporary browser previews, Google Chrome's invaluable developer tools were in constant use to check for any console errors, make temporary changes when required, and crucially to check the responsiveness of my pages across a huge array of screen sizes. 
+* Every change made to sizing or styling of a given element was checked using the responsive device option to check for any unintended spacing or display bugs at particular screen sizes.
+
+#### Post Deployment
+
+The same methods of testing were applied after deployment of the site to Github Pages, to check that no unexpected bugs were showing on the live version of the site. The link to my site was also then sent at this stage to ten people with instructions to check test on all available devices at their disposal. 
+
+I asked the user testers to focus on the following:
+   * Whether all internal and external links were working properly.
+   * Whether there were any elements such as iframes or images that were not functioning or displaying as intended.
+   * General feedback on the layout of the site.
+
+**Note - one clear bug was spotted through this stage of user testing regarding the loading of the hero image on a small amount of android devices using Google Chrome, please see below section on **notable bugs.***
+
+I also sent my live site to the Code Institute's Slack community for peer review and general feedback, which returned the following feedback:
+
+* Loading animations on each page potentially a little bit too slow - **animation time and delay were tweaked for the final product to remedy this.**
+* Concerns over the readability of the font - **consulted with more users and mentor regarding this possible accessibility issue, increased font weight and size in relevant sections.**
+
+
+#### Notable bugs dealt with during development
+
+*Responsivity bugs* - The size and shape of the hero image meant it was challenging to ensure that the same impact was felt on medium to small screen sizes. 
 
 * *Responsiveity issues - social icons at mobile, hero image, headers*
 * *Hero Image not loading after deployment*
@@ -295,11 +323,40 @@ At the time of writing, these are among my recent commit messages and illustrate
 
 ### HTML
 
-*iframe errors*
+#### index.html
+The initial run of testing on the W3C html validator showed two errors which were both to do with markup of the YouTube iframe.
+* 'The frameborder attribute on the iframe element is obsolete. Use CSS instead.' - **frameborder attribute was removed from the html.**
+* 'Text not allowed in element iframe in this context.' - p tag used within the iframe to display an error message for users of broswers which do no support iframes was flagging as an error. **Message removed as research shows wide cross browser support for iframes.**
+
+Furthermore, one warning was displayed regarding the lack of a heading element within the section containing the hero image. **This was rectified by including an sr-only *h1* for the benefit of visually impared users.**
+
+#### music.html
+
+The same iframe related errors that appeared in index.html were predictably present on music.html, and were promptly fixed in the way as previously mentioned.
+
+Two further errors were flagged up and resolved:
+
+* 'Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead.' (SoundCloud iframe) - **width attribute was removed and added to CSS.**
+* 'The scrolling attribute on the iframe element is obsolete. Use CSS instead.' (SoundCloud iframe) - **scrolling attribute was removed from the markup.**
+
+#### gallery.html
+
+One warning appeared regarding the lack of a heading element within the section containing the photos. This was disregarded as the page heading itself (named 'Gallery') alongside the alt attributes added to every single img element was deemed sufficient for navigating the page using a screen reader.
+
+#### about.html
+
+Two warnings appeared from the validator, again related to the recommended use of heading tags - first within the about section itself and then also the article tag housing the biography. Once again, I elected to disregard this warning on account of the page itself containing an *h1* (named 'About') which should indicate clearly the nature of the subsequent content.
+
+#### contact.html
+
+One error was present on this page:
+
+* 'The aria-describedby attribute must point to an element in the same document.' **This was rectified by amending the attribute to be named 'email', which matched the corresponding id and name attributes.**
+
 
 ### CSS
 
-*no errors found*
+No errors were found when running style.css through the W3C CSS validator.
 
 ### Accessibility
 
@@ -370,8 +427,7 @@ A huge thank you to the following for their help and feedback during the develop
 
 * Izi Thexton for the incredible hero image.
 * The Slack community at the Code Institute for their invaluable user feedback.
-* My tutor Aaron Sinnott for helpful advice at several stages.
-* Mike Kilcooley for providing some extra photos for the gallery.
-* All of the mates of mine who took time to test the website once it was deployed. 
+* My tutor Aaron Sinnott for helpful advice at various stages.
+* All of the my friends who took time to test the website once it was deployed. 
 
 
