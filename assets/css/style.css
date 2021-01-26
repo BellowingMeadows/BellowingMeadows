@@ -190,22 +190,23 @@ a.btn.btn-primary.btn-lg:focus {
 }
 
 .cta#music-cta {
-	height: 70px;
+	height: 128px;
 	margin-top: 0;
 }
 
 div#music-cta {
     margin-bottom: 0;
+    font-size: 135%;
+    padding-top: 5px;
 }
 
 #music-cta a {
-	font-size: 70%;
+	font-size: 80%;
 }
 
 #music-cta h5 {
 	font-size: 90%;
 	margin-top: 10px;
-	display: inline;
 }
 
 #listen {
@@ -585,16 +586,22 @@ button#email-button {
 	}
 }
 
-@media (orientation: landscape) {
-	img#hero-image {
-		width: 100%;
-		position: relative;
-		left: 1%;
-	}
+@media screen and (max-width: 343px) {
+    div#music-cta {
+    font-size: 120%;
+}
 }
 
 @media screen and (max-width: 316px) {
     .navbar-brand {
         font-size: 115%;
     }
+}
+
+@media (orientation: landscape) {
+	img#hero-image {
+		width: 100%;
+		position: relative;
+		left: 1%;
+	}
 }
