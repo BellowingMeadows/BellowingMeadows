@@ -35,12 +35,18 @@ nav {
 
 #navigation-links {
 	position: relative;
-	left: 11%;
+    left: 11%;
+    font-size: 112%;
+}
+
+.navbar-brand {
+    font-size: 118%;
+    margin-right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 a:hover {
-	color: #D85656;
+	color: #d85656;
 	transition: 0.5s;
 	text-decoration: none;
 }
@@ -53,7 +59,7 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-	color: #D85656;
+	color: #d85656;
 }
 
 button.navbar-toggler.ml-auto,
@@ -458,14 +464,29 @@ button#email-button {
     article p {
         font-size: 110%;
     }
+    
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1422px) {
+    #navigation-links {
+		position: relative;
+		left: 8%;
+	}
+}
+
+@media screen and (max-width: 1103px) {
+    #navigation-links {
+		position: relative;
+		left: 5%;
+	}
+}
+
+/* @media screen and (max-width: 1070px) {
 	#navigation-links {
 		position: relative;
 		left: 3%;
 	}
-}
+} */
 
 @media screen and (max-width: 992px) {
 	.disappear {
@@ -475,13 +496,17 @@ button#email-button {
     .cta-content {
         margin-top: 0;
     }
+
+    #navigation-links {
+        left: 2%
+    }
 }
 
 @media screen and (max-width: 825px) {
 	#navigation-links {
-		position: relative;
-		left: 1%;
-	}
+        font-size: 102%;
+    }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -495,14 +520,17 @@ button#email-button {
     }
 	.max-width-reduce {
 		max-width: 80%;
-	}
-	#navigation-links,
-	#social-links {
+    }
+    .navbar-brand {
+        font-size: 125%;
+    }
+	#navigation-links{
 		position: relative;
 		left: 38%;
 		font-size: 200%;
 	}
 	#social-links {
+        position: relative;
 		left: 36%;
 		font-size: 175%;
 	}
@@ -523,7 +551,6 @@ button#email-button {
 
 @media screen and (max-width: 500px) {
 	#navigation-links {
-		position: relative;
 		left: 33%;
 	}
 	#social-links {
@@ -564,4 +591,10 @@ button#email-button {
 		position: relative;
 		left: 1%;
 	}
+}
+
+@media screen and (max-width: 316px) {
+    .navbar-brand {
+        font-size: 115%;
+    }
 }
