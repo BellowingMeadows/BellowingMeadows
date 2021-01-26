@@ -41,6 +41,8 @@ I found once the site had been deployed that my hero image would not load on my 
 
 To fix this bug, I researched how to use the Google Chrome developer tools remotely in order to debug directly on my phone as the issue wasn't showing on Gitpod's browser preview or on Chrome's mobile simulator on desktop developer tools. While debugging directly on my phone, I could see a warning message about 'lazy loading', which further research indicated was what was causing my image to remain unloaded on some mobile devices. **The attribute 'loading="eager" remedied the situation.**
 
+**Note** - while the loading attribute did fix the issue to a certain extent, I found that the loading time of the image was still below the standard I was seeing on devices that did not previously have the issue. This is something that will require further research beyond the timeframe I have for this project at this current time, and I aim for it to be completely fixed in future iterations of the site.
+
 *Hero image responsivity:*
 
 In part due to the size and shape of the image being used, the hero image was not displaying in the intended way on smaller screen sizes. I was initially using the background-image property with a size property of 'contain', which meant at the medium breakpoint and below the image scaled down and ended up being placed well below the navigation bar once the screen size hit the medium breakpoint.
