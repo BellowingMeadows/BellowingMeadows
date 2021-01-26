@@ -139,7 +139,8 @@ ul#footer-social {
 }
 
 .cta-button {
-	background-color: #D85656;
+    /* background-color: #d85656; */
+    background-color: #f73b3b;
 	border: none;
 	margin-top: 10px;
 }
