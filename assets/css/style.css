@@ -242,6 +242,24 @@ h3.index-header {
 	color: #D85656;
 }
 
+.ticket-button:hover {
+    background-color: #c4302b;
+    border: 1px solid #c4302b;
+	transition: 0.7s;
+}
+
+.ticket-button:active{
+    background-color: #fafafa;
+	color: black;
+	border: 1px solid grey;
+}
+
+.ticket-button:focus {
+    border: 1px solid #8cc1fa;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 
 /* music.html --------*/
 
