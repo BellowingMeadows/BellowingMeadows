@@ -138,14 +138,13 @@ ul#footer-social {
     margin-top: 2%;
 }
 
-a.btn.btn-primary.btn-lg,
-#email-button {
+.cta-button {
 	background-color: #D85656;
 	border: none;
 	margin-top: 10px;
 }
 
-a.btn.btn-primary.btn-lg:hover {
+.cta-button:hover {
 	background-color: black;
 	color: #fafafa;
 	transition: 0.7s;
@@ -320,6 +319,11 @@ button#email-button {
 	margin: 0;
 }
 
+#email-button:active {
+	background-color: #fafafa;
+	color: black;
+	border: 1px solid grey;
+} 
 
 /* gallery.html -------*/
 
