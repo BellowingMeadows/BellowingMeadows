@@ -31,7 +31,7 @@ I also sent my live site to the Code Institute's Slack community for peer review
 
 * Loading animations on each page potentially a little bit too slow - **animation time and delay were tweaked for the final product to remedy this.**
 * Concerns over the readability of the font - **consulted with more users and my mentor regarding this possible accessibility issue, increased font weight and size in relevant sections.**
-* Images on the about page were stretched at certain breakpoints - **media queries were added to the affected screen sizes to ensure images were not compromised**
+* Images on the about page were stretched at certain breakpoints - **bootstrap grid amended and media query added ensure images were not compromised**
 
 ### Notable bugs dealt with during development
 
