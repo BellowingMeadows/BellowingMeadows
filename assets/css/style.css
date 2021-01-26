@@ -128,7 +128,7 @@ ul#footer-social {
 	text-align: center;
 	height: 200px;
 	margin-top: 1rem;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 	border: 1px solid #686868;
 	border-radius: 20px;
 	box-shadow: 4px 2px 4px #ccc;
@@ -330,7 +330,7 @@ form>h3 {
 	margin-bottom: 2.5rem;
 	width: 500px;
 	padding: 30px;
-	height: 350px;
+	height: 342px;
 }
 
 button#email-button {
@@ -615,6 +615,10 @@ button#email-button {
     #email-form {
         height: 360px;
     }
+
+    section#email-form {
+    padding-top: 25px;
+}
 }
 
 @media (orientation: landscape) {
