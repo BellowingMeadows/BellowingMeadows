@@ -352,7 +352,7 @@ form>h3 {
 }
 
 button#email-button {
-	margin: 0;
+	margin: 5px 0 0 0;
 }
 
 #email-button:active {
@@ -592,6 +592,9 @@ button#email-button {
 @media screen and (max-width: 447px) {
     #email-form {
         height: 360px;
+    }
+    button#email-button {
+        margin-top: 0;
     }
 }
 
