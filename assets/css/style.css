@@ -430,6 +430,12 @@ button#email-button {
 
 /* media queries ------- */
 
+@media screen and (min-width: 1200px) {
+    article p {
+        font-size: 110%;
+    }
+}
+
 @media screen and (max-width: 1070px) {
 	#navigation-links {
 		position: relative;
