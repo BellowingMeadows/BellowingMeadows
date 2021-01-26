@@ -500,16 +500,14 @@ button#email-button {
 	}
 }
 
-/* @media screen and (max-width: 1070px) {
-	#navigation-links {
-		position: relative;
-		left: 3%;
-	}
-} */
-
 @media screen and (max-width: 992px) {
 	.disappear {
 		display: none;
+    }
+
+    .cta-heading {
+        font-size: 160%;
+        margin-top: 10px;
     }
     
     .cta-content {
@@ -532,6 +530,11 @@ button#email-button {
 	.cta {
 		margin-top: 1.5rem;
 		margin-bottom: 0.5rem;
+    }
+
+    .cta-heading {
+        font-size: 175%;
+        margin-top: 5px;
     }
     
     .cta-content {
@@ -613,6 +616,12 @@ button#email-button {
 }
 }
 
+@media screen and (max-width: 323px) {
+    .cta-heading {
+        font-size: 150%;
+    }
+}
+
 @media screen and (max-width: 316px) {
     .navbar-brand {
         font-size: 115%;
@@ -620,6 +629,9 @@ button#email-button {
     div#music-cta {
     font-size: 110%;
 }
+    .cta-heading {
+        font-size: 147%;
+    }
 
     h3.alt-font {
         padding: 0;
