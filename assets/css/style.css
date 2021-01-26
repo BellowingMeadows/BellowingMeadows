@@ -348,7 +348,7 @@ form>h3 {
 	margin-bottom: 2.5rem;
 	width: 500px;
 	padding: 30px;
-	height: 342px;
+	height: 340px;
 }
 
 button#email-button {
@@ -589,6 +589,12 @@ button#email-button {
 	}
 }
 
+@media screen and (max-width: 447px) {
+    #email-form {
+        height: 360px;
+    }
+}
+
 @media screen and (max-width: 392px) {
 	#navigation-links {
 		left: 31%;
@@ -640,10 +646,6 @@ button#email-button {
    
     #enquiries h2, #bookings h2 {
         font-size: 130%;
-    }
-
-    #email-form {
-        height: 360px;
     }
 
     section#email-form {
