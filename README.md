@@ -102,7 +102,7 @@ Based on information I uncovered in the strategy plane, and considering any limi
 
 1. Music content must be easy to find and come from a variety of available and familiar music platforms.
 2. Tour dates must provide concise, relevant information as well as links to buy tickets.
-3. A Bio section which is entertaining and informative.
+3. The Bio section should be entertaining and informative.
 4. Any photos must be of good quality and engaging.
 5. Contact information must be easy to find.
 
@@ -159,6 +159,8 @@ For the most part, I felt satisfied at this stage that all my user stories would
 
 ![About wireframe take 2](assets/images/about2.png)
 
+* While creating the gallery page, it became clear that photos could not be enjoyed to the fullest when lining two to a row on mobile devices. **This was rectified by amending the grid system to have one photo take up the full width of the viewport on mobile devices.**
+
 ### **Surface plane**
 
 Little Paradise has never had an online presence or brand before the creation of this website, so deciding what kind of aesthetic to employ was not dictated by any pre-existing brand requirements or colour schemes. This provided a challenge, but also a great level of creative freedom to work with.
@@ -186,7 +188,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 #### Animations, transitions and effects
 
 * 'Appear' animations are included across all 5 pages to introduce content in a consistent and impactful way.
-* All links and buttons respond when being hovered over or clicked on to produce user feedback 
+* All links and buttons respond when being hovered over or clicked on to produce user feedback.
 * Bootsrap transitions on the navigation links were tweaked slightly to produce a more graceful transition when hovered over.
 
 ## Features
@@ -200,8 +202,8 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Every link or button contains a hover effect to indicate that they are clickable.
 * Buttons contain a bespoke 'focus' state, for users navigating with keyboards.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
-* An appear animation (lifted from YouTube, please see acknowledgements) appears consistently across all pages to gracefully present content at each stage of the user journey. 
-* All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see acknowledgements).
+* An appear animation (lifted from YouTube, please see [Acknowledgements](##Acknowledgements)) appears consistently across all pages to gracefully present content at each stage of the user journey. 
+* All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see [Acknowledgements](##Acknowledgements)).
 
 #### index.html
 
@@ -215,12 +217,12 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Below the main heading is an iframe to the band's SoundCloud playlist, containing all existing tracks available to listen to. The iframe has been tweaked ever so slightly so that the play icon and song progress bar are the same red (#d85656) as seen on the rest of the site.
 * The same YouTube video from index.html has its own dedicated section on the music page, below the SoundCloud playlist.
 * The relevant music icons that display in the *h2* tags of SoundCloud and YouTube double up as external links and are coloured to the exact hex codes of their real-life branding.
-* Finally a card which acts as a purchase link for previously released music appears at the bottom of the music page in the form of a 'Releases' (Discography) section.
+* Finally, a card which acts as a purchase link for previously released music appears at the bottom of the music page in the form of a 'Releases' (Discography) section.
 
 #### gallery.html
 
 * The page contains 12 landscape and 12 portrait photos with rounded edges and box shadows.
-* Images appear as 4 to a row on large screen sizes, 3 to a row on medium screen sizes, 2 to a row on small screen sizes and 1 to a row on extra small mobile devices. This signified a change from the wireframes created during mockups, as in practice mobile devices needed 1 photo per row to be viewed easily (original wireframes contained 2).
+* Images appear as 4 to a row on large screen sizes, 3 to a row on medium screen sizes, 2 to a row on small screen sizes and 1 to a row on extra small mobile devices.
 * A sepia filter was applied to all photos before uploading to give a consistent look to the page.
 
 #### about.html
@@ -344,7 +346,7 @@ More in depth information about cloning repositories, including how to clone a r
 
 * Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overflow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
 
-* Information on how to overide the default Bootstrap focus state was found on [this tack overflow page](https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked) on the answer posted by [Janak](https://stackoverflow.com/users/2323536/janak).
+* Information on how to overide the default Bootstrap focus state was found on [this stack overflow page](https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked) on the answer posted by [Janak](https://stackoverflow.com/users/2323536/janak).
 
 A huge thank you to the following for their help and feedback during the development of this project:
 

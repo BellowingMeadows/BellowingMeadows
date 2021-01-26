@@ -53,7 +53,11 @@ The YouTube iframe on the main page was appearing as an upward rectangle on mobi
 
 *Buttons changing to blue in 'focus' state*
 
-I noticed that the customisation I had applied to the Bootstrap buttons did not extend as far as the 'focus' state as they changed to blue. **This was fixed by using the :focus pseudo class and using the same properties as my :active pseudo class.**
+I noticed that the customisation I had applied to the Bootstrap buttons did not extend as far as the 'focus' state as they changed to blue. **This was fixed by using the :focus pseudo class and using the same properties as my :active pseudo class.** 
+
+*Note - I was also not happy with the blue box that appears while a button is in focus so I overode the default Bootstrap settings to have a thinner and lighter box appear instead*
+
+![Focus screenshot](assets/images/focus.png)
 
 *Navigation bar not collapsing when clicking tour button on the home page:*
 
@@ -102,6 +106,8 @@ Testing my own user stories was carried out using the following criteria:
 ### *3. I would like to contact fans directly via email updates so that we can inform them about new releases, tour dates or general band news.*
 
 * A *call to action* box on the home page, placed right next to a link to the music page and above the taster YouTube video, directs interested users to the correct section of the contact page should they wish to receive email updates. **One click.**
+
+During this stage of testing I found that the animation I had applied to have page content appear shortly after the heading contributed to poor UX for users navigating from the *call to action* box on the homepage as it meant waiting momentarily for the form to appear. **I elected to have all viewable content on the contact page appear at the same time to rectify this problem.**
 
 *Note - the placement of this sign-up option is designed to combine the main user stories with the goals of the project stakeholder. The user is for the most part not on the website to sign up to updates, but this is something that the stakeholder would ideally like to happen. As such, the main directive to sign up to email updates is placed right in the middle of a section on the site where all kinds of users will arrive at intuitively on their journey, without applying unwanted pressure on the user.*
 
