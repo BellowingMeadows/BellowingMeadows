@@ -35,13 +35,13 @@ nav {
 
 #navigation-links {
 	position: relative;
-    left: 11%;
-    font-size: 112%;
+	left: 11%;
+	font-size: 112%;
 }
 
 .navbar-brand {
-    font-size: 118%;
-    margin-right: 0;
+	font-size: 118%;
+	margin-right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -135,18 +135,19 @@ ul#footer-social {
 	background-color: #f2f0f0;
 }
 
+
 /* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
 	padding-top: 40px;
 	padding-right: 15%;
-    padding-left: 15%;
-    margin-top: 2%;
+	padding-left: 15%;
+	margin-top: 2%;
 }
 
 .cta-button {
-    /* background-color: #d85656; */
-    background-color: #c4302b;
+	/* background-color: #d85656; */
+	background-color: #c4302b;
 	border: none;
 	margin-top: 10px;
 }
@@ -165,11 +166,12 @@ a.btn.btn-primary.btn-lg:active {
 
 a.btn.btn-primary.btn-lg:focus {
 	background-color: #fafafa;
-    color: black;
-    border: 1px solid #8cc1fa;
-    outline: none !important;
-    box-shadow: none !important;
+	color: black;
+	border: 1px solid #8cc1fa;
+	outline: none !important;
+	box-shadow: none !important;
 }
+
 
 /* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
 
@@ -185,8 +187,8 @@ a.btn.btn-primary.btn-lg:focus {
 }
 
 #index-youtube {
-    padding-left: 0;
-    padding-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .cta#music-cta {
@@ -195,9 +197,9 @@ a.btn.btn-primary.btn-lg:focus {
 }
 
 div#music-cta {
-    margin-bottom: 0;
-    font-size: 135%;
-    padding-top: 5px;
+	margin-bottom: 0;
+	font-size: 135%;
+	padding-top: 5px;
 }
 
 #music-cta a {
@@ -215,7 +217,7 @@ div#music-cta {
 }
 
 a#listen {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .music-alert {
@@ -243,21 +245,21 @@ h3.index-header {
 }
 
 .ticket-button:hover {
-    background-color: #c4302b;
-    border: 1px solid #c4302b;
+	background-color: #c4302b;
+	border: 1px solid #c4302b;
 	transition: 0.7s;
 }
 
-.ticket-button:active{
-    background-color: #fafafa;
+.ticket-button:active {
+	background-color: #fafafa;
 	color: black;
 	border: 1px solid grey;
 }
 
 .ticket-button:focus {
-    border: 1px solid #8cc1fa;
-    outline: none !important;
-    box-shadow: none !important;
+	border: 1px solid #8cc1fa;
+	outline: none !important;
+	box-shadow: none !important;
 }
 
 
@@ -281,7 +283,7 @@ h3.index-header {
 }
 
 .releases {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 #soundcloud-logo {
@@ -289,7 +291,7 @@ h3.index-header {
 }
 
 #soundcloud-iframe {
-    width: 100%;
+	width: 100%;
 }
 
 #youtube-logo {
@@ -359,16 +361,19 @@ button#email-button {
 	background-color: #fafafa;
 	color: black;
 	border: 1px solid grey;
-} 
+}
 
 #email-button:focus {
-    background-color: #fafafa;
-    color: black;
-    border: 1px solid #8cc1fa;
-    outline: none !important;
-    box-shadow: none !important;
+	background-color: #fafafa;
+	color: black;
+	border: 1px solid #8cc1fa;
+	outline: none !important;
+	box-shadow: none !important;
 }
+
+
 /* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
+
 
 /* gallery.html -------*/
 
@@ -376,6 +381,8 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 16px;
 }
+
+
 /* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .photo {
@@ -383,7 +390,7 @@ button#email-button {
 }
 
 #gallery {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 
@@ -396,24 +403,26 @@ button#email-button {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 20px;
 }
+
+
 /* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .about-cta {
-    margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .about-button {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .about-cta p {
-    margin-bottom: 0;
-    font-size: 125%;
-    font-weight: 400;
+	margin-bottom: 0;
+	font-size: 125%;
+	font-weight: 400;
 }
 
 .about-cta h5 {
-    display: inline;
+	display: inline;
 }
 
 #about-section {
@@ -422,6 +431,7 @@ button#email-button {
 
 
 /* animations -------- */
+
 
 /* credit: animation learnt from https://www.youtube.com/watch?v=zHUpx90NerM&ab_channel=TraversyMedia at around 33 minutes */
 
@@ -480,21 +490,20 @@ button#email-button {
 /* media queries ------- */
 
 @media screen and (min-width: 1200px) {
-    article p {
-        font-size: 110%;
-    }
-    
+	article p {
+		font-size: 110%;
+	}
 }
 
 @media screen and (max-width: 1422px) {
-    #navigation-links {
+	#navigation-links {
 		position: relative;
 		left: 8%;
 	}
 }
 
 @media screen and (max-width: 1103px) {
-    #navigation-links {
+	#navigation-links {
 		position: relative;
 		left: 5%;
 	}
@@ -503,56 +512,50 @@ button#email-button {
 @media screen and (max-width: 992px) {
 	.disappear {
 		display: none;
-    }
-
-    .cta-heading {
-        font-size: 160%;
-        margin-top: 10px;
-    }
-    
-    .cta-content {
-        margin-top: 0;
-    }
-
-    #navigation-links {
-        left: 2%
-    }
+	}
+	.cta-heading {
+		font-size: 160%;
+		margin-top: 10px;
+	}
+	.cta-content {
+		margin-top: 0;
+	}
+	#navigation-links {
+		left: 2%
+	}
 }
 
 @media screen and (max-width: 825px) {
 	#navigation-links {
-        font-size: 102%;
-    }
-    
+		font-size: 102%;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.cta {
 		margin-top: 1.5rem;
 		margin-bottom: 0.5rem;
-    }
-
-    .cta-heading {
-        font-size: 175%;
-        margin-top: 5px;
-    }
-    
-    .cta-content {
-        margin-top: 1%;
-    }
+	}
+	.cta-heading {
+		font-size: 175%;
+		margin-top: 5px;
+	}
+	.cta-content {
+		margin-top: 1%;
+	}
 	.max-width-reduce {
 		max-width: 80%;
-    }
-    .navbar-brand {
-        font-size: 125%;
-    }
-	#navigation-links{
+	}
+	.navbar-brand {
+		font-size: 125%;
+	}
+	#navigation-links {
 		position: relative;
 		left: 38%;
 		font-size: 200%;
 	}
 	#social-links {
-        position: relative;
+		position: relative;
 		left: 36%;
 		font-size: 175%;
 	}
@@ -564,11 +567,10 @@ button#email-button {
 	div#hero-outer {
 		overflow: hidden;
 		margin-bottom: 0;
-    }
-    
-    #music-cta h5 {
-        font-size: 80%;
-    }
+	}
+	#music-cta h5 {
+		font-size: 80%;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -590,12 +592,12 @@ button#email-button {
 }
 
 @media screen and (max-width: 447px) {
-    #email-form {
-        height: 360px;
-    }
-    button#email-button {
-        margin-top: 0;
-    }
+	#email-form {
+		height: 360px;
+	}
+	button#email-button {
+		margin-top: 0;
+	}
 }
 
 @media screen and (max-width: 392px) {
@@ -612,48 +614,46 @@ button#email-button {
 
 @media screen and (max-width: 362px) {
 	#music-cta {
-        font-size: 85%;
+		font-size: 85%;
 	}
 }
 
 @media screen and (max-width: 343px) {
-    div#music-cta {
-    font-size: 120%;
-}
-.cta#music-cta {
-	height: 120px;
-}
+	div#music-cta {
+		font-size: 120%;
+	}
+	.cta#music-cta {
+		height: 120px;
+	}
 }
 
 @media screen and (max-width: 323px) {
-    .cta-heading {
-        font-size: 150%;
-    }
+	.cta-heading {
+		font-size: 150%;
+	}
 }
 
 @media screen and (max-width: 316px) {
-    .navbar-brand {
-        font-size: 115%;
-    }
-    div#music-cta {
-    font-size: 110%;
-}
-    .cta-heading {
-        font-size: 147%;
-    }
-
-    h3.alt-font {
-        padding: 0;
-        margin: 0;
-    }
-   
-    #enquiries h2, #bookings h2 {
-        font-size: 130%;
-    }
-
-    section#email-form {
-    padding-top: 25px;
-}
+	.navbar-brand {
+		font-size: 115%;
+	}
+	div#music-cta {
+		font-size: 110%;
+	}
+	.cta-heading {
+		font-size: 147%;
+	}
+	h3.alt-font {
+		padding: 0;
+		margin: 0;
+	}
+	#enquiries h2,
+	#bookings h2 {
+		font-size: 130%;
+	}
+	section#email-form {
+		padding-top: 25px;
+	}
 }
 
 @media (orientation: landscape) {
