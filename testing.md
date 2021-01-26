@@ -9,6 +9,18 @@ Testing for this project was carried out through the following methods:
 * Automated testing of the HTML and CSS pages using the WC3 validators.
 * Automated testing of site's accessibility using the WAVE accessibility tool.
 
+## Table of Contents
+
+* [Testing During Development](#testing-during-development)
+   * [Browser Preview and Chrome Developer Tools](#browser-preview-and-chrome-developer-tools)
+   * [Post Deployment](#post-deployment)
+   * [Notable Bugs](#notable-bugs-dealt-with-during-development)
+* [User Story Testing](#manual-user-story-testing)
+* [Stakeholder Story Testing](#manual-stakeholder-testing)
+* [HTML Validator](#html-validator)
+* [CSS Validator](#css-validator)
+* [Accessibility Testing](#accessibility-testing)
+
 ## Testing During Development
 
 ### Browser Preview and Chrome Developer Tools

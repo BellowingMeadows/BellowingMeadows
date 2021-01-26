@@ -10,6 +10,35 @@ The project is the first of four ‘milestone’ projects which are required to 
 
 You can view the live website [here](https://franciskershaw.github.io/little-paradise-music/index.html), and a link to the github repository can be found [here](https://franciskershaw.github.io/little-paradise-music/index.html)
 
+## Table of Contents
+
+* [UX](#ux)
+   * [User Stories](#user-stories)
+      * [Project Stakeholder](#project-stakeholder)
+      * [Users](#users)
+* [Planning and Design](#planning-and-design)
+   * [Strategy Plane](#strategy-plane)
+   * [Scope Plane](#scope-plane)
+   * [Structure Plane](#structure-plane)
+   * [Skeleton Plane](#skeleton-plane)
+   * [Surface Plane](#surface-plane)
+      * [Typography](#typography)
+      * [Colour Scheme](#colour-scheme)
+* [Features](#features)
+   * [Existing features](#existing-features)
+   * [Features left to implement](#features-left-to-implement)
+* [Technologies used](#technologies-used)
+   * [Languages and frameworks](#languages-and-frameworks)
+   * [Additional tools](#additional-tools)
+* [Git Commit Messages](#git-commit-messages)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Cloning](#cloning)
+* [Credits](#credits)
+   * [Content](#content)
+   * [Media](#media)
+   * [Acknowledgements](#acknowledgements)
+
 ## UX
 
 My main goals for the creation of this website were as follows:
@@ -20,7 +49,7 @@ My main goals for the creation of this website were as follows:
 
 ### **User Stories**
  
-#### **Band member (project *stakeholder*)**
+#### **Project Stakeholder**
 
 As a member of Little Paradise:
 
@@ -38,7 +67,7 @@ As a member of Little Paradise:
 3. As an avid fan who has a keen interest in the band’s music, I would like to see photos and find out more about the band's history so that I can feel a slightly more personal connection to them away from the music.
 4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.
 
-## Planning & Design
+## Planning and Design
 
 ### **Strategy Plane**
 
@@ -202,8 +231,8 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Every link or button contains a hover effect to indicate that they are clickable.
 * Buttons contain a bespoke 'focus' state, for users navigating with keyboards.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
-* An appear animation (lifted from YouTube, please see [Acknowledgements](##Acknowledgements)) appears consistently across all pages to gracefully present content at each stage of the user journey. 
-* All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see [Acknowledgements](##Acknowledgements)).
+* An appear animation (lifted from YouTube, please see [Acknowledgements](#acknowledgements)) appears consistently across all pages to gracefully present content at each stage of the user journey. 
+* All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see [Acknowledgements](#acknowledgements)).
 
 #### index.html
 
@@ -252,7 +281,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * **Bootstrap:** CSS and JavaScript framework which allowed for the simple implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
 * **JavaScript:** Language used to add some interactivity with the navigation bar: 
   * *Automatically applied through Bootstrap*: navbar changes into the conventional burger icon at smaller screen sizes.
-  * *Code snippet (please see acknowledgements)*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
+  * *Code snippet (please see [Acknowledgements](#acknowledgements))*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
 
 ### Additional Tools
 
