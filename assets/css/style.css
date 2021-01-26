@@ -410,7 +410,7 @@ button#email-button {
 	opacity: 0;
 	animation-name: appear-first;
 	animation-duration: 2s;
-	animation-delay: 0.75s;
+	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 }
 
@@ -418,7 +418,7 @@ button#email-button {
 	opacity: 0;
 	animation-name: appear-second;
 	animation-duration: 2s;
-	animation-delay: 2s;
+	animation-delay: 1.75s;
 	animation-fill-mode: forwards;
 }
 
