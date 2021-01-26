@@ -154,8 +154,18 @@ ul#footer-social {
 a.btn.btn-primary.btn-lg:active {
 	background-color: #fafafa;
 	color: black;
-	border: 1px solid grey;
+	border: 1px solid #686868;
 }
+
+a.btn.btn-primary.btn-lg:focus {
+	background-color: #fafafa;
+    color: black;
+    border: 1px solid #8cc1fa;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
 
 #cta-section {
 	margin-bottom: 2.5rem;
@@ -325,6 +335,15 @@ button#email-button {
 	color: black;
 	border: 1px solid grey;
 } 
+
+#email-button:focus {
+    background-color: #fafafa;
+    color: black;
+    border: 1px solid #8cc1fa;
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
 
 /* gallery.html -------*/
 
