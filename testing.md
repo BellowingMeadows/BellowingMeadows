@@ -51,6 +51,10 @@ To fix this issue, I implemented Bootstrap's grid system with a fluid image with
 
 The YouTube iframe on the main page was appearing as an upward rectangle on mobile devices, which did not look at all as intended. This bug was caused by a class I had created to ensure that certain sections had their max-width reduced on mobile screen sizes. **This was fixed by moving the class to a different container that would only affect the desired elements.**
 
+*Buttons changing to blue in 'focus' state*
+
+I noticed that the customisation I had applied to the Bootstrap buttons did not extend as far as the 'focus' state as they changed to blue. **This was fixed by using the :focus pseudo class and using the same properties as my :active pseudo class.**
+
 *Navigation bar not collapsing when clicking tour button on the home page:*
 
 The tour dates section of the site is located on the home page and is accessible via the navigation bar from any page. However initially when navigating from the home page itself, users would have to manually close the navigation menu themselves to view the tour dates, which I interpreted as bad UX.
@@ -153,6 +157,10 @@ One error was present on this page:
 No errors were found when running style.css through the W3C CSS validator.
 
 ## Accessibility Testing
+
+
+### Color Contrast
+Using the WAVE Accessibility Evaluation Tool, I found that the only clear error flagged across the pages was the contrast on my *call to action* buttons between the red I had chosen (#d85656) and the white text. After trying a few different shades, I settled on #c4302b (which is the same red used by YouTube in their logo) as a compromise between the lighter red I initially wanted and darker shades of red I was not satisfied with.
 
 *contrast of buttons*
 

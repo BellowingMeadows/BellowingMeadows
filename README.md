@@ -335,6 +335,8 @@ More in depth information about cloning repositories, including how to clone a r
 
 * Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overflow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
 
+* Information on how to overide the default Bootstrap focus state was found on [this tack overflow page](https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked) on the answer posted by [Janak](https://stackoverflow.com/users/2323536/janak).
+
 A huge thank you to the following for their help and feedback during the development of this project:
 
 * Izi Thexton for the incredible hero image.
