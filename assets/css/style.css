@@ -590,11 +590,30 @@ button#email-button {
     div#music-cta {
     font-size: 120%;
 }
+.cta#music-cta {
+	height: 120px;
+}
 }
 
 @media screen and (max-width: 316px) {
     .navbar-brand {
         font-size: 115%;
+    }
+    div#music-cta {
+    font-size: 110%;
+}
+
+    h3.alt-font {
+        padding: 0;
+        margin: 0;
+    }
+   
+    #enquiries h2, #bookings h2 {
+        font-size: 130%;
+    }
+
+    #email-form {
+        height: 360px;
     }
 }
 
