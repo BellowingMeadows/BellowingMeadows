@@ -6,7 +6,7 @@
 
 Little Paradise are a musical duo who write and record songs from a home studio in Bristol. Having spent the best part of a year on creating new music, the band (of which I am one of the two members) has decided to build an online presence now that musical content is ready to be released to the world. My aim with this project is to create a website which can act as a convenient and memorable hub of music and informative content for users to consume. The website achieves this goal with combined functionality that is not readily available or as visually appealing on standard social media platforms such as Facebook.
  
-The project is the first of four ‘milestone’ projects which are required to complete the Code Institute’s diploma in full stack web development. Assessment criteria for this milestone project focusses on the ability to produce a static, responsive front-end site using HTML and CSS learnt during the first part of the course.
+The project is the first of four ‘milestone’ projects which are required to complete the Code Institute’s diploma in full stack web development. Assessment criteria for this milestone project focuses on the ability to produce a static, responsive front-end site using HTML and CSS learnt during the first part of the course.
 
 You can view the live website [here](https://franciskershaw.github.io/little-paradise-music/index.html), and a link to the github repository can be found [here](https://franciskershaw.github.io/little-paradise-music/index.html)
 
@@ -27,7 +27,7 @@ As a member of Little Paradise:
 1. I would like people to listen to our music in order to gain new fans.
 2. I would like fans to know about upcoming tour dates so that they can buy tickets to gigs.
 3. I would like to contact fans directly via email updates so that we can inform them about new releases, tour dates or general band news.
-4. I would like booking agents or record labels who end up on our site to find contact details if they want inform us of any opportunities. 
+4. I would like booking agents or record labels who end up on our site to find contact details if they want to inform us of any opportunities. 
 5. I want potential fans to find our social links so that we can increase followers and engagement on our social platforms.
 6. I want anyone who visits the site to have a positive emotional response to the layout of the site and branding, in order to make a lasting impression that sets us apart from other new bands. 
 
@@ -84,7 +84,7 @@ Provide song lyrics | 1 | 5
 
 I quickly concluded that the following common features of band websites would therefore be surplus to requirements:
 
-* Selling merchandise - unecessary at this stage in the band's career and beyond my current skillset to implement.
+* Selling merchandise - unnecessary at this stage in the band's career and beyond my current skillset to implement.
 * Song lyrics section - would contribute to content overload and wouldn't help fulfil any of my user stories.
 
 ### **Scope Plane**
@@ -157,7 +157,7 @@ Little Paradise has never had an online presence or brand before the creation of
 
 #### Typography
 
-The starting point for the look and feel of the site came from and accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique and retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
+The starting point for the look and feel of the site came from an accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique and retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
 
 ![Logo screenshot](assets/images/logo.png)
 
@@ -171,7 +171,7 @@ I chose to employ a predominantly black, white and grey colour scheme to complem
 
 ![CTA screenshot](assets/images/cta.png)
 
-The use of this colour scheme is best exemplified by the hero image I comissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
+The use of this colour scheme is best exemplified by the hero image I commissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
 
 ![Venue screenshot](assets/images/hero-image-min.jpg)
 
@@ -179,7 +179,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 * 'Appear' animations are included across all 5 pages to introduce content in a consistent and impactful way.
 * All links and buttons respond when being hovered over or clicked on to produce user feedback 
-* Bootsrap transitions on the navigation links were tweaked slighly to produce a slightly more graceful transition when hovered over.
+* Bootsrap transitions on the navigation links were tweaked slightly to produce a more graceful transition when hovered over.
 
 ## Features
 
@@ -187,7 +187,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 #### Consistent features
 
-* Each page contains a fixed navigation bar which has the currently viewed page highlighted. At the mobile view the nav bar shrinks down into a conventional burger icon and the links grow to 200% of their original font size.
+* Each page contains a fixed navigation bar which has the currently viewed page highlighted. At the mobile view the navbar shrinks down into a conventional burger icon and the links grow to 200% of their original font size.
 * The footer also remains consistent across the website, located at the bottom of each page and containing social links.
 * Every link or button contains a hover effect to indicate that they are clickable.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
@@ -217,7 +217,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 #### about.html
 
 * After the main heading, a short biography of the band appears. Users who reach the end of the article are prompted by two more *call to action* buttons to either send them in the natural direction to the final page of the site (contact) or back home via the 'tour' section.
-* The bio section is accompanied by two landscape photos. These appear on the left for larger screen sizes, but are split up into top and bottom of the article once the medium break point is reached.
+* The bio section is accompanied by two landscape photos. These appear on the left for larger screen sizes, but are split up into top and bottom of the article once the medium breakpoint is reached.
 
 #### contact.html
 
@@ -228,7 +228,7 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 
 ### Features left to implement
 
-* I would eventually like to have the burger icon on the mobile menu change into an X close button. From research I've concluded this is be something I can implement once I'm more familiar with Javascript.
+* I would eventually like to have the burger icon on the mobile menu change into an X close button. From research I've concluded this is something I can implement once I'm more familiar with Javascript.
 * Once the band has music available to listen to on Spotify, a Spotify playlist will replace SoundCloud on the music.html as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
 * Once the band has released several music videos, I would like to turn the YouTube section on music.html into an interactive carousel - allowing the user to choose which video to watch.
 
@@ -240,12 +240,12 @@ The use of this colour scheme is best exemplified by the hero image I comissione
 * **CSS3:** Language used to style elements from the HTML pages.
 * **Bootstrap:** CSS and JavaScript framework which allowed for the simple implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
 * **JavaScript:** Language used to add some interactivity with the navigation bar: 
-  * *Automatically applied through Bootstrap*: nav bar changes into the convential burger icon at smaller screen sizes.
-  * *Code snippet (please see acknowledgements)*: collapses the mobile nav bar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
+  * *Automatically applied through Bootstrap*: navbar changes into the conventional burger icon at smaller screen sizes.
+  * *Code snippet (please see acknowledgements)*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
 
-### Aditional Tools
+### Additional Tools
 
-* [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsivity of the pages.
+* [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsiveness of the pages.
 * [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
 * [Free Formatter:](https://www.freeformatter.com/html-formatter.html) Used to help ensure code was consistently formatted across all pages.
 * [Github:](https://github.com/) Version control and storage of my code.
@@ -283,7 +283,7 @@ I deployed the website to GitHub Pages, which was achieved as follows:
 1. View the Little Paradise repository by going to the 'Your repositories' section on Github's navigation.
 2. Go to settings, which is at the far right of the repository navigation next to insights.
 3. Scroll down to the GitHub Pages section.
-4. Select master branch in the Source section.
+4. Select the master branch in the Source section.
 5. Select a theme (I chose the Jekyll theme).
 
 More in depth information about GitHub Pages can be found [here.](https://pages.github.com/)
@@ -323,7 +323,7 @@ More in depth information about cloning repositories, including how to clone a r
 
 ### Acknowledgements
 
-* JavaScript code snippet at the bottom of index.html which automatically closes the mobile nav bar (thus fixing a UX issue) was written by Marta Szymanska and can be found on this [MDB Page](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
+* JavaScript code snippet at the bottom of index.html which automatically closes the mobile navbar (thus fixing a UX issue) was written by Marta Szymanska and can be found on this [MDB Page](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/).
 
 * Box shadow effects, applied to my *call to action* boxes and images, was researched from this [CSS-Tricks page](https://css-tricks.com/almanac/properties/b/box-shadow/).
 
@@ -333,13 +333,13 @@ More in depth information about cloning repositories, including how to clone a r
 
 * Loading attribute (loading="eager") which fixed the bug on my hero image for a few Android devices was found on this [GitHub repository](https://github.com/scott-little/lazyload) by [Scott Little](https://github.com/scott-little).
 
-* Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overlow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
+* Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overflow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
 
 A huge thank you to the following for their help and feedback during the development of this project:
 
 * Izi Thexton for the incredible hero image.
 * The Slack community at the Code Institute for their invaluable user feedback.
 * My tutor Aaron Sinnott for helpful advice at various stages.
-* All of the my friends who took time to test the website once it was deployed. 
+* All of my friends who took time to test the website once it was deployed. 
 
 

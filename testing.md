@@ -25,12 +25,13 @@ I asked the user testers to focus on the following:
    * Whether there were any elements such as iframes or images that were not functioning or displaying as intended.
    * General feedback on the layout of the site.
 
-*Note - one clear bug was spotted through this stage of user testing regarding the loading of the hero image on a small amount of android devices using Google Chrome, please see below section on **notable bugs.***
+*Note - one clear bug was spotted through this stage of user testing regarding the loading of the hero image on a small number of android devices using Google Chrome, please see below section on **notable bugs.***
 
 I also sent my live site to the Code Institute's Slack community for peer review and general feedback, which returned the following notes:
 
 * Loading animations on each page potentially a little bit too slow - **animation time and delay were tweaked for the final product to remedy this.**
 * Concerns over the readability of the font - **consulted with more users and my mentor regarding this possible accessibility issue, increased font weight and size in relevant sections.**
+* Images on the about page were stretched at certain breakpoints - **media queries were added to the affected screen sizes to ensure images were not compromised**
 
 ### Notable bugs dealt with during development
 
@@ -48,17 +49,17 @@ To fix this issue, I implemented Bootstrap's grid system with a fluid image with
 
 *YouTube iframe responsivity:*
 
-The YouTube iframe on the main page was appearing as an upward rectangle on mobile devices, which did not look at all as intended. This bug was caused by a class I had created to ensure that certain sections had their max-width's reduced on mobile screen sizes. **This was fixed by moving the class to a different container that would only affect the desired elements.**
+The YouTube iframe on the main page was appearing as an upward rectangle on mobile devices, which did not look at all as intended. This bug was caused by a class I had created to ensure that certain sections had their max-width reduced on mobile screen sizes. **This was fixed by moving the class to a different container that would only affect the desired elements.**
 
 *Navigation bar not collapsing when clicking tour button on the home page:*
 
 The tour dates section of the site is located on the home page and is accessible via the navigation bar from any page. However initially when navigating from the home page itself, users would have to manually close the navigation menu themselves to view the tour dates, which I interpreted as bad UX.
 
-JavaScript was required to overide Bootstrap's default navigation menu behaviour and close once a link was clicked, which was beyond my skillset to implement at this stage. **However, a useful code snipped found online and added to the bottom of my HTML fixed this bug for me - please see acknowledgements section on README.md.** 
+JavaScript was required to override Bootstrap's default navigation menu behaviour and close once a link was clicked, which was beyond my skillset to implement at this stage. **However, a useful code snipped found online and added to the bottom of my HTML fixed this bug for me - please see acknowledgements section on README.md.** 
 
 *Contact information box sizing issue on certain screen sizes:*
 
-My contact information box was sized to specifcation on my large iMac screen, as well as the preview sizes on chrome developer tools. However, while resuming coding on my newly repaired laptop, I noticed that the box had shrunk to half the intended size with the content spilling out onto the rest of the screen.
+My contact information box was sized to specification on my large iMac screen, as well as the preview sizes on chrome developer tools. However, while resuming coding on my newly repaired laptop, I noticed that the box had shrunk to half the intended size with the content spilling out onto the rest of the screen.
 
 I realised that my use of the *vh* unit was misguided in this instance as this was what was causing the issue. **Changing the unit to pixels fixed this bug.**
 
@@ -68,10 +69,10 @@ Testing my own user stories was carried out using the following criteria:
 * The user journey must be intuitive.
 * Each user must reach their end destination within three clicks.
 
-### *1. As someone who has never heard of Little Paradise before, I would like to listen to the band's music to help me decided if I should keep tabs on them.*
+### *1. As someone who has never heard of Little Paradise before, I would like to listen to the band's music to help me decide if I should keep tabs on them.*
 
 * On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music is available to listen to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
-* If someone misses or disregards the main navigation menu, the very first piece interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**
+* If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**
 * If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click.**
 
 ### *2. As an existing fan who has already heard the band’s music before, I would like to know about any upcoming tour dates so that I can consider watching them live.*
@@ -100,7 +101,7 @@ Testing my own user stories was carried out using the following criteria:
 
 *Note - the placement of this sign-up option is designed to combine the main user stories with the goals of the project stakeholder. The user is for the most part not on the website to sign up to updates, but this is something that the stakeholder would ideally like to happen. As such, the main directive to sign up to email updates is placed right in the middle of a section on the site where all kinds of users will arrive at intuitively on their journey, without applying unwanted pressure on the user.*
 
-### *4. I would like booking agents or record labels who end up on our site to find contact details if they want inform us of any opportunities.*
+### *4. I would like booking agents or record labels who end up on our site to find contact details if they want to inform us of any opportunities.*
 
 * Please see about user story 4.
 
@@ -110,7 +111,7 @@ Testing my own user stories was carried out using the following criteria:
 
 ### *6. I want anyone who visits the site to have a positive emotional response to the layout of the site and branding, in order to make a lasting impression that sets us apart from other new bands.*
 
-I am aware that what constitutes a positive emotional response is subjective depending on who is being asked. However, I have designed the website with the core principals of user experience design at the forefront, and thus have created a minimalist and intuitive layout whereby users can easily navigate to reach their end destination. 
+I am aware that what constitutes a positive emotional response is subjective depending on who is being asked. However, I have designed the website with the core principles of user experience design at the forefront, and thus have created a minimalist and intuitive layout whereby users can easily navigate to reach their end destination. 
 
 The layout and colour scheme has been kept consistent and positive emotional triggers come in the form of the elegant animations on each page which should mask loading times on most devices. General feedback on the whole has also been very positive about the user interface, which fills me with confidence that users of my site will want to come back.
 
@@ -119,7 +120,7 @@ The layout and colour scheme has been kept consistent and positive emotional tri
 ### index.html
 The initial run of testing on the W3C html validator showed two errors which were both to do with markup of the YouTube iframe.
 * 'The frameborder attribute on the iframe element is obsolete. Use CSS instead.' - **frameborder attribute was removed from the html.**
-* 'Text not allowed in element iframe in this context.' - p tag used within the iframe to display an error message for users of broswers which do no support iframes was flagging as an error. **Message removed as research shows wide cross browser support for iframes.**
+* 'Text not allowed in element iframe in this context.' - p tag used within the iframe to display an error message for users of browsers which do no support iframes was flagging as an error. **Message removed as research shows wide cross browser support for iframes.**
 
 Furthermore, one warning was displayed regarding the lack of a heading element within the section containing the hero image. **This was rectified by including an sr-only *h1* for the benefit of visually impared users.**
 
