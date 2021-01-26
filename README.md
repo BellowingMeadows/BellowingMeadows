@@ -131,7 +131,7 @@ As the user stories varied a lot in terms of intended use for the website, the i
 
 * Tree structure should be implemented with use of navigation’s burger icon when on mobile devices.
 * Priority on the navigation bar will go from left to right.
-* Logo on the far left and features on the far right in the following order of importance: Tour, Music, Gallery, About, Contact
+* Logo on the far left and features on the far right in the following order of importance: Music, Tour, Gallery, About, Contact.
 * The most important features will manifest in the CTAs: A link to the music page and a link to sign up for email updates.
 * No user should have to click more than three times in order to fulfil their user story.
 
@@ -147,9 +147,17 @@ When designing the layout of the site, my intention was to keep each page as use
 ![About wireframe](assets/images/about.png)
 ![contact wireframe](assets/images/contact.png)
 
-For the most part, I felt satisfied at this stage that all my user stories would in theory be completed intuitively through the layout of my site. I did however spot during this process that users in my first user story (people who would be arriving primarily to consume music) may be frustrated that no interactable musical content appears on the home page at all. This was rectified in the final version of the site by including a small section below the primary call to actions which contained the same YouTube iframe present in the music page with a link to the music page for those who want to hear more.
+#### Changes from skeleton plane to final result
+
+For the most part, I felt satisfied at this stage that all my user stories would be completed intuitively through the layout of my site and began coding the site. However, some design issues came to light once development started:
+
+* The first user story (people who would be arriving primarily to consume music) may be frustrated that no interactable musical content appears on the home page at all. **This was rectified in the final version of the site by including a small section below the primary call to actions which contained the same YouTube iframe present in the music page with a link to the music page for those who want to hear more.**
 
 ![Index screenshot](assets/images/skeleton-fix.png)
+
+* The initial design of my about page was overambitious, and the potential finished result was not worth the amount of time it would have taken to achieve. I redesigned the page to still be effective, but with a slightly more convential layout:
+
+![About wireframe take 2](assets/images/about2.png)
 
 ### **Surface plane**
 
@@ -190,6 +198,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Each page contains a fixed navigation bar which has the currently viewed page highlighted. At the mobile view the navbar shrinks down into a conventional burger icon and the links grow to 200% of their original font size.
 * The footer also remains consistent across the website, located at the bottom of each page and containing social links.
 * Every link or button contains a hover effect to indicate that they are clickable.
+* Buttons contain a bespoke 'focus' state, for users navigating with keyboards.
 * All pages (outside of the home page) contain the same styled *h1* to confirm which page of the site the user has reached.
 * An appear animation (lifted from YouTube, please see acknowledgements) appears consistently across all pages to gracefully present content at each stage of the user journey. 
 * All images (apart from the hero image) and *call to action* boxes contain a box-shadow effect which was lifted from css-tricks (please see acknowledgements).
