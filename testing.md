@@ -79,6 +79,12 @@ The tour dates section of the site is located on the home page and is accessible
 
 JavaScript was required to override Bootstrap's default navigation menu behaviour and close once a link was clicked, which was beyond my skillset to implement at this stage. **However, a useful code snipped found online and added to the bottom of my HTML fixed this bug for me - please see acknowledgements section on README.md.** 
 
+*Navigation links not all displaying in mobile landscape view*
+
+I noticed that in landscape view on mobile devices, the large font-size of my naivigation and social links meant that several clickable links were hidden and unreachable. While I understand that users navigating in landscape view on mobiles is uncommon - the bug bothered me enough to fix it. **This was fixed by using a landscape media query to reduce the font size when screens were flipped to landscape.**
+
+*Note - this fix unfortunately does not have complete coverage across every single device size on the market, as when previewing on the galaxy fold's 280px my reduction crops out the social links. I didn't want to compromise style by reducing the font further to cater for this one type of phone, of which the user base is currently very small. However when I come back to this site in the future to implement further features, I am keen to rectify this issue using newly learnt technologies.*
+
 *Contact information box sizing issue on certain screen sizes:*
 
 My contact information box was sized to specification on my large iMac screen, as well as the preview sizes on chrome developer tools. However, while resuming coding on my newly repaired laptop, I noticed that the box had shrunk to half the intended size with the content spilling out onto the rest of the screen.
