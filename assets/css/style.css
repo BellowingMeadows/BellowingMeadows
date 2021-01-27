@@ -547,7 +547,10 @@ button#email-button {
 	}
 	.navbar-brand {
 		font-size: 125%;
-	}
+    }
+    .youtube-iframe {
+        height: 325px;
+    }
 	#nav-main-links {
 		position: relative;
 		left: 38%;
@@ -618,9 +621,12 @@ button#email-button {
 }
 
 @media screen and (max-width: 362px) {
+    .youtube-iframe {
+        height: 225px;
+    }
 	#music-cta {
 		font-size: 85%;
-	}
+    }
 }
 
 @media screen and (max-width: 343px) {
@@ -661,10 +667,21 @@ button#email-button {
 	}
 }
 
+@media screen and (max-width: 280px) {
+    .youtube-iframe {
+        height: 200px;
+    }
+}
+
 @media (orientation: landscape) {
 	img#hero-image {
 		width: 100%;
 		position: relative;
 		left: 1%;
+    }
+    #nav-main-links, #nav-social-links {
+        font-size: 110%;
+        font-weight: bold;
+        padding-top: 0;
 	}
 }
