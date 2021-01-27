@@ -33,12 +33,6 @@ nav {
 	font-size: 117%;
 }
 
-#navigation-links {
-	position: relative;
-	left: 11%;
-	font-size: 112%;
-}
-
 .navbar-brand {
 	font-size: 118%;
 	margin-right: 0;
@@ -48,7 +42,6 @@ nav {
 a:hover {
 	color: #d85656;
 	transition: 0.5s;
-	text-decoration: none;
 }
 
 .navbar-light .navbar-nav .nav-link:active {
@@ -68,7 +61,13 @@ button.navbar-toggler.ml-auto.collapsed {
 	outline: none;
 }
 
-#social-links a {
+#nav-main-links {
+	position: relative;
+	left: 11%;
+	font-size: 112%;
+}
+
+#nav-social-links a {
 	padding-right: 5px;
 }
 
@@ -96,16 +95,16 @@ footer a:hover {
 	font-size: 175%;
 }
 
-ul#footer-social {
+ul#footer-social-links {
 	padding-right: 1rem;
 }
 
-#footer-social li {
+#footer-social-links li {
 	display: inline;
 	font-size: 1.5rem;
 }
 
-#footer-social i {
+#footer-social-links i {
 	font-size: 120%;
 	padding: 0.5rem;
 }
@@ -124,6 +123,9 @@ ul#footer-social {
 
 /* Calls to action */
 
+
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
 .cta {
 	text-align: center;
 	height: 200px;
@@ -134,9 +136,6 @@ ul#footer-social {
 	box-shadow: 4px 2px 4px #ccc;
 	background-color: #f2f0f0;
 }
-
-
-/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .cta-content {
 	padding-top: 40px;
@@ -164,6 +163,9 @@ a.btn.btn-primary.btn-lg:active {
 	border: 1px solid #686868;
 }
 
+
+/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
+
 a.btn.btn-primary.btn-lg:focus {
 	background-color: #fafafa;
 	color: black;
@@ -172,17 +174,18 @@ a.btn.btn-primary.btn-lg:focus {
 	box-shadow: none !important;
 }
 
-
-/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
-
-#cta-section {
+#index-cta-section {
 	margin-bottom: 2.5rem;
 }
 
 
 /* youtube iframe on index.html */
 
-#index-music {
+.music-alert {
+	margin-top: 20px;
+}
+
+#index-music-section {
 	padding-bottom: 20px;
 }
 
@@ -211,21 +214,21 @@ div#music-cta {
 	margin-top: 10px;
 }
 
-#listen {
+#listen-button {
 	padding-left: 8px;
 	padding-right: 8px;
 }
 
-a#listen {
+a#listen-button {
 	margin-top: 0;
-}
-
-.music-alert {
-	margin-top: 20px;
 }
 
 
 /* Tour dates */
+
+.venue {
+	color: #c4302b;
+}
 
 h3.index-header {
 	margin-bottom: 2rem;
@@ -234,14 +237,6 @@ h3.index-header {
 	text-decoration: underline;
 	font-weight: 800;
 	left: 9%;
-}
-
-#tour-dates p {
-	font-size: 30px;
-}
-
-.venue {
-	color: #c4302b;
 }
 
 .ticket-button:hover {
@@ -260,6 +255,10 @@ h3.index-header {
 	border: 1px solid #8cc1fa;
 	outline: none !important;
 	box-shadow: none !important;
+}
+
+#tour-dates p {
+	font-size: 30px;
 }
 
 
@@ -298,13 +297,73 @@ h3.index-header {
 	color: #c4302b;
 }
 
-#buy-now {
+#buy-now-button {
 	margin-left: 67px;
 	margin-top: 0px;
 }
 
 
+/* gallery.html -------*/
+
+
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
+.photo>img {
+	box-shadow: 4px 2px 4px #ccc;
+	border-radius: 16px;
+}
+
+.photo {
+	padding: 15px;
+}
+
+#gallery {
+	margin-bottom: 15px;
+}
+
+
+/* about.html -------*/
+
+
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
+.about-image {
+	max-height: 370px;
+	margin-bottom: 30px;
+	width: 100%;
+	box-shadow: 4px 2px 4px #ccc;
+	border-radius: 20px;
+}
+
+.about-cta {
+	margin-bottom: 25px;
+}
+
+.about-button {
+	margin-top: 0;
+}
+
+.about-cta p {
+	margin-bottom: 0;
+	font-size: 125%;
+	font-weight: 400;
+}
+
+.about-cta h5 {
+	display: inline;
+}
+
+#about-section {
+	margin-bottom: 20px;
+}
+
+
 /* contact.html -------*/
+
+label {
+	font-size: 125%;
+	padding-top: 5px;
+}
 
 h2+p {
 	padding-top: 5px;
@@ -314,22 +373,17 @@ h2>i {
 	font-size: 75%;
 }
 
-label {
-	font-size: 125%;
-	padding-top: 5px;
-}
-
 form>h3 {
 	font-size: 125%;
 	padding-bottom: 10px;
 	text-decoration: none;
 }
 
-.contact-info {
+.contact-info-box {
 	height: 325px;
 }
 
-.contact-content {
+.contact-info-content {
 	margin-top: 10px;
 	padding-right: 0;
 	padding-left: 0;
@@ -363,70 +417,15 @@ button#email-button {
 	border: 1px solid grey;
 }
 
+
+/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
+
 #email-button:focus {
 	background-color: #fafafa;
 	color: black;
 	border: 1px solid #8cc1fa;
 	outline: none !important;
 	box-shadow: none !important;
-}
-
-
-/* credit: outline and box-shadow info to overide boostrap courtesy of Janak's post on https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked */
-
-
-/* gallery.html -------*/
-
-.photo>img {
-	box-shadow: 4px 2px 4px #ccc;
-	border-radius: 16px;
-}
-
-
-/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
-
-.photo {
-	padding: 15px;
-}
-
-#gallery {
-	margin-bottom: 15px;
-}
-
-
-/* about.html -------*/
-
-.about-image {
-	max-height: 370px;
-	margin-bottom: 30px;
-	width: 100%;
-	box-shadow: 4px 2px 4px #ccc;
-	border-radius: 20px;
-}
-
-
-/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
-
-.about-cta {
-	margin-bottom: 25px;
-}
-
-.about-button {
-	margin-top: 0;
-}
-
-.about-cta p {
-	margin-bottom: 0;
-	font-size: 125%;
-	font-weight: 400;
-}
-
-.about-cta h5 {
-	display: inline;
-}
-
-#about-section {
-	margin-bottom: 20px;
 }
 
 
@@ -496,14 +495,14 @@ button#email-button {
 }
 
 @media screen and (max-width: 1422px) {
-	#navigation-links {
+	#nav-main-links {
 		position: relative;
 		left: 8%;
 	}
 }
 
 @media screen and (max-width: 1103px) {
-	#navigation-links {
+	#nav-main-links {
 		position: relative;
 		left: 5%;
 	}
@@ -520,13 +519,13 @@ button#email-button {
 	.cta-content {
 		margin-top: 0;
 	}
-	#navigation-links {
+	#nav-main-links {
 		left: 2%
 	}
 }
 
 @media screen and (max-width: 825px) {
-	#navigation-links {
+	#nav-main-links {
 		font-size: 102%;
 	}
 }
@@ -549,12 +548,12 @@ button#email-button {
 	.navbar-brand {
 		font-size: 125%;
 	}
-	#navigation-links {
+	#nav-main-links {
 		position: relative;
 		left: 38%;
 		font-size: 200%;
 	}
-	#social-links {
+	#nav-social-links {
 		position: relative;
 		left: 36%;
 		font-size: 175%;
@@ -574,14 +573,14 @@ button#email-button {
 }
 
 @media screen and (max-width: 500px) {
-	#navigation-links {
+	.contact-info-box h2 {
+		font-size: 165%;
+	}
+	#nav-main-links {
 		left: 33%;
 	}
-	#social-links {
+	#nav-social-links {
 		left: 30%;
-	}
-	.contact-info h2 {
-		font-size: 165%;
 	}
 }
 
@@ -601,14 +600,14 @@ button#email-button {
 }
 
 @media screen and (max-width: 392px) {
-	#navigation-links {
-		left: 31%;
-	}
-	#social-links {
-		left: 27%;
-	}
 	.email-address {
 		font-size: 70%;
+	}
+	#nav-main-links {
+		left: 31%;
+	}
+	#nav-social-links {
+		left: 27%;
 	}
 }
 
@@ -634,18 +633,18 @@ button#email-button {
 }
 
 @media screen and (max-width: 316px) {
-	.navbar-brand {
-		font-size: 115%;
-	}
-	div#music-cta {
-		font-size: 110%;
-	}
 	.cta-heading {
 		font-size: 147%;
+	}
+	.navbar-brand {
+		font-size: 115%;
 	}
 	h3.alt-font {
 		padding: 0;
 		margin: 0;
+	}
+	div#music-cta {
+		font-size: 110%;
 	}
 	#enquiries h2,
 	#bookings h2 {
