@@ -296,7 +296,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
 * [InVision:](https://www.invisionapp.com/) Used to create all of my wireframes at the beginning of the development process.
-* [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced.
+* [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced and a background image on the Souncloud playlist.
 * [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
 * [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
 * [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.
@@ -357,6 +357,8 @@ More in depth information about cloning repositories, including how to clone a r
 * The band biography on about.html was written by Francis Kershaw.
 
 ### Media
+
+* The photo that appears as the background on the SoundCloud iframe was sourced from [Unsplash](https://unsplash.com/) taken by [Sebastian Kanczok](https://unsplash.com/@meindrittesauge)
 
 * All photos on gallery.html and about.html were taken by Francis Kershaw and Mike Kilcooley.
 
