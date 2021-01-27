@@ -572,6 +572,12 @@ button#email-button {
 	}
 }
 
+@media screen and (max-width: 576px) {
+    .youtube-iframe {
+        height: 250px;
+    }
+}
+
 @media screen and (max-width: 500px) {
 	.contact-info-box h2 {
 		font-size: 165%;
