@@ -69,7 +69,7 @@ The YouTube iframe on the main page was appearing as an upward rectangle on mobi
 
 I noticed that the customisation I had applied to the Bootstrap buttons did not extend as far as the 'focus' state as they changed to blue. **This was fixed by using the :focus pseudo class and using the same properties as my :active pseudo class.** 
 
-*Note - I was also not happy with the blue box that appears while a button is in focus so I overode the default Bootstrap settings to have a thinner and lighter box appear instead*
+**Note** - I was also not happy with the blue box that appears while a button is in focus so I overode the default Bootstrap settings to have a thinner and lighter box appear instead
 
 ![Focus screenshot](assets/images/focus.png)
 
@@ -81,9 +81,9 @@ JavaScript was required to override Bootstrap's default navigation menu behaviou
 
 *Navigation links not all displaying in mobile landscape view*
 
-I noticed that in landscape view on mobile devices, the large font-size of my naivigation and social links meant that several clickable links were hidden and unreachable. While I understand that users navigating in landscape view on mobiles is uncommon - the bug bothered me enough to fix it. **This was fixed by using a landscape media query to reduce the font size when screens were flipped to landscape.**
+I noticed that in landscape view on mobile devices, the large font-size of my naivigation and social links meant that several clickable links were hidden and unreachable. While I understand that users navigating in landscape view on mobiles is uncommon - the bug bothered me enough to make a decent attempt to fix it. 
 
-*Note - this fix unfortunately does not have complete coverage across every single device size on the market, as when previewing on the galaxy fold's 280px my reduction crops out the social links. I didn't want to compromise style by reducing the font further to cater for this one type of phone, of which the user base is currently very small. However when I come back to this site in the future to implement further features, I am keen to rectify this issue using newly learnt technologies.*
+**This was initially fixed by using a landscape media query to reduce the font size when screens were flipped to landscape.** However, I rolled back this bug fix after seeing that the deployed version of my site was always being interpreted as landscape mode on desktop computers and laptops. This had unintended knock-on consequences for the spacing and styling of my navigation elements as a response to the landscape media query, so I decided this minor bug was not worth the investment of time to fix properly at this stage. I would however very much like to return to the site in the future when my skillset has improved to the stage where I can fix this bug.
 
 *Contact information box sizing issue on certain screen sizes:*
 
