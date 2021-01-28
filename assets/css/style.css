@@ -679,9 +679,4 @@ button#email-button {
 		position: relative;
 		left: 1%;
     }
-    #nav-main-links, #nav-social-links {
-        font-size: 110%;
-        font-weight: bold;
-        padding-top: 0;
-	}
 }
