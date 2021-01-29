@@ -168,7 +168,7 @@ As the user stories varied a lot in terms of intended use for the website, the i
 
 In order to properly visualise how my pages would be organised and linked together, I created some low fidelity mockups using [InVision](https://www.invisionapp.com/) - focussing on the design layout for small, medium and large screen sizes. The purpose of this process was to double check that the ideas I had begun formulating internally during the structure plane would be faithful to the user stories they were designed to fulfil. Any clear issues flagged up at this stage could then be fixed well before coding of the site started in earnest. 
 
-When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable features per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had different intentions for the site.
+When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable sections per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had different intentions for the site.
 
 ![Index wireframe](assets/images/index.png)
 ![Music wireframe](assets/images/music.png)
@@ -206,13 +206,15 @@ An alternative monospace font, 'JetBrains Mono' was employed at various points (
 
 #### Colour Scheme
 
-I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 can be found assigned to important features - such as the call to action buttons or when hovering over navigation links. 
+I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 was then assigned to important features - such as the call to action buttons or when hovering over navigation links. 
+
+This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see testing.md. I elected to leave my original choice of red as the colour shown 
 
 ![CTA screenshot](assets/images/cta.png)
 
 The use of this colour scheme is best exemplified by the hero image I commissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
 
-![Venue screenshot](assets/images/hero-image-min.jpg)
+![Hero screenshot](assets/images/hero-image-min.jpg)
 
 #### Animations, transitions and effects
 
@@ -243,7 +245,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 
 #### music.html
 
-* Below the main heading is an iframe to the band's SoundCloud playlist, containing all existing tracks available to listen to. The iframe has been tweaked ever so slightly so that the play icon and song progress bar are the same red (#d85656) as seen on the rest of the site.
+* Below the main heading is an iframe to the band's SoundCloud playlist, containing all existing tracks available to listen to. The iframe has been tweaked ever so slightly so that the play icon and song progress bar are the same red (#c4302b) as seen on the rest of the site.
 * The same YouTube video from index.html has its own dedicated section on the music page, below the SoundCloud playlist.
 * The relevant music icons that display in the *h2* tags of SoundCloud and YouTube double up as external links and are coloured to the exact hex codes of their real-life branding.
 * Finally, a card which acts as a purchase link for previously released music appears at the bottom of the music page in the form of a 'Releases' (Discography) section.
@@ -272,7 +274,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Once the band has music available to listen to on Spotify, a Spotify playlist will replace SoundCloud on the music.html as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
 * Once the band has released several music videos, I would like to turn the YouTube section on music.html into an interactive carousel - allowing the user to choose which video to watch.
 * Currently, the email sign-up form is not functional as I have not learnt the necessary backend skills. However, as soon as I learn this I will come back to this section to ensure it is functioning for any users who end up on the site.
-* All links to Facebook and Instagram currently direct to the homepage of those sites as Little Paradise currently does not have those profiles created. As soon as this comes to pass, these social links will be updated across all pages.
+* All links to Facebook and Instagram currently direct to the homepage of those sites as Little Paradise currently does not have those profiles created. As soon as this happens, these social links will be updated across all pages.
 
 ## Technologies used
 
@@ -280,10 +282,10 @@ The use of this colour scheme is best exemplified by the hero image I commission
 
 * **HTML5:** Language used for structure and content across all pages.
 * **CSS3:** Language used to style elements from the HTML pages.
-* **Bootstrap:** CSS and JavaScript framework which allowed for the simple implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
+* **Bootstrap:** CSS and JavaScript framework which allowed for the quick implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
 * **JavaScript:** Language used to add some interactivity with the navigation bar: 
   * *Automatically applied through Bootstrap*: navbar changes into the conventional burger icon at smaller screen sizes.
-  * *Code snippet (please see [Acknowledgements](#acknowledgements))*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar.
+  * *Code snippet (please see [Acknowledgements](#acknowledgements))*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar (please see bug section on testing.md).
 
 ### Additional Tools
 
