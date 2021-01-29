@@ -40,7 +40,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link:hover,
 a:hover {
-	color: #d85656;
+	color: #c4302b;
 	transition: 0.5s;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-	color: #d85656;
+	color: #c4302b;
 }
 
 button.navbar-toggler.ml-auto,
@@ -147,7 +147,6 @@ ul#footer-social-links {
 }
 
 .cta-button {
-	/* background-color: #d85656; */
 	background-color: #c4302b;
 	border: none;
 	margin-top: 10px;
