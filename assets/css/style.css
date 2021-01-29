@@ -91,8 +91,10 @@ footer a:hover {
 }
 
 #footer-heading {
-	padding: 2rem 0.75rem 0.25rem 0;
-	font-size: 175%;
+	padding: 1.75rem 0.75rem 0.25rem 0.5rem;
+    font-size: 175%;
+    display: block;
+    margin-bottom: 5px;
 }
 
 ul#footer-social-links {
@@ -209,7 +211,7 @@ div#music-cta {
 	font-size: 80%;
 }
 
-#music-cta h5 {
+#music-cta h3 {
 	font-size: 90%;
 	margin-top: 10px;
 }
@@ -230,7 +232,11 @@ a#listen-button {
 	color: #c4302b;
 }
 
-h3.index-header {
+.date {
+    font-size: 150%;
+}
+
+h2.index-header {
 	margin-bottom: 2rem;
 	padding-top: 2rem;
 	font-size: 250%;
@@ -570,7 +576,7 @@ button#email-button {
 		overflow: hidden;
 		margin-bottom: 0;
 	}
-	#music-cta h5 {
+	#music-cta h3 {
 		font-size: 80%;
 	}
 }
