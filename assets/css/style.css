@@ -677,11 +677,3 @@ button#email-button {
         height: 200px;
     }
 }
-
-@media (orientation: landscape) {
-	img#hero-image {
-		width: 100%;
-		position: relative;
-		left: 1%;
-    }
-}
