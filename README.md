@@ -184,7 +184,7 @@ For the most part, I felt satisfied at this stage that all my user stories would
 
 ![Index screenshot](assets/images/skeleton-fix.png)
 
-* The initial design of my about page was overambitious, and the potential finished result was not worth the amount of time it would have taken to achieve. I redesigned the page to still be effective, but with a slightly more convential layout:
+* The initial design of my about page was overambitious, and the potential finished result was not worth the amount of time it would have taken to achieve. I redesigned the page to still be effective, but with a slightly more conventional layout:
 
 ![About wireframe take 2](assets/images/about2.png)
 
@@ -220,7 +220,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 
 * 'Appear' animations are included across all 5 pages to introduce content in a consistent and impactful way.
 * All links and buttons respond when being hovered over or clicked on to produce user feedback.
-* Bootsrap transitions on the navigation links were tweaked slightly to produce a more graceful transition when hovered over.
+* Bootstrap transitions on the navigation links were tweaked slightly to produce a more graceful transition when hovered over.
 
 ## Features
 
@@ -299,7 +299,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
 * [InVision:](https://www.invisionapp.com/) Used to create all of my wireframes at the beginning of the development process.
-* [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced and a background image on the Souncloud playlist.
+* [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced and a background image on the SoundCloud playlist.
 * [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
 * [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
 * [WAVE:](https://wave.webaim.org/) Allowed me to evaluate and test the accessibility of the site.
@@ -381,7 +381,7 @@ More in depth information about cloning repositories, including how to clone a r
 
 * Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overflow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
 
-* Information on how to overide the default Bootstrap focus state was found on [this stack overflow page](https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked) on the answer posted by [Janak](https://stackoverflow.com/users/2323536/janak).
+* Information on how to override the default Bootstrap focus state was found on [this stack overflow page](https://stackoverflow.com/questions/23333231/bootstrap-button-shows-blue-outline-when-clicked) on the answer posted by [Janak](https://stackoverflow.com/users/2323536/janak).
 
 A huge thank you to the following for their help and feedback during the development of this project:
 

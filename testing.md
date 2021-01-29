@@ -63,13 +63,13 @@ To fix this issue, I implemented Bootstrap's grid system with a fluid image with
 
 *YouTube iframe responsivity:*
 
-The YouTube iframe on the main page was appearing as an upward rectangle on mobile devices, which which was not the intention and looked unnatural. This bug was caused by a class I had created to ensure that certain sections had their max-width reduced on mobile screen sizes. **The bug was fixed by moving the class to a different container that would only affect the desired elements.**
+The YouTube iframe on the main page was appearing as an upward rectangle on mobile devices, which was not the intention and looked unnatural. This bug was caused by a class I had created to ensure that certain sections had their max-width reduced on mobile screen sizes. **The bug was fixed by moving the class to a different container that would only affect the desired elements.**
 
 *Buttons changing to blue in 'focus' state*
 
 I noticed that the customisation I had applied to the Bootstrap buttons did not extend as far as the 'focus' state as they changed to blue. **This was fixed by using the :focus pseudo class and using the same properties as my :active pseudo class.** 
 
-**Note** - I was also not happy with the blue box that appears while a button is in focus so I overode the default Bootstrap settings to have a thinner and lighter box appear instead
+**Note** - I was also not happy with the blue box that appears while a button is in focus so I overrode the default Bootstrap settings to have a thinner and lighter box appear instead
 
 ![Focus screenshot](assets/images/focus.png)
 
@@ -77,11 +77,11 @@ I noticed that the customisation I had applied to the Bootstrap buttons did not 
 
 The tour dates section of the site is located on the home page and is accessible via the navigation bar from any page. However initially when navigating from the home page itself, users would have to manually close the navigation menu themselves to view the tour dates, which I interpreted as bad UX.
 
-JavaScript was required to override Bootstrap's default navigation menu behaviour and close once a link was clicked, which was beyond my skillset to implement at this stage. **However, a useful code snipped found online and added to the bottom of my HTML fixed this bug for me - please see acknowledgements section on the main [README page](README.md).** 
+JavaScript was required to override Bootstrap's default navigation menu behaviour and close once a link was clicked, which was beyond my skillset to implement at this stage. **However, a useful code snipped found online and added to the bottom of my HTML fixed this bug for me - please see the acknowledgements section on the main [README page](README.md).** 
 
 *Navigation links not all displaying in mobile landscape view*
 
-I noticed that in landscape view on mobile devices, the large font-size of my naivigation and social links meant that several clickable links were hidden and unreachable. While I understand that users navigating in landscape view on mobiles is uncommon - the bug bothered me enough to make a decent attempt to fix it. 
+I noticed that in landscape view on mobile devices, the large font-size of my navigation and social links meant that several clickable links were hidden and unreachable. While I understand that users navigating in landscape view on mobiles is uncommon - the bug bothered me enough to make a decent attempt to fix it. 
 
 **This was initially fixed by using a landscape media query to reduce the font size when screens were flipped to landscape.** However, I rolled back this bug fix after seeing that the deployed version of my site was always being interpreted as landscape mode on desktop computers and laptops. This had unintended knock-on consequences for the spacing and styling of my navigation elements as a response to the landscape media query, so I decided this minor bug was not worth the investment of time to fix at this stage. I would however very much like to return to the site in the future when my skillset has improved to the stage where I can fix this bug properly.
 
@@ -102,31 +102,39 @@ Testing my own user stories was carried out using the following criteria:
 * On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music is available to listen to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
 ![Music active on navbar](assets/images/musicnav.png)
 
-* If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**
+* If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**. 
+
 ![CTA screenshot](assets/images/cta.png)
 
-* If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click.**
-![Latest Video](assets/images/latestvideo.png)
+* If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click.**. 
+
+![Latest Video](assets/images/latestvideo.png) 
+
 
 ### *2. As an existing fan who has already heard the band’s music before, I would like to know about any upcoming tour dates so that I can consider watching them live.*
 
-* The main navigation bar's second link is for 'Tour', which directs to the relevant section on the home page. **One click.**
+* The main navigation bar's second link is for 'Tour', which directs to the relevant section of the home page. **One click**. 
+
 ![Tour active on navbar](assets/images/tournav.png)
 
-* If a user decides to scroll through the content on the home page first before using the navigation links, they will reach the tour section quickly once they scroll past the YouTube video. **No clicks.**
+* If a user decides to scroll through the content on the home page first before using the navigation links, they will reach the tour section once they scroll past the YouTube video. **No clicks**. 
+
 ![Tour dates](assets/images/tourdates.png)
 
 ### *3. As an avid fan who has a keen interest in the band's music, I would like to see photos and find out more about the band's history so that I can feel a slightly more personal connection to them away from music.*
 
-* From the main navigation bar, the user can click on the gallery link to go to the dedicated gallery page - where there are dozens of photos to scroll through of the band members and their recording setup. **One click.**
+* From the main navigation bar, the user can click on the gallery link to go to the dedicated gallery page - where there are dozens of photos to scroll through of the band members and their recording setup. **One click**. 
+
 ![Gallery active on navbar](assets/images/gallerynav.png)
 
-* Next to the gallery link on the main navigation bar, the user can click on the about link to end up on a page with a short biography of the band. **One click, two in total to fulfil the entire user story.**
+* Next to the gallery link on the main navigation bar, the user can click on the about link to end up on a page with a short biography of the band. **One click, two in total to fulfil the entire user story**. 
+
 ![About active on navbar](assets/images/aboutnav.png)
 
 ### *4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.*
 
-* From the main navigation bar, the final link is one to the dedicated contact page. The very first thing that appears after the main heading are two separate email addresses to take note of depending on what you are intending on contacting the band for. **One click.**
+* From the main navigation bar, the final link is one to the dedicated contact page. The very first thing that appears after the main heading are two separate email addresses to take note of depending on what you are intending on contacting the band for. **One click**. 
+
 ![Contact active on navbar](assets/images/contactnav.png)
 
 ## Manual Stakeholder Testing
@@ -150,10 +158,12 @@ During this stage of testing I found that the animation I had applied to have pa
 
 ### *5. I want potential fans to find our social links so that we can increase followers and engagement on our social platforms.*
 
-* All of the band's social links can be found to the right of the main navigation bar, and also on the footer of each page. From research, these are the most conventional places to find social media links on a website like this. Therefore users for should subconsciously be expecting social media links in these places and can arrive there intuitively from any page on the site. **One click.**
+* All of the band's social links can be found to the right of the main navigation bar, and also on the footer of each page. From research, these are the most conventional places to find social media links on a website like this. Therefore users for should subconsciously be expecting social media links in these places and can arrive there intuitively from any page on the site. **One click**. 
 
-![Navbar social links](assets/images/navsocial.png)
-![Footer social links](assets/images/footsocial.png)
+![Navbar social links](assets/images/navsocial.png) 
+
+![Footer social links](assets/images/footsocial.png) 
+
 
 ### *6. I want anyone who visits the site to have a positive emotional response to the layout of the site and branding, in order to make a lasting impression that sets us apart from other new bands.*
 
@@ -166,7 +176,7 @@ The layout and colour scheme has been kept consistent and positive emotional tri
 ### index.html
 The initial run of testing on the W3C html validator showed two errors which were both to do with markup of the YouTube iframe.
 * 'The frameborder attribute on the iframe element is obsolete. Use CSS instead.' - **frameborder attribute was removed from the html.**
-* 'Text not allowed in element iframe in this context.' - p tag used within the iframe to display an error message for users of browsers which do no support iframes was flagging as an error on the validator. **Message removed as research shows wide cross browser support for iframes.**
+* 'Text not allowed in element iframe in this context.' - p tag used within the iframe to display an error message for users of browsers which do not support iframes was flagging as an error on the validator. **Message removed as research shows wide cross browser support for iframes.**
 
 Furthermore, one warning was displayed regarding the lack of a heading element within the section containing the hero image. **This was rectified by including an sr-only *h1* for the benefit of visually impared users.**
 
