@@ -272,6 +272,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Once the band has music available to listen to on Spotify, a Spotify playlist will replace SoundCloud on the music.html as this is a more familiar streaming platform and will thus induce a better emotional response from the user.
 * Once the band has released several music videos, I would like to turn the YouTube section on music.html into an interactive carousel - allowing the user to choose which video to watch.
 * Currently, the email sign-up form is not functional as I have not learnt the necessary backend skills. However, as soon as I learn this I will come back to this section to ensure it is functioning for any users who end up on the site.
+* All links to Facebook and Instagram currently direct to the homepage of those sites as Little Paradise currently does not have those profiles created. As soon as this comes to pass, these social links will be updated across all pages.
 
 ## Technologies used
 

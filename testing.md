@@ -188,6 +188,10 @@ No errors were found when running style.css through the W3C CSS validator.
 ### Color Contrast
 Using the WAVE Accessibility Evaluation Tool, I found that the only clear error flagged across the pages was the contrast on my *call to action* buttons between the red I had chosen (#d85656) and the white text. After trying a few different shades, I settled on #c4302b (which is the same red used by YouTube in their logo) as a compromise between the lighter red I initially wanted and darker shades of red I was not satisfied with.
 
-*contrast of buttons*
+### Heading Elements 
 
-*skipping of header elements*
+WAVE also flagged that I had been skipping heading levels on most of the pages. I fixed this accessibility issue by ensuring these levels were not skipped, and by changing my footer logo from an *h4* to a *span*.
+
+[Back to the top](#testing)
+
+[Back to main document](README.md)
