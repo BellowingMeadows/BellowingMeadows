@@ -290,6 +290,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 ### Additional Tools
 
 * [Amiresponsive:](http://ami.responsivedesign.is/) Used to produce the hero image in README.md and check general responsiveness of the pages.
+* [Favicon Generator:](https://realfavicongenerator.net/) Used to create the favicon on the browser tab.
 * [FontAwesome:](https://fontawesome.com/) Large database of icons which I used for my social links, call to action boxes, contact information and email updates form.
 * [Free Formatter:](https://www.freeformatter.com/html-formatter.html) Used to help ensure code was consistently formatted across all pages.
 * [Github:](https://github.com/) Version control and storage of my code.
@@ -299,6 +300,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
 * [InVision:](https://www.invisionapp.com/) Used to create all of my wireframes at the beginning of the development process.
+* [removebg:](https://www.remove.bg/) Used to remove the white background from my favicon.
 * [Unsplash:](https://unsplash.com/) Provided placeholder image while hero image was being produced and a background image on the SoundCloud playlist.
 * [W3C CSS Validation Service:](https://jigsaw.w3.org/css-validator/) Confirmed that my CSS is legal.
 * [W3C Markup Validation Service:](https://validator.w3.org/) Confirmed that my HTML code is legal.
@@ -378,6 +380,8 @@ More in depth information about cloning repositories, including how to clone a r
 * I found out how to remotely debug the site on my mobile phone by following the instructions on [this blog post](https://blog.campvanilla.com/debug-website-on-mobile-device-5c27c8809d39) by [Abinav Seelan](https://medium.com/@abinavseelan).
 
 * Loading attribute (loading="eager") which fixed the bug on my hero image for a few Android devices was found on this [GitHub repository](https://github.com/scott-little/lazyload) by [Scott Little](https://github.com/scott-little).
+
+* I learnt how to create and implement a favicon from [this stack overflow page](https://stackoverflow.com/questions/10691021/how-to-insert-logo-with-the-title-of-a-html-page#:~:text=Copy%20this%20tag%20%3Clink%20rel,file%20and%20reload%20your%20browser.) on the answer posted by [MetalFrog](https://stackoverflow.com/users/1013082/metalfrog).
 
 * Information on how to remove the built-in SoundCloud iframe overlay on mobile devices (thus fixing a UX issue) was found on [this stack overflow page](https://stackoverflow.com/questions/39625513/soundcloud-embedded-player-on-mobile) on the answer posted by [Markus](https://stackoverflow.com/users/9507413/markus). 
 
