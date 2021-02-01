@@ -198,15 +198,20 @@ a.btn.btn-primary.btn-lg:focus {
 	padding-right: 0;
 }
 
+div#music-cta {
+	margin-bottom: 0;
+	font-size: 135%;
+	padding-top: 5px;
+}
+
 .cta#music-cta {
 	height: 128px;
 	margin-top: 0;
 }
 
-div#music-cta {
-	margin-bottom: 0;
-	font-size: 135%;
-	padding-top: 5px;
+#listen-button {
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 #music-cta a {
@@ -216,11 +221,6 @@ div#music-cta {
 #music-cta h3 {
 	font-size: 90%;
 	margin-top: 10px;
-}
-
-#listen-button {
-	padding-left: 8px;
-	padding-right: 8px;
 }
 
 a#listen-button {
@@ -238,6 +238,13 @@ a#listen-button {
 	font-size: 150%;
 }
 
+.tour-dates-content {
+    padding-bottom: 20px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
 h2.index-header {
 	margin-bottom: 2rem;
 	padding-top: 2rem;
@@ -253,12 +260,6 @@ h2.index-header {
 	transition: 0.5s;
 }
 
-a.btn.btn-dark.ticket-button:active {
-	background-color: #fafafa;
-	color: black;
-	border: 1px solid #8cc1fa;
-}
-
 .ticket-button:focus {
 	border: 1px solid #8cc1fa;
 	background-color: #fff;
@@ -267,19 +268,18 @@ a.btn.btn-dark.ticket-button:active {
 	box-shadow: none !important;
 }
 
-.tour-dates-content {
-    padding-bottom: 20px;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #e3e3e3;
-}
-
 .tour-dates-content:nth-of-type(1) {
     margin-top: 16px;
 }
 
 .tour-dates-content:nth-of-type(4) {
     border-bottom: none;
+}
+
+a.btn.btn-dark.ticket-button:active {
+	background-color: #fafafa;
+	color: black;
+	border: 1px solid #8cc1fa;
 }
 
 #tour-dates-section p {
@@ -333,13 +333,13 @@ a.btn.btn-dark.ticket-button:active {
 
 /* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
+.photo {
+	padding: 15px;
+}
+
 .photo>img {
 	box-shadow: 4px 2px 4px #ccc;
 	border-radius: 16px;
-}
-
-.photo {
-	padding: 15px;
 }
 
 #gallery {
@@ -513,16 +513,16 @@ button#email-button {
 
 /* media queries ------- */
 
-@media screen and (min-width: 1200px) {
-	article p {
-		font-size: 110%;
-	}
-}
-
 @media screen and (max-width: 1422px) {
 	#nav-main-links {
 		position: relative;
 		left: 8%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	article p {
+		font-size: 110%;
 	}
 }
 
