@@ -267,7 +267,22 @@ a.btn.btn-dark.ticket-button:active {
 	box-shadow: none !important;
 }
 
-#tour-dates p {
+.tour-dates-content {
+    padding-bottom: 20px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.tour-dates-content:nth-of-type(1) {
+    margin-top: 16px;
+}
+
+.tour-dates-content:nth-of-type(4) {
+    border-bottom: none;
+}
+
+#tour-dates-section p {
 	font-size: 30px;
 }
 
@@ -538,6 +553,12 @@ button#email-button {
 	#nav-main-links {
 		font-size: 102%;
 	}
+}
+
+@media screen and (min-width: 768px) {
+    h3.date {
+        margin-top: 16px;
+    }
 }
 
 @media screen and (max-width: 767px) {
