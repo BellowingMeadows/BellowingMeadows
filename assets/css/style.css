@@ -274,6 +274,7 @@ h2.index-header {
 
 .tour-dates-content:nth-of-type(4) {
     border-bottom: none;
+    margin-bottom: 5px;
 }
 
 a.btn.btn-dark.ticket-button:active {
