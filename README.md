@@ -330,7 +330,6 @@ I deployed the website to GitHub Pages, which was achieved as follows:
 2. Go to settings, which is at the far right of the repository navigation next to insights.
 3. Scroll down to the GitHub Pages section.
 4. Select the master branch in the Source section.
-5. Select a theme (I chose the Jekyll theme).
 
 More in depth information about GitHub Pages can be found [here.](https://pages.github.com/)
 
@@ -391,7 +390,7 @@ A huge thank you to the following for their help and feedback during the develop
 
 * Izi Thexton for the incredible hero image.
 * The Slack community at the Code Institute for their invaluable user feedback.
-* My tutor Aaron Sinnott for helpful advice at various stages.
+* My mentor Aaron Sinnott for helpful advice at various stages.
 * All of my friends who took time to test the website once it was deployed. 
 
 
