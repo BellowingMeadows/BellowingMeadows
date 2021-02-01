@@ -48,6 +48,7 @@ a:hover {
 	color: black;
 }
 
+/* Overide of default Bootstrap navbar active page colour */
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
@@ -122,9 +123,7 @@ ul#footer-social-links {
 	margin-bottom: 20px;
 }
 
-
 /* Calls to action */
-
 
 /* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
@@ -250,14 +249,16 @@ h2.index-header {
 	transition: 0.7s;
 }
 
-.ticket-button:active {
+a.btn.btn-dark.ticket-button:active {
 	background-color: #fafafa;
 	color: black;
-	border: 1px solid grey;
+	border: 1px solid #8cc1fa;
 }
 
 .ticket-button:focus {
-	border: 1px solid #8cc1fa;
+    border: 1px solid #8cc1fa;
+    background-color: #fff;
+    color: black;
 	outline: none !important;
 	box-shadow: none !important;
 }
