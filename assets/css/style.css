@@ -308,7 +308,8 @@ a.btn.btn-dark.ticket-button:active {
 }
 
 .releases {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
+    width: 18rem;
 }
 
 #soundcloud-logo {
@@ -682,11 +683,17 @@ button#email-button {
 	}
 	.navbar-brand {
 		font-size: 115%;
-	}
+    }
+    .releases {
+        width: 100%;
+    }
 	h3.alt-font {
 		padding: 0;
 		margin: 0;
-	}
+    }
+    #buy-now-button{
+        margin-left: 3rem;
+    }
 	div#music-cta {
 		font-size: 110%;
 	}
