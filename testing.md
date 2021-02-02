@@ -99,14 +99,14 @@ Testing my own user stories was carried out using the following criteria:
 
 ### *1. As someone who has never heard of Little Paradise before, I would like to listen to the band's music to help me decide if I should keep tabs on them.*
 
-* On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music is available to listen to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
+* On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music can be listened to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
 ![Music active on navbar](assets/images/musicnav.png)
 
-* If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks.**. 
+* If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks**. 
 
 ![CTA screenshot](assets/images/cta.png)
 
-* If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click.**. 
+* If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click**. 
 
 ![Latest Video](assets/images/latestvideo.png) 
 
@@ -127,15 +127,22 @@ Testing my own user stories was carried out using the following criteria:
 
 ![Gallery active on navbar](assets/images/gallerynav.png)
 
+![Gallery screenshot](assets/images/gallery-screenshot.png)
+
 * Next to the gallery link on the main navigation bar, the user can click on the about link to end up on a page with a short biography of the band. **One click, two in total to fulfil the entire user story**. 
 
-![About active on navbar](assets/images/aboutnav.png)
+
+![About active on navbar](assets/images/aboutnav.png) 
+  
+![About screenshot](assets/images/gallery-screenshot.png)
 
 ### *4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.*
 
 * From the main navigation bar, the final link is one to the dedicated contact page. The very first thing that appears after the main heading are two separate email addresses to take note of depending on what you are intending on contacting the band for. **One click**. 
 
 ![Contact active on navbar](assets/images/contactnav.png)
+
+![Contact screenshot](assets/images/contact-screenshot.png)
 
 ## Manual Stakeholder Testing
 
@@ -169,7 +176,7 @@ During this stage of testing I found that the animation I had applied to have pa
 
 I am aware that what constitutes a positive emotional response is subjective depending on who is being asked. However, I have designed the website with the core principles of user experience design at the forefront, and have created a minimalist and intuitive layout through which users can easily navigate to reach their end destination. 
 
-The layout and colour scheme has been kept consistent and positive emotional triggers come in the form of the elegant animations on each page which should mask loading times on most devices. General feedback on the whole has also been very positive about the user interface, which fills me with confidence that users of my site will want to come back.
+The layout and colour scheme has been kept consistent and positive emotional triggers come in the form of the elegant animations on each page which should mask any unexpected loading times on most devices. General feedback on the whole has also been very positive about the user interface, which fills me with confidence that users of my site will want to come back.
 
 ## HTML Validator
 

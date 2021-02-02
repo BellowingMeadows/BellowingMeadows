@@ -8,7 +8,7 @@ Little Paradise are a musical duo who write and record songs from a home studio 
  
 The project is the first of four ‘milestone’ projects which are required to complete the Code Institute’s diploma in full stack web development. Assessment criteria for this milestone project focuses on the ability to produce a static, responsive front-end site using HTML and CSS learnt during the first part of the course.
 
-You can view the live website [here](https://franciskershaw.github.io/little-paradise-music/index.html), and a link to the github repository can be found [here](https://franciskershaw.github.io/little-paradise-music/index.html)
+You can view the live website [here](https://franciskershaw.github.io/little-paradise-music/index.html), and a link to the github repository can be found [here](https://github.com/franciskershaw/little-paradise-music)
 
 ## Table of Contents
 
@@ -208,7 +208,7 @@ An alternative monospace font, 'JetBrains Mono' was employed at various points (
 
 I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 was then assigned to important features - such as the call to action buttons or when hovering over navigation links. 
 
-This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see testing.md. I elected to leave my original choice of red as the colour shown 
+**Note** - This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see [testing.md](testing.md).
 
 ![CTA screenshot](assets/images/cta.png)
 
