@@ -395,4 +395,6 @@ A huge thank you to the following for their help and feedback during the develop
 * My mentor Aaron Sinnott for helpful advice at various stages.
 * All of my friends who took time to test the website once it was deployed. 
 
+[Back to the top](#table-of-contents)
+
 
