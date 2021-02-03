@@ -165,7 +165,7 @@ During this stage of testing I found that the animation I had applied to have pa
 
 ### *5. I want potential fans to find our social links so that we can increase followers and engagement on our social platforms.*
 
-* All of the band's social links can be found to the right of the main navigation bar, and also on the footer of each page. From research, these are the most conventional places to find social media links on a website like this. Therefore users for should subconsciously be expecting social media links in these places and can arrive there intuitively from any page on the site. **One click**. 
+* All of the band's social links can be found to the right of the main navigation bar, and also on the footer of each page. From research, these are the most conventional places to find social media links on a website like this. Therefore users should subconsciously be expecting social media links in these places and can arrive there intuitively from any page on the site. **One click**. 
 
 ![Navbar social links](assets/images/navsocial.png) 
 

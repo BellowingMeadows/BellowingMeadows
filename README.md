@@ -190,6 +190,8 @@ For the most part, I felt satisfied at this stage that all my user stories would
 
 * While creating the gallery page, it became clear that photos could not be enjoyed to the fullest when lining two to a row on mobile devices. **This was rectified by amending the grid system to have one photo take up the full width of the viewport on mobile devices.**
 
+* Initially my navigation bar began with the link to the Tour dates followed by a link to the Music page. However, while evaluating the user stories during development, I realised that it was more important to have the Music page appear as the first option a user could click and changed this accordingly for the final design.
+
 ### **Surface plane**
 
 Little Paradise has never had an online presence or brand before the creation of this website, so deciding what kind of aesthetic to employ was not dictated by any pre-existing brand requirements or colour schemes. This provided a challenge, but also a great level of creative freedom to work with.
@@ -208,7 +210,7 @@ An alternative monospace font, 'JetBrains Mono' was employed at various points (
 
 I chose to employ a predominantly black, white and grey colour scheme to complement the retro vibe that is given off by Syne Mono. A smattering of red #d85656 was then assigned to important features - such as the call to action buttons or when hovering over navigation links. 
 
-**Note** - This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see [testing.md](testing.md).
+**Note** - This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see [testing.md](testing.md) for more information.
 
 ![CTA screenshot](assets/images/cta.png)
 
@@ -282,7 +284,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 
 * **HTML5:** Language used for structure and content across all pages.
 * **CSS3:** Language used to style elements from the HTML pages.
-* **Bootstrap:** CSS and JavaScript framework which allowed for the quick implementation of many template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
+* **Bootstrap:** CSS and JavaScript framework which allowed for the quick implementation of a few template components, such as the navigation bar, the music releases card, and the grid system which greatly helped improve the responsiveness of each page.
 * **JavaScript:** Language used to add some interactivity with the navigation bar: 
   * *Automatically applied through Bootstrap*: navbar changes into the conventional burger icon at smaller screen sizes.
   * *Code snippet (please see [Acknowledgements](#acknowledgements))*: collapses the mobile navbar once a user clicks or presses any navigation link while on the home page so that the Tour section is not obstructed by the active navigation bar (please see bug section on testing.md).
@@ -295,7 +297,7 @@ The use of this colour scheme is best exemplified by the hero image I commission
 * [Free Formatter:](https://www.freeformatter.com/html-formatter.html) Used to help ensure code was consistently formatted across all pages.
 * [Github:](https://github.com/) Version control and storage of my code.
 * [Gitpod:](https://gitpod.io/) Development environment where all the code was written.
-* [Google Docs:](https://docs.google.com/) Used for note taking and was where most of my readme was initially written.
+* [Google Docs:](https://docs.google.com/) Used for note taking and was where much of my readme was initially written.
 * Google Desktop Developer Tools: Used for debugging and testing of responsiveness across several screen sizes.
 * Google Remote Developer Tools: Used after deployment for live debugging on mobile devices.
 * [Google Fonts:](https://fonts.google.com/) Provided my site with the 'Syne Mono' and 'JetBrains' fonts.
