@@ -333,11 +333,12 @@ a.btn.btn-dark.ticket-button:active {
 /* gallery.html -------*/
 
 
-/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
-
 .photo {
 	padding: 15px;
 }
+
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+
 
 .photo>img {
 	box-shadow: 4px 2px 4px #ccc;
@@ -463,7 +464,7 @@ button#email-button {
 
 .appear-first {
 	opacity: 0;
-	animation-name: appear-first;
+	animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
@@ -471,7 +472,7 @@ button#email-button {
 
 .appear-second {
 	opacity: 0;
-	animation-name: appear-second;
+	animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 1.75s;
 	animation-fill-mode: forwards;
@@ -479,31 +480,13 @@ button#email-button {
 
 .appear-third {
 	opacity: 0;
-	animation-name: appear-second;
+	animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 3s;
 	animation-fill-mode: forwards;
 }
 
-@keyframes appear-first {
-	0% {
-		opacity: 0
-	}
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes appear-second {
-	0% {
-		opacity: 0
-	}
-	100% {
-		opacity: 1
-	}
-}
-
-@keyframes appear-third {
+@keyframes appear {
 	0% {
 		opacity: 0
 	}
