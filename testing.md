@@ -71,7 +71,7 @@ I noticed that the customisation I had applied to the Bootstrap buttons did not 
 
 **Note** - I was also not happy with the blue box that appears while a button is in focus so I overrode the default Bootstrap settings to have a thinner and lighter box appear instead
 
-![Focus screenshot](assets/images/focus.png)
+![Focus screenshot](assets/images/readme-focus.png)
 
 *Navigation bar not collapsing when clicking tour button on the home page:*
 
@@ -100,49 +100,49 @@ Testing my own user stories was carried out using the following criteria:
 ### *1. As someone who has never heard of Little Paradise before, I would like to listen to the band's music to help me decide if I should keep tabs on them.*
 
 * On the main navigation menu of every page, the first clickable link is that of the dedicated music page - where all available music can be listened to. **Two clicks, one on the navigation link and one for the subsequent soundcloud playlist or YouTube video depending on preference.**
-![Music active on navbar](assets/images/musicnav.png)
+![Music active on navbar](assets/images/readme-musicnav.png)
 
 * If someone misses or disregards the main navigation menu, the very first piece of interactive content after the main hero image is a *call to action* box that directs straight to the music page. **Two clicks**. 
 
-![CTA screenshot](assets/images/cta.png)
+![CTA screenshot](assets/images/readme-cta.png)
 
 * If the user decides to scroll further on the home page without clicking on either the navigation links or the *call to action* boxes, a YouTube video appears of the band's latest single followed by a further *call to action* box that again directs to the main music page. **One click**. 
 
-![Latest Video](assets/images/latestvideo.png) 
+![Latest Video](assets/images/readme-latestvideo.png) 
 
 
 ### *2. As an existing fan who has already heard the band’s music before, I would like to know about any upcoming tour dates so that I can consider watching them live.*
 
 * The main navigation bar's second link is for 'Tour', which directs to the relevant section of the home page. **One click**. 
 
-![Tour active on navbar](assets/images/tournav.png)
+![Tour active on navbar](assets/images/readme-tournav.png)
 
 * If a user decides to scroll through the content on the home page first before using the navigation links, they will reach the tour section once they scroll past the YouTube video. **No clicks**. 
 
-![Tour dates](assets/images/tourdates.png)
+![Tour dates](assets/images/readme-tourdates.png)
 
 ### *3. As an avid fan who has a keen interest in the band's music, I would like to see photos and find out more about the band's history so that I can feel a slightly more personal connection to them away from music.*
 
 * From the main navigation bar, the user can click on the gallery link to go to the dedicated gallery page - where there are dozens of photos to scroll through of the band members and their recording setup. **One click**. 
 
-![Gallery active on navbar](assets/images/gallerynav.png)
+![Gallery active on navbar](assets/images/readme-gallerynav.png)
 
-![Gallery screenshot](assets/images/gallery-screenshot.png)
+![Gallery screenshot](assets/images/readme-gallery-screenshot.png)
 
 * Next to the gallery link on the main navigation bar, the user can click on the about link to end up on a page with a short biography of the band. **One click, two in total to fulfil the entire user story**. 
 
 
-![About active on navbar](assets/images/aboutnav.png) 
+![About active on navbar](assets/images/readme-aboutnav.png) 
   
-![About screenshot](assets/images/gallery-screenshot.png)
+![About screenshot](assets/images/readme-about-screenshot.png)
 
 ### *4. As a booking agent or record label, I would like to easily find contact details so that I can directly approach the band regarding potential gigs or collaboration opportunities they might be interested in.*
 
 * From the main navigation bar, the final link is one to the dedicated contact page. The very first thing that appears after the main heading are two separate email addresses to take note of depending on what you are intending on contacting the band for. **One click**. 
 
-![Contact active on navbar](assets/images/contactnav.png)
+![Contact active on navbar](assets/images/readme-contactnav.png)
 
-![Contact screenshot](assets/images/contact-screenshot.png)
+![Contact screenshot](assets/images/readme-contact-screenshot.png)
 
 ## Manual Stakeholder Testing
 
@@ -153,7 +153,7 @@ Testing my own user stories was carried out using the following criteria:
 ### *3. I would like to contact fans directly via email updates so that we can inform them about new releases, tour dates or general band news.*
 
 * A *call to action* box on the home page, placed right next to a link to the music page and above the taster YouTube video, directs interested users to the correct section of the contact page should they wish to receive email updates. **One click.**
-![Sign up box](assets/images/signup.png)
+![Sign up box](assets/images/readme-signup.png)
 
 During this stage of testing I found that the animation I had applied to have page content appear shortly after the heading contributed to poor UX for users navigating from the *call to action* box on the homepage as it meant waiting momentarily for the form to appear. **I elected to have all viewable content on the contact page appear at the same time to rectify this problem.**
 
@@ -167,9 +167,9 @@ During this stage of testing I found that the animation I had applied to have pa
 
 * All of the band's social links can be found to the right of the main navigation bar, and also on the footer of each page. From research, these are the most conventional places to find social media links on a website like this. Therefore users should subconsciously be expecting social media links in these places and can arrive there intuitively from any page on the site. **One click**. 
 
-![Navbar social links](assets/images/navsocial.png) 
+![Navbar social links](assets/images/readme-navsocial.png) 
 
-![Footer social links](assets/images/footsocial.png) 
+![Footer social links](assets/images/readme-footsocial.png) 
 
 
 ### *6. I want anyone who visits the site to have a positive emotional response to the layout of the site and branding, in order to make a lasting impression that sets us apart from other new bands.*

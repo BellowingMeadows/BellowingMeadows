@@ -2,7 +2,7 @@
 
 ## Code Institute's Milestone Project 1 - User Centric Front-End
 
-![Hero image of website across screen sizes](assets/images/amiresponsive.png)
+![Hero image of website across screen sizes](assets/images/readme-amiresponsive.png)
 
 Little Paradise are a musical duo who write and record songs from a home studio in Bristol. Having spent the best part of a year on creating new music, the band (of which I am one of the two members) has decided to build an online presence now that musical content is ready to be released to the world. My aim with this project is to create a website which can act as a convenient and memorable hub of music and informative content for users to consume. The website achieves this goal with combined functionality that is not readily available or as visually appealing on standard social media platforms such as Facebook.
  
@@ -170,11 +170,11 @@ In order to properly visualise how my pages would be organised and linked togeth
 
 When designing the layout of the site, my intention was to keep each page as user-friendly as possible by not having more than three unique interactable sections per page. That way, the chance of cognitive overload could be vastly reduced, especially as each user story I was working towards had different intentions for the site.
 
-![Index wireframe](assets/images/index.png)
-![Music wireframe](assets/images/music.png)
-![Gallery wireframe](assets/images/gallery.png)
-![About wireframe](assets/images/about.png)
-![contact wireframe](assets/images/contact.png)
+![Index wireframe](assets/images/readme-index.png)
+![Music wireframe](assets/images/readme-music.png)
+![Gallery wireframe](assets/images/readme-gallery.png)
+![About wireframe](assets/images/readme-about.png)
+![contact wireframe](assets/images/readme-contact.png)
 
 #### Changes from skeleton plane to final result
 
@@ -182,11 +182,11 @@ For the most part, I felt satisfied at this stage that all my user stories would
 
 * The first user story (people who would be arriving primarily to consume music) may be frustrated that no interactable musical content appears on the home page at all. **This was rectified in the final version of the site by including a small section below the primary call to actions which contained the same YouTube iframe present in the music page with a link to the music page for those who want to hear more.**
 
-![Index screenshot](assets/images/skeleton-fix.png)
+![Index screenshot](assets/images/readme-skeleton-fix.png)
 
 * The initial design of my about page was overambitious, and the potential finished result was not worth the amount of time it would have taken to achieve. I redesigned the page to still be effective, but with a slightly more conventional layout:
 
-![About wireframe take 2](assets/images/about2.png)
+![About wireframe take 2](assets/images/readme-about2.png)
 
 * While creating the gallery page, it became clear that photos could not be enjoyed to the fullest when lining two to a row on mobile devices. **This was rectified by amending the grid system to have one photo take up the full width of the viewport on mobile devices.**
 
@@ -200,11 +200,11 @@ Little Paradise has never had an online presence or brand before the creation of
 
 The starting point for the look and feel of the site came from an accidental discovery of the ‘Syne Mono’ font on Google Fonts. This minimalist typography instantly grabbed me as unique and retro, and in a way ended up informing many of the stylistic decisions that would be taken across the website.
 
-![Logo screenshot](assets/images/logo.png)
+![Logo screenshot](assets/images/readme-logo.png)
 
 An alternative monospace font, 'JetBrains Mono' was employed at various points (notably the tour dates section) to ensure the impact of the Syne Mono font wasn't diluted by overuse.
 
-![Venue screenshot](assets/images/alt-font.png)
+![Venue screenshot](assets/images/readme-alt-font.png)
 
 #### Colour Scheme
 
@@ -212,7 +212,7 @@ I chose to employ a predominantly black, white and grey colour scheme to complem
 
 **Note** - This red hex code was then replaced with #c4302b after accessibility checks flagged that there was not  enough contrast between my original red and the white text of the buttons - please see [testing.md](testing.md) for more information.
 
-![CTA screenshot](assets/images/cta.png)
+![CTA screenshot](assets/images/readme-cta.png)
 
 The use of this colour scheme is best exemplified by the hero image I commissioned especially for the site (a seriously impressive drawing by Izi Thexton) which keeps to the minimalist black and white palette with just a hint of red on the road sign.
 
@@ -318,7 +318,7 @@ I attempted throughout this project to commit as regularly as possible and to st
 
 At the time of writing, these are among my recent commit messages and illustrate the format I applied for this project:
 
-![Commit messages](assets/images/commits.png)
+![Commit messages](assets/images/readme-commits.png)
 
 ## Testing
 
