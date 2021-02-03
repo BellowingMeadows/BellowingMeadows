@@ -371,7 +371,7 @@ a.btn.btn-dark.ticket-button:active {
 }
 
 .about-cta p {
-	margin-bottom: 0;
+	margin-bottom: 8px;
 	font-size: 125%;
 	font-weight: 400;
 }
