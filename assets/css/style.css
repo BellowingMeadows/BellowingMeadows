@@ -239,10 +239,10 @@ a#listen-button {
 }
 
 .tour-dates-content {
-    padding-bottom: 20px;
-    margin-top: 32px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 20px;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #e3e3e3;
 }
 
 h2.index-header {
@@ -269,12 +269,12 @@ h2.index-header {
 }
 
 .tour-dates-content:nth-of-type(1) {
-    margin-top: 16px;
+	margin-top: 16px;
 }
 
 .tour-dates-content:nth-of-type(4) {
-    border-bottom: none;
-    margin-bottom: 5px;
+	border-bottom: none;
+	margin-bottom: 5px;
 }
 
 a.btn.btn-dark.ticket-button:active {
@@ -308,8 +308,8 @@ a.btn.btn-dark.ticket-button:active {
 }
 
 .releases {
-    margin-bottom: 15px;
-    width: 18rem;
+	margin-bottom: 15px;
+	width: 18rem;
 }
 
 #soundcloud-logo {
@@ -332,13 +332,12 @@ a.btn.btn-dark.ticket-button:active {
 
 /* gallery.html -------*/
 
-
 .photo {
 	padding: 15px;
 }
 
-/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
+/* credit: box shadow researched from https://css-tricks.com/almanac/properties/b/box-shadow/ */
 
 .photo>img {
 	box-shadow: 4px 2px 4px #ccc;
@@ -541,9 +540,9 @@ button#email-button {
 }
 
 @media screen and (min-width: 768px) {
-    h3.date {
-        margin-top: 16px;
-    }
+	h3.date {
+		margin-top: 16px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -666,17 +665,17 @@ button#email-button {
 	}
 	.navbar-brand {
 		font-size: 115%;
-    }
-    .releases {
-        width: 100%;
-    }
+	}
+	.releases {
+		width: 100%;
+	}
 	h3.alt-font {
 		padding: 0;
 		margin: 0;
-    }
-    #buy-now-button{
-        margin-left: 3rem;
-    }
+	}
+	#buy-now-button {
+		margin-left: 3rem;
+	}
 	div#music-cta {
 		font-size: 110%;
 	}
